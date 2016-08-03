@@ -1,0 +1,601 @@
+"xentoollog.ml" 42 1022 1026 "xentoollog.ml" 42 1022 1041
+type(
+  level -> string
+)
+ident(
+  def level_to_string "xentoollog.ml" 54 1265 1265 "xentoollog.ml" 1 0 -1
+)
+"xentoollog.ml" 42 1022 1042 "xentoollog.ml" 42 1022 1047
+type(
+  level
+)
+ident(
+  def level "xentoollog.ml" 43 1050 1051 "xentoollog.ml" 52 1238 1263
+)
+"xentoollog.ml" 43 1050 1057 "xentoollog.ml" 43 1050 1062
+type(
+  level
+)
+ident(
+  int_ref level "xentoollog.ml" 42 1022 1042 "xentoollog.ml" 42 1022 1047
+)
+"xentoollog.ml" 44 1068 1071 "xentoollog.ml" 44 1068 1076
+type(
+  level
+)
+"xentoollog.ml" 44 1068 1080 "xentoollog.ml" 44 1068 1087
+type(
+  string
+)
+"xentoollog.ml" 45 1088 1091 "xentoollog.ml" 45 1088 1098
+type(
+  level
+)
+"xentoollog.ml" 45 1088 1102 "xentoollog.ml" 45 1088 1111
+type(
+  string
+)
+"xentoollog.ml" 46 1112 1115 "xentoollog.ml" 46 1112 1121
+type(
+  level
+)
+"xentoollog.ml" 46 1112 1125 "xentoollog.ml" 46 1112 1133
+type(
+  string
+)
+"xentoollog.ml" 47 1134 1137 "xentoollog.ml" 47 1134 1145
+type(
+  level
+)
+"xentoollog.ml" 47 1134 1149 "xentoollog.ml" 47 1134 1159
+type(
+  string
+)
+"xentoollog.ml" 48 1160 1163 "xentoollog.ml" 48 1160 1167
+type(
+  level
+)
+"xentoollog.ml" 48 1160 1171 "xentoollog.ml" 48 1160 1177
+type(
+  string
+)
+"xentoollog.ml" 49 1178 1181 "xentoollog.ml" 49 1178 1187
+type(
+  level
+)
+"xentoollog.ml" 49 1178 1191 "xentoollog.ml" 49 1178 1199
+type(
+  string
+)
+"xentoollog.ml" 50 1200 1203 "xentoollog.ml" 50 1200 1207
+type(
+  level
+)
+"xentoollog.ml" 50 1200 1211 "xentoollog.ml" 50 1200 1217
+type(
+  string
+)
+"xentoollog.ml" 51 1218 1221 "xentoollog.ml" 51 1218 1226
+type(
+  level
+)
+"xentoollog.ml" 51 1218 1230 "xentoollog.ml" 51 1218 1237
+type(
+  string
+)
+"xentoollog.ml" 52 1238 1241 "xentoollog.ml" 52 1238 1249
+type(
+  level
+)
+"xentoollog.ml" 52 1238 1253 "xentoollog.ml" 52 1238 1263
+type(
+  string
+)
+"xentoollog.ml" 43 1050 1051 "xentoollog.ml" 52 1238 1263
+type(
+  string
+)
+"xentoollog.ml" 54 1265 1269 "xentoollog.ml" 54 1265 1282
+type(
+  level -> int
+)
+ident(
+  def level_to_prio "xentoollog.ml" 68 1478 1478 "xentoollog.ml" 1 0 -1
+)
+"xentoollog.ml" 54 1265 1283 "xentoollog.ml" 54 1265 1288
+type(
+  level
+)
+ident(
+  def level "xentoollog.ml" 55 1291 1292 "xentoollog.ml" 64 1426 1442
+)
+"xentoollog.ml" 55 1291 1298 "xentoollog.ml" 55 1291 1303
+type(
+  level
+)
+ident(
+  int_ref level "xentoollog.ml" 54 1265 1283 "xentoollog.ml" 54 1265 1288
+)
+"xentoollog.ml" 56 1309 1312 "xentoollog.ml" 56 1309 1317
+type(
+  level
+)
+"xentoollog.ml" 56 1309 1321 "xentoollog.ml" 56 1309 1322
+type(
+  int
+)
+"xentoollog.ml" 57 1323 1326 "xentoollog.ml" 57 1323 1333
+type(
+  level
+)
+"xentoollog.ml" 57 1323 1337 "xentoollog.ml" 57 1323 1338
+type(
+  int
+)
+"xentoollog.ml" 58 1339 1342 "xentoollog.ml" 58 1339 1348
+type(
+  level
+)
+"xentoollog.ml" 58 1339 1352 "xentoollog.ml" 58 1339 1353
+type(
+  int
+)
+"xentoollog.ml" 59 1354 1357 "xentoollog.ml" 59 1354 1365
+type(
+  level
+)
+"xentoollog.ml" 59 1354 1369 "xentoollog.ml" 59 1354 1370
+type(
+  int
+)
+"xentoollog.ml" 60 1371 1374 "xentoollog.ml" 60 1371 1378
+type(
+  level
+)
+"xentoollog.ml" 60 1371 1382 "xentoollog.ml" 60 1371 1383
+type(
+  int
+)
+"xentoollog.ml" 61 1384 1387 "xentoollog.ml" 61 1384 1393
+type(
+  level
+)
+"xentoollog.ml" 61 1384 1397 "xentoollog.ml" 61 1384 1398
+type(
+  int
+)
+"xentoollog.ml" 62 1399 1402 "xentoollog.ml" 62 1399 1406
+type(
+  level
+)
+"xentoollog.ml" 62 1399 1410 "xentoollog.ml" 62 1399 1411
+type(
+  int
+)
+"xentoollog.ml" 63 1412 1415 "xentoollog.ml" 63 1412 1420
+type(
+  level
+)
+"xentoollog.ml" 63 1412 1424 "xentoollog.ml" 63 1412 1425
+type(
+  int
+)
+"xentoollog.ml" 64 1426 1429 "xentoollog.ml" 64 1426 1437
+type(
+  level
+)
+"xentoollog.ml" 64 1426 1441 "xentoollog.ml" 64 1426 1442
+type(
+  int
+)
+"xentoollog.ml" 55 1291 1292 "xentoollog.ml" 64 1426 1442
+type(
+  int
+)
+"xentoollog.ml" 68 1478 1482 "xentoollog.ml" 68 1478 1495
+type(
+  level -> level -> int
+)
+ident(
+  def compare_level "xentoollog.ml" 71 1548 1548 "xentoollog.ml" 1 0 -1
+)
+"xentoollog.ml" 68 1478 1496 "xentoollog.ml" 68 1478 1497
+type(
+  level
+)
+ident(
+  def x "xentoollog.ml" 68 1478 1498 "xentoollog.ml" 69 1502 1546
+)
+"xentoollog.ml" 68 1478 1498 "xentoollog.ml" 68 1478 1499
+type(
+  level
+)
+ident(
+  def y "xentoollog.ml" 69 1502 1503 "xentoollog.ml" 69 1502 1546
+)
+"xentoollog.ml" 69 1502 1503 "xentoollog.ml" 69 1502 1510
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"xentoollog.ml" 69 1502 1512 "xentoollog.ml" 69 1502 1525
+type(
+  level -> int
+)
+ident(
+  int_ref level_to_prio "xentoollog.ml" 54 1265 1269 "xentoollog.ml" 54 1265 1282
+)
+"xentoollog.ml" 69 1502 1526 "xentoollog.ml" 69 1502 1527
+type(
+  level
+)
+ident(
+  int_ref x "xentoollog.ml" 68 1478 1496 "xentoollog.ml" 68 1478 1497
+)
+"xentoollog.ml" 69 1502 1511 "xentoollog.ml" 69 1502 1528
+call(
+  stack
+)
+type(
+  int
+)
+"xentoollog.ml" 69 1502 1530 "xentoollog.ml" 69 1502 1543
+type(
+  level -> int
+)
+ident(
+  int_ref level_to_prio "xentoollog.ml" 54 1265 1269 "xentoollog.ml" 54 1265 1282
+)
+"xentoollog.ml" 69 1502 1544 "xentoollog.ml" 69 1502 1545
+type(
+  level
+)
+ident(
+  int_ref y "xentoollog.ml" 68 1478 1498 "xentoollog.ml" 68 1478 1499
+)
+"xentoollog.ml" 69 1502 1529 "xentoollog.ml" 69 1502 1546
+call(
+  stack
+)
+type(
+  int
+)
+"xentoollog.ml" 69 1502 1503 "xentoollog.ml" 69 1502 1546
+type(
+  int
+)
+"xentoollog.ml" 82 1879 1883 "xentoollog.ml" 82 1879 1890
+type(
+  int64 ref
+)
+ident(
+  def counter "xentoollog.ml" 84 1901 1901 "xentoollog.ml" 1 0 -1
+)
+"xentoollog.ml" 82 1879 1893 "xentoollog.ml" 82 1879 1896
+type(
+  int64 -> int64 ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"xentoollog.ml" 82 1879 1897 "xentoollog.ml" 82 1879 1899
+type(
+  int64
+)
+"xentoollog.ml" 82 1879 1893 "xentoollog.ml" 82 1879 1899
+type(
+  int64 ref
+)
+"xentoollog.ml" 84 1901 1905 "xentoollog.ml" 84 1901 1911
+type(
+  string -> logger_cbs -> handle
+)
+ident(
+  def create "xentoollog.ml" 93 2324 2370 "xentoollog.ml" 1 0 -1
+)
+"xentoollog.ml" 84 1901 1912 "xentoollog.ml" 84 1901 1916
+type(
+  string
+)
+ident(
+  def name "xentoollog.ml" 84 1901 1917 "xentoollog.ml" 93 2324 2370
+)
+"xentoollog.ml" 84 1901 1917 "xentoollog.ml" 84 1901 1920
+type(
+  logger_cbs
+)
+ident(
+  def cbs "xentoollog.ml" 84 1901 1921 "xentoollog.ml" 93 2324 2370
+)
+"xentoollog.ml" 86 1980 1985 "xentoollog.ml" 86 1980 1991
+type(
+  string
+)
+ident(
+  def suffix "xentoollog.ml" 87 2022 2023 "xentoollog.ml" 93 2324 2370
+)
+"xentoollog.ml" 86 1980 1994 "xentoollog.ml" 86 1980 2009
+type(
+  int64 -> string
+)
+ident(
+  ext_ref Int64.to_string
+)
+"xentoollog.ml" 86 1980 2010 "xentoollog.ml" 86 1980 2011
+type(
+  int64 ref -> int64
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"xentoollog.ml" 86 1980 2011 "xentoollog.ml" 86 1980 2018
+type(
+  int64 ref
+)
+ident(
+  int_ref counter "xentoollog.ml" 82 1879 1883 "xentoollog.ml" 82 1879 1890
+)
+"xentoollog.ml" 86 1980 2010 "xentoollog.ml" 86 1980 2018
+type(
+  int64
+)
+"xentoollog.ml" 86 1980 1994 "xentoollog.ml" 86 1980 2018
+call(
+  stack
+)
+type(
+  string
+)
+"xentoollog.ml" 87 2022 2023 "xentoollog.ml" 87 2022 2030
+type(
+  int64 ref
+)
+ident(
+  int_ref counter "xentoollog.ml" 82 1879 1883 "xentoollog.ml" 82 1879 1890
+)
+"xentoollog.ml" 87 2022 2031 "xentoollog.ml" 87 2022 2033
+type(
+  int64 ref -> int64 -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"xentoollog.ml" 87 2022 2034 "xentoollog.ml" 87 2022 2044
+type(
+  int64 -> int64
+)
+ident(
+  ext_ref Int64.succ
+)
+"xentoollog.ml" 87 2022 2045 "xentoollog.ml" 87 2022 2046
+type(
+  int64 ref -> int64
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"xentoollog.ml" 87 2022 2046 "xentoollog.ml" 87 2022 2053
+type(
+  int64 ref
+)
+ident(
+  int_ref counter "xentoollog.ml" 82 1879 1883 "xentoollog.ml" 82 1879 1890
+)
+"xentoollog.ml" 87 2022 2045 "xentoollog.ml" 87 2022 2053
+type(
+  int64
+)
+"xentoollog.ml" 87 2022 2034 "xentoollog.ml" 87 2022 2053
+call(
+  stack
+)
+type(
+  int64
+)
+"xentoollog.ml" 87 2022 2023 "xentoollog.ml" 87 2022 2053
+type(
+  unit
+)
+"xentoollog.ml" 88 2055 2060 "xentoollog.ml" 88 2055 2073
+type(
+  string
+)
+ident(
+  def vmessage_name "xentoollog.ml" 89 2116 2117 "xentoollog.ml" 93 2324 2370
+)
+"xentoollog.ml" 88 2055 2076 "xentoollog.ml" 88 2055 2083
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"xentoollog.ml" 88 2055 2084 "xentoollog.ml" 88 2055 2100
+type(
+  (string -> string -> string, unit, string) format
+)
+"xentoollog.ml" 88 2055 2101 "xentoollog.ml" 88 2055 2105
+type(
+  string
+)
+ident(
+  int_ref name "xentoollog.ml" 84 1901 1912 "xentoollog.ml" 84 1901 1916
+)
+"xentoollog.ml" 88 2055 2106 "xentoollog.ml" 88 2055 2112
+type(
+  string
+)
+ident(
+  int_ref suffix "xentoollog.ml" 86 1980 1985 "xentoollog.ml" 86 1980 1991
+)
+"xentoollog.ml" 88 2055 2076 "xentoollog.ml" 88 2055 2112
+call(
+  stack
+)
+type(
+  string
+)
+"xentoollog.ml" 89 2116 2121 "xentoollog.ml" 89 2116 2134
+type(
+  string
+)
+ident(
+  def progress_name "xentoollog.ml" 91 2230 2231 "xentoollog.ml" 93 2324 2370
+)
+"xentoollog.ml" 89 2116 2137 "xentoollog.ml" 89 2116 2144
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"xentoollog.ml" 89 2116 2145 "xentoollog.ml" 89 2116 2161
+type(
+  (string -> string -> string, unit, string) format
+)
+"xentoollog.ml" 89 2116 2162 "xentoollog.ml" 89 2116 2166
+type(
+  string
+)
+ident(
+  int_ref name "xentoollog.ml" 84 1901 1912 "xentoollog.ml" 84 1901 1916
+)
+"xentoollog.ml" 89 2116 2167 "xentoollog.ml" 89 2116 2173
+type(
+  string
+)
+ident(
+  int_ref suffix "xentoollog.ml" 86 1980 1985 "xentoollog.ml" 86 1980 1991
+)
+"xentoollog.ml" 89 2116 2137 "xentoollog.ml" 89 2116 2173
+call(
+  stack
+)
+type(
+  string
+)
+"xentoollog.ml" 91 2230 2231 "xentoollog.ml" 91 2230 2248
+type(
+  string -> (level -> int option -> string option -> string -> unit) -> unit
+)
+ident(
+  ext_ref Callback.register
+)
+"xentoollog.ml" 91 2230 2249 "xentoollog.ml" 91 2230 2262
+type(
+  string
+)
+ident(
+  int_ref vmessage_name "xentoollog.ml" 88 2055 2060 "xentoollog.ml" 88 2055 2073
+)
+"xentoollog.ml" 91 2230 2263 "xentoollog.ml" 91 2230 2266
+type(
+  logger_cbs
+)
+ident(
+  int_ref cbs "xentoollog.ml" 84 1901 1917 "xentoollog.ml" 84 1901 1920
+)
+"xentoollog.ml" 91 2230 2263 "xentoollog.ml" 91 2230 2275
+type(
+  level -> int option -> string option -> string -> unit
+)
+"xentoollog.ml" 91 2230 2231 "xentoollog.ml" 91 2230 2275
+call(
+  stack
+)
+type(
+  unit
+)
+"xentoollog.ml" 92 2277 2278 "xentoollog.ml" 92 2277 2295
+type(
+  string ->
+  (string option -> string -> int -> int64 -> int64 -> unit) -> unit
+)
+ident(
+  ext_ref Callback.register
+)
+"xentoollog.ml" 92 2277 2296 "xentoollog.ml" 92 2277 2309
+type(
+  string
+)
+ident(
+  int_ref progress_name "xentoollog.ml" 89 2116 2121 "xentoollog.ml" 89 2116 2134
+)
+"xentoollog.ml" 92 2277 2310 "xentoollog.ml" 92 2277 2313
+type(
+  logger_cbs
+)
+ident(
+  int_ref cbs "xentoollog.ml" 84 1901 1917 "xentoollog.ml" 84 1901 1920
+)
+"xentoollog.ml" 92 2277 2310 "xentoollog.ml" 92 2277 2322
+type(
+  string option -> string -> int -> int64 -> int64 -> unit
+)
+"xentoollog.ml" 92 2277 2278 "xentoollog.ml" 92 2277 2322
+call(
+  stack
+)
+type(
+  unit
+)
+"xentoollog.ml" 93 2324 2325 "xentoollog.ml" 93 2324 2339
+type(
+  string * string -> handle
+)
+ident(
+  int_ref _create_logger "xentoollog.ml" 79 1750 1750 "xentoollog.ml" 79 1750 1829
+)
+"xentoollog.ml" 93 2324 2341 "xentoollog.ml" 93 2324 2354
+type(
+  string
+)
+ident(
+  int_ref vmessage_name "xentoollog.ml" 88 2055 2060 "xentoollog.ml" 88 2055 2073
+)
+"xentoollog.ml" 93 2324 2356 "xentoollog.ml" 93 2324 2369
+type(
+  string
+)
+ident(
+  int_ref progress_name "xentoollog.ml" 89 2116 2121 "xentoollog.ml" 89 2116 2134
+)
+"xentoollog.ml" 93 2324 2340 "xentoollog.ml" 93 2324 2370
+type(
+  string * string
+)
+"xentoollog.ml" 93 2324 2325 "xentoollog.ml" 93 2324 2370
+type(
+  handle
+)
+"xentoollog.ml" 92 2277 2278 "xentoollog.ml" 93 2324 2370
+type(
+  handle
+)
+"xentoollog.ml" 91 2230 2231 "xentoollog.ml" 93 2324 2370
+type(
+  handle
+)
+"xentoollog.ml" 89 2116 2117 "xentoollog.ml" 93 2324 2370
+type(
+  handle
+)
+"xentoollog.ml" 88 2055 2056 "xentoollog.ml" 93 2324 2370
+type(
+  handle
+)
+"xentoollog.ml" 87 2022 2023 "xentoollog.ml" 93 2324 2370
+type(
+  handle
+)
+"xentoollog.ml" 86 1980 1981 "xentoollog.ml" 93 2324 2370
+type(
+  handle
+)
+type(
+  handle
+)

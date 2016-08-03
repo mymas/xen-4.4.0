@@ -1,0 +1,62 @@
+# =====================================================================
+# Example HVM guest configuration
+# =====================================================================
+#
+# This is a fairly minimal example of what is required for an
+# HVM guest. For a more complete guide see xl.cfg(5)
+
+# This configures an HVM rather than PV guest
+builder = "hvm"
+
+# Guest nameapt-g
+name = "yone-fedora"
+
+# 128-bit UUID for the domain as a hexadecimal number.
+# Use "uuidgen" to generate one if required.
+# The default behavior is to generate a new UUID each time the guest is started.
+#uuid = "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"
+
+# Enable Microsoft Hyper-V compatibile paravirtualisation /
+# enlightenment interfaces. Turning this on can improve Windows guest
+# performance and is therefore recommended
+#viridian = 1
+
+# Initial memory allocation (MB)
+#memory = 128
+memory =4096
+
+#memory = 2048
+
+# Maximum memory (MB)
+# If this is greater than `memory' then the slack will start ballooned
+# (this assumes guest kernel support for ballooning)
+#maxmem = 512
+
+# Number of VCPUS
+#vcpus = 2
+vcpus =4
+
+# Network devices
+# A list of 'vifspec' entries as described in
+# docs/misc/xl-network-configuration.markdown
+#vif = [ '' ]
+#vif = [ 'mac=00:16:3e:88:88:88,bridge=zazbri ' ]
+vif = [ 'mac=00:16:3e:0d:58:c1,bridge=br0' ]
+
+# Disk Devices
+# A list of `diskspec' entries as described in
+# docs/misc/xl-disk-configuration.txt
+#disk = [ '/dev/vg/guest-volume,raw,xvda,rw' ]
+disk = [ '/usr/local/img/fedora10hvm2.img,,hda,w','/usr/local/template/ubuntu-14.04-desktop-amd64.iso,,hdc,cdrom' ]
+
+# Guest VGA console configuration, either SDL or VNC
+#sdl = 1
+vnc = 1
+
+device_model_version="qemu-xen-traditional"
+vfb = [ 'vnc=1,vnclisten=0.0.0.0,vncunused=1' ]
+vnclisten="0.0.0.0"
+vncconsole=1
+usbdevice='tablet'
+nestedhvm=1
+serial="pty"

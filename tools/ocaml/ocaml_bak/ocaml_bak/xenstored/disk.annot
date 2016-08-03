@@ -1,0 +1,3424 @@
+"disk.ml" 17 676 680 "disk.ml" 17 676 686
+type(
+  bool ref
+)
+ident(
+  def enable "disk.ml" 18 699 699 "disk.ml" 1 0 -1
+)
+"disk.ml" 17 676 689 "disk.ml" 17 676 692
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"disk.ml" 17 676 693 "disk.ml" 17 676 698
+type(
+  bool
+)
+"disk.ml" 17 676 689 "disk.ml" 17 676 698
+type(
+  bool ref
+)
+"disk.ml" 18 699 703 "disk.ml" 18 699 721
+type(
+  string
+)
+ident(
+  def xs_daemon_database "disk.ml" 20 749 749 "disk.ml" 1 0 -1
+)
+"disk.ml" 18 699 724 "disk.ml" 18 699 747
+type(
+  string
+)
+"disk.ml" 20 749 753 "disk.ml" 20 749 758
+type(
+  ('a, unit, string, unit) format4 -> 'a
+)
+ident(
+  def error "disk.ml" 23 812 812 "disk.ml" 1 0 -1
+)
+"disk.ml" 20 749 759 "disk.ml" 20 749 762
+type(
+  ('a, unit, string, unit) format4
+)
+ident(
+  def fmt "disk.ml" 20 749 765 "disk.ml" 20 749 789
+)
+"disk.ml" 20 749 765 "disk.ml" 20 749 778
+type(
+  string -> ('a, unit, string, unit) format4 -> 'a
+)
+ident(
+  ext_ref Logging.error
+)
+"disk.ml" 20 749 779 "disk.ml" 20 749 785
+type(
+  string
+)
+"disk.ml" 20 749 786 "disk.ml" 20 749 789
+type(
+  ('a, unit, string, unit) format4
+)
+ident(
+  int_ref fmt "disk.ml" 20 749 759 "disk.ml" 20 749 762
+)
+"disk.ml" 20 749 765 "disk.ml" 20 749 789
+call(
+  tail
+)
+type(
+  'a
+)
+"disk.ml" 25 834 838 "disk.ml" 25 834 846
+type(
+  char -> bool
+)
+ident(
+  def is_digit "disk.ml" 27 897 897 "disk.ml" 1 0 -1
+)
+"disk.ml" 25 834 847 "disk.ml" 25 834 848
+type(
+  char
+)
+ident(
+  def c "disk.ml" 25 834 851 "disk.ml" 25 834 895
+)
+"disk.ml" 25 834 857 "disk.ml" 25 834 858
+type(
+  char
+)
+ident(
+  int_ref c "disk.ml" 25 834 847 "disk.ml" 25 834 848
+)
+"disk.ml" 25 834 864 "disk.ml" 25 834 874
+type(
+  char
+)
+"disk.ml" 25 834 878 "disk.ml" 25 834 882
+type(
+  bool
+)
+"disk.ml" 25 834 885 "disk.ml" 25 834 886
+type(
+  char
+)
+"disk.ml" 25 834 890 "disk.ml" 25 834 895
+type(
+  bool
+)
+"disk.ml" 25 834 851 "disk.ml" 25 834 895
+type(
+  bool
+)
+"disk.ml" 27 897 901 "disk.ml" 27 897 906
+type(
+  char -> int
+)
+ident(
+  def undec "disk.ml" 32 1019 1019 "disk.ml" 1 0 -1
+)
+"disk.ml" 27 897 907 "disk.ml" 27 897 908
+type(
+  char
+)
+ident(
+  def c "disk.ml" 28 911 912 "disk.ml" 30 974 1017
+)
+"disk.ml" 28 911 918 "disk.ml" 28 911 919
+type(
+  char
+)
+ident(
+  int_ref c "disk.ml" 27 897 907 "disk.ml" 27 897 908
+)
+"disk.ml" 29 925 928 "disk.ml" 29 925 938
+type(
+  char
+)
+"disk.ml" 29 925 943 "disk.ml" 29 925 952
+type(
+  char -> int
+)
+ident(
+  ext_ref Char.code
+)
+"disk.ml" 29 925 953 "disk.ml" 29 925 954
+type(
+  char
+)
+ident(
+  int_ref c "disk.ml" 27 897 907 "disk.ml" 27 897 908
+)
+"disk.ml" 29 925 942 "disk.ml" 29 925 955
+type(
+  int
+)
+"disk.ml" 29 925 956 "disk.ml" 29 925 957
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"disk.ml" 29 925 959 "disk.ml" 29 925 968
+type(
+  char -> int
+)
+ident(
+  ext_ref Char.code
+)
+"disk.ml" 29 925 969 "disk.ml" 29 925 972
+type(
+  char
+)
+"disk.ml" 29 925 958 "disk.ml" 29 925 973
+type(
+  int
+)
+"disk.ml" 29 925 942 "disk.ml" 29 925 973
+type(
+  int
+)
+"disk.ml" 30 974 977 "disk.ml" 30 974 978
+type(
+  char
+)
+"disk.ml" 30 974 991 "disk.ml" 30 974 996
+type(
+  exn -> int
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"disk.ml" 30 974 1006 "disk.ml" 30 974 1016
+type(
+  string
+)
+"disk.ml" 30 974 997 "disk.ml" 30 974 1017
+type(
+  exn
+)
+"disk.ml" 30 974 991 "disk.ml" 30 974 1017
+type(
+  int
+)
+"disk.ml" 28 911 912 "disk.ml" 30 974 1017
+type(
+  int
+)
+"disk.ml" 32 1019 1023 "disk.ml" 32 1019 1028
+type(
+  char -> int
+)
+ident(
+  def unhex "disk.ml" 39 1224 1224 "disk.ml" 1 0 -1
+)
+"disk.ml" 32 1019 1029 "disk.ml" 32 1019 1030
+type(
+  char
+)
+ident(
+  def c "disk.ml" 33 1033 1034 "disk.ml" 37 1179 1222
+)
+"disk.ml" 33 1033 1038 "disk.ml" 33 1033 1039
+type(
+  char
+)
+ident(
+  def c "disk.ml" 34 1062 1063 "disk.ml" 37 1179 1222
+)
+"disk.ml" 33 1033 1042 "disk.ml" 33 1033 1056
+type(
+  char -> char
+)
+ident(
+  ext_ref Char.lowercase
+)
+"disk.ml" 33 1033 1057 "disk.ml" 33 1033 1058
+type(
+  char
+)
+ident(
+  int_ref c "disk.ml" 32 1019 1029 "disk.ml" 32 1019 1030
+)
+"disk.ml" 33 1033 1042 "disk.ml" 33 1033 1058
+call(
+  stack
+)
+type(
+  char
+)
+"disk.ml" 34 1062 1069 "disk.ml" 34 1062 1070
+type(
+  char
+)
+ident(
+  int_ref c "disk.ml" 33 1033 1038 "disk.ml" 33 1033 1039
+)
+"disk.ml" 35 1076 1079 "disk.ml" 35 1076 1089
+type(
+  char
+)
+"disk.ml" 35 1076 1094 "disk.ml" 35 1076 1103
+type(
+  char -> int
+)
+ident(
+  ext_ref Char.code
+)
+"disk.ml" 35 1076 1104 "disk.ml" 35 1076 1105
+type(
+  char
+)
+ident(
+  int_ref c "disk.ml" 33 1033 1038 "disk.ml" 33 1033 1039
+)
+"disk.ml" 35 1076 1093 "disk.ml" 35 1076 1106
+type(
+  int
+)
+"disk.ml" 35 1076 1107 "disk.ml" 35 1076 1108
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"disk.ml" 35 1076 1110 "disk.ml" 35 1076 1119
+type(
+  char -> int
+)
+ident(
+  ext_ref Char.code
+)
+"disk.ml" 35 1076 1120 "disk.ml" 35 1076 1123
+type(
+  char
+)
+"disk.ml" 35 1076 1109 "disk.ml" 35 1076 1124
+type(
+  int
+)
+"disk.ml" 35 1076 1093 "disk.ml" 35 1076 1124
+type(
+  int
+)
+"disk.ml" 36 1125 1128 "disk.ml" 36 1125 1138
+type(
+  char
+)
+"disk.ml" 36 1125 1143 "disk.ml" 36 1125 1152
+type(
+  char -> int
+)
+ident(
+  ext_ref Char.code
+)
+"disk.ml" 36 1125 1153 "disk.ml" 36 1125 1154
+type(
+  char
+)
+ident(
+  int_ref c "disk.ml" 33 1033 1038 "disk.ml" 33 1033 1039
+)
+"disk.ml" 36 1125 1142 "disk.ml" 36 1125 1155
+type(
+  int
+)
+"disk.ml" 36 1125 1156 "disk.ml" 36 1125 1157
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"disk.ml" 36 1125 1159 "disk.ml" 36 1125 1168
+type(
+  char -> int
+)
+ident(
+  ext_ref Char.code
+)
+"disk.ml" 36 1125 1169 "disk.ml" 36 1125 1172
+type(
+  char
+)
+"disk.ml" 36 1125 1158 "disk.ml" 36 1125 1173
+type(
+  int
+)
+"disk.ml" 36 1125 1142 "disk.ml" 36 1125 1173
+type(
+  int
+)
+"disk.ml" 36 1125 1174 "disk.ml" 36 1125 1175
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"disk.ml" 36 1125 1176 "disk.ml" 36 1125 1178
+type(
+  int
+)
+"disk.ml" 36 1125 1142 "disk.ml" 36 1125 1178
+type(
+  int
+)
+"disk.ml" 37 1179 1182 "disk.ml" 37 1179 1183
+type(
+  char
+)
+"disk.ml" 37 1179 1196 "disk.ml" 37 1179 1201
+type(
+  exn -> int
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"disk.ml" 37 1179 1211 "disk.ml" 37 1179 1221
+type(
+  string
+)
+"disk.ml" 37 1179 1202 "disk.ml" 37 1179 1222
+type(
+  exn
+)
+"disk.ml" 37 1179 1196 "disk.ml" 37 1179 1222
+type(
+  int
+)
+"disk.ml" 34 1062 1063 "disk.ml" 37 1179 1222
+type(
+  int
+)
+"disk.ml" 33 1033 1034 "disk.ml" 37 1179 1222
+type(
+  int
+)
+"disk.ml" 39 1224 1228 "disk.ml" 39 1224 1244
+type(
+  string -> string
+)
+ident(
+  def string_unescaped "disk.ml" 80 1970 1970 "disk.ml" 1 0 -1
+)
+"disk.ml" 39 1224 1245 "disk.ml" 39 1224 1246
+type(
+  string
+)
+ident(
+  def s "disk.ml" 40 1249 1250 "disk.ml" 77 1922 1940
+)
+"disk.ml" 40 1249 1254 "disk.ml" 40 1249 1257
+type(
+  int
+)
+ident(
+  def len "disk.ml" 42 1294 1295 "disk.ml" 77 1922 1940
+)
+"disk.ml" 40 1249 1260 "disk.ml" 40 1249 1273
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"disk.ml" 40 1249 1274 "disk.ml" 40 1249 1275
+type(
+  string
+)
+ident(
+  int_ref s "disk.ml" 39 1224 1245 "disk.ml" 39 1224 1246
+)
+"disk.ml" 40 1249 1260 "disk.ml" 40 1249 1275
+type(
+  int
+)
+"disk.ml" 41 1276 1281 "disk.ml" 41 1276 1282
+type(
+  int ref
+)
+ident(
+  def i "disk.ml" 42 1294 1295 "disk.ml" 77 1922 1940
+)
+"disk.ml" 41 1276 1285 "disk.ml" 41 1276 1288
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"disk.ml" 41 1276 1289 "disk.ml" 41 1276 1290
+type(
+  int
+)
+"disk.ml" 41 1276 1285 "disk.ml" 41 1276 1290
+type(
+  int ref
+)
+"disk.ml" 42 1294 1299 "disk.ml" 42 1294 1300
+type(
+  Buffer.t
+)
+ident(
+  def d "disk.ml" 44 1325 1326 "disk.ml" 77 1922 1940
+)
+"disk.ml" 42 1294 1303 "disk.ml" 42 1294 1316
+type(
+  int -> Buffer.t
+)
+ident(
+  ext_ref Buffer.create
+)
+"disk.ml" 42 1294 1317 "disk.ml" 42 1294 1320
+type(
+  int
+)
+ident(
+  int_ref len "disk.ml" 40 1249 1254 "disk.ml" 40 1249 1257
+)
+"disk.ml" 42 1294 1303 "disk.ml" 42 1294 1320
+call(
+  stack
+)
+type(
+  Buffer.t
+)
+"disk.ml" 44 1325 1330 "disk.ml" 44 1325 1341
+type(
+  unit -> char
+)
+ident(
+  def read_escape "disk.ml" 69 1791 1792 "disk.ml" 77 1922 1940
+)
+"disk.ml" 44 1325 1342 "disk.ml" 44 1325 1344
+type(
+  unit
+)
+"disk.ml" 45 1347 1349 "disk.ml" 45 1347 1353
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"disk.ml" 45 1347 1354 "disk.ml" 45 1347 1355
+type(
+  int ref
+)
+ident(
+  int_ref i "disk.ml" 41 1276 1281 "disk.ml" 41 1276 1282
+)
+"disk.ml" 45 1347 1349 "disk.ml" 45 1347 1355
+type(
+  unit
+)
+"disk.ml" 46 1357 1365 "disk.ml" 46 1357 1366
+type(
+  string
+)
+ident(
+  int_ref s "disk.ml" 39 1224 1245 "disk.ml" 39 1224 1246
+)
+"disk.ml" 46 1357 1368 "disk.ml" 46 1357 1369
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"disk.ml" 46 1357 1369 "disk.ml" 46 1357 1370
+type(
+  int ref
+)
+ident(
+  int_ref i "disk.ml" 41 1276 1281 "disk.ml" 41 1276 1282
+)
+"disk.ml" 46 1357 1368 "disk.ml" 46 1357 1370
+type(
+  int
+)
+"disk.ml" 46 1357 1365 "disk.ml" 46 1357 1371
+type(
+  char
+)
+"disk.ml" 47 1377 1381 "disk.ml" 47 1377 1384
+type(
+  char
+)
+"disk.ml" 47 1377 1389 "disk.ml" 47 1377 1393
+type(
+  char
+)
+"disk.ml" 48 1394 1398 "disk.ml" 48 1394 1401
+type(
+  char
+)
+"disk.ml" 48 1394 1406 "disk.ml" 48 1394 1410
+type(
+  char
+)
+"disk.ml" 49 1411 1415 "disk.ml" 49 1411 1419
+type(
+  char
+)
+"disk.ml" 49 1411 1423 "disk.ml" 49 1411 1427
+type(
+  char
+)
+"disk.ml" 50 1428 1432 "disk.ml" 50 1428 1436
+type(
+  char
+)
+"disk.ml" 50 1428 1440 "disk.ml" 50 1428 1444
+type(
+  char
+)
+"disk.ml" 51 1445 1449 "disk.ml" 51 1445 1452
+type(
+  char
+)
+"disk.ml" 51 1445 1457 "disk.ml" 51 1445 1460
+type(
+  char
+)
+"disk.ml" 52 1461 1465 "disk.ml" 52 1461 1468
+type(
+  char
+)
+"disk.ml" 52 1461 1473 "disk.ml" 52 1461 1477
+type(
+  char
+)
+"disk.ml" 53 1478 1482 "disk.ml" 53 1478 1485
+type(
+  char
+)
+"disk.ml" 53 1478 1490 "disk.ml" 53 1478 1494
+type(
+  char
+)
+"disk.ml" 54 1495 1499 "disk.ml" 54 1495 1502
+type(
+  char
+)
+"disk.ml" 55 1507 1514 "disk.ml" 55 1507 1515
+type(
+  int
+)
+ident(
+  def v "disk.ml" 56 1564 1567 "disk.ml" 57 1580 1593
+)
+"disk.ml" 55 1507 1519 "disk.ml" 55 1507 1524
+type(
+  char -> int
+)
+ident(
+  int_ref unhex "disk.ml" 32 1019 1023 "disk.ml" 32 1019 1028
+)
+"disk.ml" 55 1507 1525 "disk.ml" 55 1507 1526
+type(
+  string
+)
+ident(
+  int_ref s "disk.ml" 39 1224 1245 "disk.ml" 39 1224 1246
+)
+"disk.ml" 55 1507 1528 "disk.ml" 55 1507 1529
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"disk.ml" 55 1507 1529 "disk.ml" 55 1507 1530
+type(
+  int ref
+)
+ident(
+  int_ref i "disk.ml" 41 1276 1281 "disk.ml" 41 1276 1282
+)
+"disk.ml" 55 1507 1528 "disk.ml" 55 1507 1530
+type(
+  int
+)
+"disk.ml" 55 1507 1531 "disk.ml" 55 1507 1532
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"disk.ml" 55 1507 1533 "disk.ml" 55 1507 1534
+type(
+  int
+)
+"disk.ml" 55 1507 1528 "disk.ml" 55 1507 1534
+type(
+  int
+)
+"disk.ml" 55 1507 1525 "disk.ml" 55 1507 1535
+type(
+  char
+)
+"disk.ml" 55 1507 1519 "disk.ml" 55 1507 1535
+call(
+  stack
+)
+type(
+  int
+)
+"disk.ml" 55 1507 1536 "disk.ml" 55 1507 1537
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"disk.ml" 55 1507 1538 "disk.ml" 55 1507 1540
+type(
+  int
+)
+"disk.ml" 55 1507 1518 "disk.ml" 55 1507 1541
+type(
+  int
+)
+"disk.ml" 55 1507 1542 "disk.ml" 55 1507 1543
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"disk.ml" 55 1507 1544 "disk.ml" 55 1507 1549
+type(
+  char -> int
+)
+ident(
+  int_ref unhex "disk.ml" 32 1019 1023 "disk.ml" 32 1019 1028
+)
+"disk.ml" 55 1507 1550 "disk.ml" 55 1507 1551
+type(
+  string
+)
+ident(
+  int_ref s "disk.ml" 39 1224 1245 "disk.ml" 39 1224 1246
+)
+"disk.ml" 55 1507 1553 "disk.ml" 55 1507 1554
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"disk.ml" 55 1507 1554 "disk.ml" 55 1507 1555
+type(
+  int ref
+)
+ident(
+  int_ref i "disk.ml" 41 1276 1281 "disk.ml" 41 1276 1282
+)
+"disk.ml" 55 1507 1553 "disk.ml" 55 1507 1555
+type(
+  int
+)
+"disk.ml" 55 1507 1556 "disk.ml" 55 1507 1557
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"disk.ml" 55 1507 1558 "disk.ml" 55 1507 1559
+type(
+  int
+)
+"disk.ml" 55 1507 1553 "disk.ml" 55 1507 1559
+type(
+  int
+)
+"disk.ml" 55 1507 1550 "disk.ml" 55 1507 1560
+type(
+  char
+)
+"disk.ml" 55 1507 1544 "disk.ml" 55 1507 1560
+call(
+  stack
+)
+type(
+  int
+)
+"disk.ml" 55 1507 1518 "disk.ml" 55 1507 1560
+type(
+  int
+)
+"disk.ml" 56 1564 1567 "disk.ml" 56 1564 1568
+type(
+  int ref
+)
+ident(
+  int_ref i "disk.ml" 41 1276 1281 "disk.ml" 41 1276 1282
+)
+"disk.ml" 56 1564 1569 "disk.ml" 56 1564 1571
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"disk.ml" 56 1564 1572 "disk.ml" 56 1564 1573
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"disk.ml" 56 1564 1573 "disk.ml" 56 1564 1574
+type(
+  int ref
+)
+ident(
+  int_ref i "disk.ml" 41 1276 1281 "disk.ml" 41 1276 1282
+)
+"disk.ml" 56 1564 1572 "disk.ml" 56 1564 1574
+type(
+  int
+)
+"disk.ml" 56 1564 1575 "disk.ml" 56 1564 1576
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"disk.ml" 56 1564 1577 "disk.ml" 56 1564 1578
+type(
+  int
+)
+"disk.ml" 56 1564 1572 "disk.ml" 56 1564 1578
+type(
+  int
+)
+"disk.ml" 56 1564 1567 "disk.ml" 56 1564 1578
+type(
+  unit
+)
+"disk.ml" 57 1580 1583 "disk.ml" 57 1580 1591
+type(
+  int -> char
+)
+ident(
+  ext_ref Char.chr
+)
+"disk.ml" 57 1580 1592 "disk.ml" 57 1580 1593
+type(
+  int
+)
+ident(
+  int_ref v "disk.ml" 55 1507 1514 "disk.ml" 55 1507 1515
+)
+"disk.ml" 57 1580 1583 "disk.ml" 57 1580 1593
+call(
+  tail
+)
+type(
+  char
+)
+"disk.ml" 56 1564 1567 "disk.ml" 57 1580 1593
+type(
+  char
+)
+"disk.ml" 55 1507 1510 "disk.ml" 57 1580 1593
+type(
+  char
+)
+"disk.ml" 58 1594 1598 "disk.ml" 58 1594 1599
+type(
+  char
+)
+ident(
+  def c "disk.ml" 59 1606 1609 "disk.ml" 66 1765 1785
+)
+"disk.ml" 59 1606 1612 "disk.ml" 59 1606 1620
+type(
+  char -> bool
+)
+ident(
+  int_ref is_digit "disk.ml" 25 834 838 "disk.ml" 25 834 846
+)
+"disk.ml" 59 1606 1621 "disk.ml" 59 1606 1622
+type(
+  char
+)
+ident(
+  int_ref c "disk.ml" 58 1594 1598 "disk.ml" 58 1594 1599
+)
+"disk.ml" 59 1606 1612 "disk.ml" 59 1606 1622
+call(
+  stack
+)
+type(
+  bool
+)
+"disk.ml" 60 1630 1638 "disk.ml" 60 1630 1639
+type(
+  int
+)
+ident(
+  def v "disk.ml" 63 1723 1727 "disk.ml" 64 1740 1754
+)
+"disk.ml" 60 1630 1643 "disk.ml" 60 1630 1648
+type(
+  char -> int
+)
+ident(
+  int_ref undec "disk.ml" 27 897 901 "disk.ml" 27 897 906
+)
+"disk.ml" 60 1630 1649 "disk.ml" 60 1630 1650
+type(
+  string
+)
+ident(
+  int_ref s "disk.ml" 39 1224 1245 "disk.ml" 39 1224 1246
+)
+"disk.ml" 60 1630 1652 "disk.ml" 60 1630 1653
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"disk.ml" 60 1630 1653 "disk.ml" 60 1630 1654
+type(
+  int ref
+)
+ident(
+  int_ref i "disk.ml" 41 1276 1281 "disk.ml" 41 1276 1282
+)
+"disk.ml" 60 1630 1652 "disk.ml" 60 1630 1654
+type(
+  int
+)
+"disk.ml" 60 1630 1649 "disk.ml" 60 1630 1655
+type(
+  char
+)
+"disk.ml" 60 1630 1642 "disk.ml" 60 1630 1656
+call(
+  stack
+)
+type(
+  int
+)
+"disk.ml" 60 1630 1657 "disk.ml" 60 1630 1658
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"disk.ml" 60 1630 1659 "disk.ml" 60 1630 1662
+type(
+  int
+)
+"disk.ml" 60 1630 1642 "disk.ml" 60 1630 1662
+type(
+  int
+)
+"disk.ml" 60 1630 1663 "disk.ml" 60 1630 1664
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"disk.ml" 61 1665 1671 "disk.ml" 61 1665 1676
+type(
+  char -> int
+)
+ident(
+  int_ref undec "disk.ml" 27 897 901 "disk.ml" 27 897 906
+)
+"disk.ml" 61 1665 1677 "disk.ml" 61 1665 1678
+type(
+  string
+)
+ident(
+  int_ref s "disk.ml" 39 1224 1245 "disk.ml" 39 1224 1246
+)
+"disk.ml" 61 1665 1680 "disk.ml" 61 1665 1681
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"disk.ml" 61 1665 1681 "disk.ml" 61 1665 1682
+type(
+  int ref
+)
+ident(
+  int_ref i "disk.ml" 41 1276 1281 "disk.ml" 41 1276 1282
+)
+"disk.ml" 61 1665 1680 "disk.ml" 61 1665 1682
+type(
+  int
+)
+"disk.ml" 61 1665 1683 "disk.ml" 61 1665 1684
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"disk.ml" 61 1665 1685 "disk.ml" 61 1665 1686
+type(
+  int
+)
+"disk.ml" 61 1665 1680 "disk.ml" 61 1665 1686
+type(
+  int
+)
+"disk.ml" 61 1665 1677 "disk.ml" 61 1665 1687
+type(
+  char
+)
+"disk.ml" 61 1665 1670 "disk.ml" 61 1665 1688
+call(
+  stack
+)
+type(
+  int
+)
+"disk.ml" 61 1665 1689 "disk.ml" 61 1665 1690
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"disk.ml" 61 1665 1691 "disk.ml" 61 1665 1693
+type(
+  int
+)
+"disk.ml" 61 1665 1670 "disk.ml" 61 1665 1693
+type(
+  int
+)
+"disk.ml" 60 1630 1642 "disk.ml" 61 1665 1693
+type(
+  int
+)
+"disk.ml" 61 1665 1694 "disk.ml" 61 1665 1695
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"disk.ml" 62 1696 1702 "disk.ml" 62 1696 1707
+type(
+  char -> int
+)
+ident(
+  int_ref undec "disk.ml" 27 897 901 "disk.ml" 27 897 906
+)
+"disk.ml" 62 1696 1708 "disk.ml" 62 1696 1709
+type(
+  string
+)
+ident(
+  int_ref s "disk.ml" 39 1224 1245 "disk.ml" 39 1224 1246
+)
+"disk.ml" 62 1696 1711 "disk.ml" 62 1696 1712
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"disk.ml" 62 1696 1712 "disk.ml" 62 1696 1713
+type(
+  int ref
+)
+ident(
+  int_ref i "disk.ml" 41 1276 1281 "disk.ml" 41 1276 1282
+)
+"disk.ml" 62 1696 1711 "disk.ml" 62 1696 1713
+type(
+  int
+)
+"disk.ml" 62 1696 1714 "disk.ml" 62 1696 1715
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"disk.ml" 62 1696 1716 "disk.ml" 62 1696 1717
+type(
+  int
+)
+"disk.ml" 62 1696 1711 "disk.ml" 62 1696 1717
+type(
+  int
+)
+"disk.ml" 62 1696 1708 "disk.ml" 62 1696 1718
+type(
+  char
+)
+"disk.ml" 62 1696 1701 "disk.ml" 62 1696 1719
+call(
+  stack
+)
+type(
+  int
+)
+"disk.ml" 60 1630 1642 "disk.ml" 62 1696 1719
+type(
+  int
+)
+"disk.ml" 63 1723 1727 "disk.ml" 63 1723 1728
+type(
+  int ref
+)
+ident(
+  int_ref i "disk.ml" 41 1276 1281 "disk.ml" 41 1276 1282
+)
+"disk.ml" 63 1723 1729 "disk.ml" 63 1723 1731
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"disk.ml" 63 1723 1732 "disk.ml" 63 1723 1733
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"disk.ml" 63 1723 1733 "disk.ml" 63 1723 1734
+type(
+  int ref
+)
+ident(
+  int_ref i "disk.ml" 41 1276 1281 "disk.ml" 41 1276 1282
+)
+"disk.ml" 63 1723 1732 "disk.ml" 63 1723 1734
+type(
+  int
+)
+"disk.ml" 63 1723 1735 "disk.ml" 63 1723 1736
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"disk.ml" 63 1723 1737 "disk.ml" 63 1723 1738
+type(
+  int
+)
+"disk.ml" 63 1723 1732 "disk.ml" 63 1723 1738
+type(
+  int
+)
+"disk.ml" 63 1723 1727 "disk.ml" 63 1723 1738
+type(
+  unit
+)
+"disk.ml" 64 1740 1744 "disk.ml" 64 1740 1752
+type(
+  int -> char
+)
+ident(
+  ext_ref Char.chr
+)
+"disk.ml" 64 1740 1753 "disk.ml" 64 1740 1754
+type(
+  int
+)
+ident(
+  int_ref v "disk.ml" 60 1630 1638 "disk.ml" 60 1630 1639
+)
+"disk.ml" 64 1740 1744 "disk.ml" 64 1740 1754
+call(
+  tail
+)
+type(
+  char
+)
+"disk.ml" 63 1723 1727 "disk.ml" 64 1740 1754
+type(
+  char
+)
+"disk.ml" 59 1606 1628 "disk.ml" 65 1755 1759
+type(
+  char
+)
+"disk.ml" 66 1765 1769 "disk.ml" 66 1765 1774
+type(
+  exn -> char
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"disk.ml" 66 1765 1775 "disk.ml" 66 1765 1785
+type(
+  exn
+)
+"disk.ml" 66 1765 1769 "disk.ml" 66 1765 1785
+type(
+  char
+)
+"disk.ml" 59 1606 1609 "disk.ml" 66 1765 1785
+type(
+  char
+)
+"disk.ml" 46 1357 1359 "disk.ml" 66 1765 1785
+type(
+  char
+)
+"disk.ml" 45 1347 1349 "disk.ml" 66 1765 1785
+type(
+  char
+)
+"disk.ml" 69 1791 1798 "disk.ml" 69 1791 1799
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"disk.ml" 69 1791 1799 "disk.ml" 69 1791 1800
+type(
+  int ref
+)
+ident(
+  int_ref i "disk.ml" 41 1276 1281 "disk.ml" 41 1276 1282
+)
+"disk.ml" 69 1791 1798 "disk.ml" 69 1791 1800
+type(
+  int
+)
+"disk.ml" 69 1791 1801 "disk.ml" 69 1791 1802
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"disk.ml" 69 1791 1803 "disk.ml" 69 1791 1806
+type(
+  int
+)
+ident(
+  int_ref len "disk.ml" 40 1249 1254 "disk.ml" 40 1249 1257
+)
+"disk.ml" 69 1791 1798 "disk.ml" 69 1791 1806
+type(
+  bool
+)
+"disk.ml" 71 1811 1817 "disk.ml" 71 1811 1818
+type(
+  char
+)
+ident(
+  def c "disk.ml" 74 1883 1885 "disk.ml" 75 1906 1914
+)
+"disk.ml" 71 1811 1827 "disk.ml" 71 1811 1828
+type(
+  string
+)
+ident(
+  int_ref s "disk.ml" 39 1224 1245 "disk.ml" 39 1224 1246
+)
+"disk.ml" 71 1811 1830 "disk.ml" 71 1811 1831
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"disk.ml" 71 1811 1831 "disk.ml" 71 1811 1832
+type(
+  int ref
+)
+ident(
+  int_ref i "disk.ml" 41 1276 1281 "disk.ml" 41 1276 1282
+)
+"disk.ml" 71 1811 1830 "disk.ml" 71 1811 1832
+type(
+  int
+)
+"disk.ml" 71 1811 1827 "disk.ml" 71 1811 1833
+type(
+  char
+)
+"disk.ml" 72 1839 1843 "disk.ml" 72 1839 1847
+type(
+  char
+)
+"disk.ml" 72 1839 1851 "disk.ml" 72 1839 1862
+type(
+  unit -> char
+)
+ident(
+  int_ref read_escape "disk.ml" 44 1325 1330 "disk.ml" 44 1325 1341
+)
+"disk.ml" 72 1839 1863 "disk.ml" 72 1839 1865
+type(
+  unit
+)
+"disk.ml" 72 1839 1851 "disk.ml" 72 1839 1865
+call(
+  stack
+)
+type(
+  char
+)
+"disk.ml" 73 1866 1870 "disk.ml" 73 1866 1871
+type(
+  char
+)
+ident(
+  def c "disk.ml" 73 1866 1878 "disk.ml" 73 1866 1879
+)
+"disk.ml" 73 1866 1878 "disk.ml" 73 1866 1879
+type(
+  char
+)
+ident(
+  int_ref c "disk.ml" 73 1866 1870 "disk.ml" 73 1866 1871
+)
+"disk.ml" 71 1811 1821 "disk.ml" 73 1866 1879
+type(
+  char
+)
+"disk.ml" 74 1883 1885 "disk.ml" 74 1883 1900
+type(
+  Buffer.t -> char -> unit
+)
+ident(
+  ext_ref Buffer.add_char
+)
+"disk.ml" 74 1883 1901 "disk.ml" 74 1883 1902
+type(
+  Buffer.t
+)
+ident(
+  int_ref d "disk.ml" 42 1294 1299 "disk.ml" 42 1294 1300
+)
+"disk.ml" 74 1883 1903 "disk.ml" 74 1883 1904
+type(
+  char
+)
+ident(
+  int_ref c "disk.ml" 71 1811 1817 "disk.ml" 71 1811 1818
+)
+"disk.ml" 74 1883 1885 "disk.ml" 74 1883 1904
+call(
+  stack
+)
+type(
+  unit
+)
+"disk.ml" 75 1906 1908 "disk.ml" 75 1906 1912
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"disk.ml" 75 1906 1913 "disk.ml" 75 1906 1914
+type(
+  int ref
+)
+ident(
+  int_ref i "disk.ml" 41 1276 1281 "disk.ml" 41 1276 1282
+)
+"disk.ml" 75 1906 1908 "disk.ml" 75 1906 1914
+type(
+  unit
+)
+"disk.ml" 74 1883 1885 "disk.ml" 75 1906 1914
+type(
+  unit
+)
+"disk.ml" 71 1811 1813 "disk.ml" 75 1906 1914
+type(
+  unit
+)
+"disk.ml" 69 1791 1792 "disk.ml" 76 1915 1920
+type(
+  unit
+)
+"disk.ml" 77 1922 1923 "disk.ml" 77 1922 1938
+type(
+  Buffer.t -> string
+)
+ident(
+  ext_ref Buffer.contents
+)
+"disk.ml" 77 1922 1939 "disk.ml" 77 1922 1940
+type(
+  Buffer.t
+)
+ident(
+  int_ref d "disk.ml" 42 1294 1299 "disk.ml" 42 1294 1300
+)
+"disk.ml" 77 1922 1923 "disk.ml" 77 1922 1940
+call(
+  tail
+)
+type(
+  string
+)
+"disk.ml" 69 1791 1792 "disk.ml" 77 1922 1940
+type(
+  string
+)
+"disk.ml" 44 1325 1326 "disk.ml" 77 1922 1940
+type(
+  string
+)
+"disk.ml" 42 1294 1295 "disk.ml" 77 1922 1940
+type(
+  string
+)
+"disk.ml" 40 1249 1250 "disk.ml" 77 1922 1940
+type(
+  string
+)
+"disk.ml" 80 1970 1974 "disk.ml" 80 1970 1988
+type(
+  string -> string list
+)
+ident(
+  def file_readlines "disk.ml" 92 2261 2261 "disk.ml" 1 0 -1
+)
+"disk.ml" 80 1970 1989 "disk.ml" 80 1970 1993
+type(
+  string
+)
+ident(
+  def file "disk.ml" 81 1996 1997 "disk.ml" 90 2235 2259
+)
+"disk.ml" 81 1996 2001 "disk.ml" 81 1996 2008
+type(
+  in_channel
+)
+ident(
+  def channel "disk.ml" 82 2027 2028 "disk.ml" 90 2235 2259
+)
+"disk.ml" 81 1996 2011 "disk.ml" 81 1996 2018
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"disk.ml" 81 1996 2019 "disk.ml" 81 1996 2023
+type(
+  string
+)
+ident(
+  int_ref file "disk.ml" 80 1970 1989 "disk.ml" 80 1970 1993
+)
+"disk.ml" 81 1996 2011 "disk.ml" 81 1996 2023
+call(
+  stack
+)
+type(
+  in_channel
+)
+"disk.ml" 82 2027 2036 "disk.ml" 82 2027 2051
+type(
+  in_channel -> string list
+)
+ident(
+  def input_line_list "disk.ml" 82 2027 2028 "disk.ml" 90 2235 2259
+)
+"disk.ml" 82 2027 2052 "disk.ml" 82 2027 2059
+type(
+  in_channel
+)
+ident(
+  def channel "disk.ml" 83 2062 2064 "disk.ml" 89 2228 2231
+)
+"disk.ml" 83 2062 2068 "disk.ml" 83 2062 2072
+type(
+  string
+)
+ident(
+  def line "disk.ml" 84 2124 2126 "disk.ml" 89 2228 2231
+)
+"disk.ml" 83 2062 2079 "disk.ml" 83 2062 2089
+type(
+  in_channel -> string
+)
+ident(
+  ext_ref Pervasives.input_line
+)
+"disk.ml" 83 2062 2090 "disk.ml" 83 2062 2097
+type(
+  in_channel
+)
+ident(
+  int_ref channel "disk.ml" 82 2027 2052 "disk.ml" 82 2027 2059
+)
+"disk.ml" 83 2062 2079 "disk.ml" 83 2062 2097
+call(
+  stack
+)
+type(
+  string
+)
+"disk.ml" 83 2062 2103 "disk.ml" 83 2062 2114
+type(
+  exn
+)
+"disk.ml" 83 2062 2118 "disk.ml" 83 2062 2120
+type(
+  string
+)
+"disk.ml" 83 2062 2075 "disk.ml" 83 2062 2120
+type(
+  string
+)
+"disk.ml" 84 2124 2129 "disk.ml" 84 2124 2142
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"disk.ml" 84 2124 2143 "disk.ml" 84 2124 2147
+type(
+  string
+)
+ident(
+  int_ref line "disk.ml" 83 2062 2068 "disk.ml" 83 2062 2072
+)
+"disk.ml" 84 2124 2129 "disk.ml" 84 2124 2147
+type(
+  int
+)
+"disk.ml" 84 2124 2148 "disk.ml" 84 2124 2149
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"disk.ml" 84 2124 2150 "disk.ml" 84 2124 2151
+type(
+  int
+)
+"disk.ml" 84 2124 2129 "disk.ml" 84 2124 2151
+type(
+  bool
+)
+"disk.ml" 85 2157 2160 "disk.ml" 85 2157 2164
+type(
+  string
+)
+ident(
+  int_ref line "disk.ml" 83 2062 2068 "disk.ml" 83 2062 2072
+)
+"disk.ml" 85 2157 2168 "disk.ml" 85 2157 2183
+type(
+  in_channel -> string list
+)
+ident(
+  int_ref input_line_list "disk.ml" 82 2027 2036 "disk.ml" 82 2027 2051
+)
+"disk.ml" 85 2157 2184 "disk.ml" 85 2157 2191
+type(
+  in_channel
+)
+ident(
+  int_ref channel "disk.ml" 82 2027 2052 "disk.ml" 82 2027 2059
+)
+"disk.ml" 85 2157 2168 "disk.ml" 85 2157 2191
+call(
+  stack
+)
+type(
+  string list
+)
+"disk.ml" 85 2157 2160 "disk.ml" 85 2157 2191
+type(
+  string list
+)
+"disk.ml" 87 2201 2204 "disk.ml" 87 2201 2212
+type(
+  in_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_in
+)
+"disk.ml" 87 2201 2213 "disk.ml" 87 2201 2220
+type(
+  in_channel
+)
+ident(
+  int_ref channel "disk.ml" 82 2027 2052 "disk.ml" 82 2027 2059
+)
+"disk.ml" 87 2201 2204 "disk.ml" 87 2201 2220
+call(
+  stack
+)
+type(
+  unit
+)
+"disk.ml" 88 2222 2225 "disk.ml" 88 2222 2227
+type(
+  string list
+)
+"disk.ml" 86 2192 2199 "disk.ml" 89 2228 2231
+type(
+  string list
+)
+"disk.ml" 84 2124 2126 "disk.ml" 89 2228 2231
+type(
+  string list
+)
+"disk.ml" 83 2062 2064 "disk.ml" 89 2228 2231
+type(
+  string list
+)
+"disk.ml" 90 2235 2236 "disk.ml" 90 2235 2251
+type(
+  in_channel -> string list
+)
+ident(
+  int_ref input_line_list "disk.ml" 82 2027 2036 "disk.ml" 82 2027 2051
+)
+"disk.ml" 90 2235 2252 "disk.ml" 90 2235 2259
+type(
+  in_channel
+)
+ident(
+  int_ref channel "disk.ml" 81 1996 2001 "disk.ml" 81 1996 2008
+)
+"disk.ml" 90 2235 2236 "disk.ml" 90 2235 2259
+call(
+  tail
+)
+type(
+  string list
+)
+"disk.ml" 82 2027 2028 "disk.ml" 90 2235 2259
+type(
+  string list
+)
+"disk.ml" 81 1996 1997 "disk.ml" 90 2235 2259
+type(
+  string list
+)
+"disk.ml" 92 2261 2269 "disk.ml" 92 2261 2290
+type(
+  (int * int) list -> string -> string list
+)
+ident(
+  def map_string_list_range "disk.ml" 92 2261 2261 "disk.ml" 1 0 -1
+)
+"disk.ml" 92 2261 2291 "disk.ml" 92 2261 2292
+type(
+  (int * int) list
+)
+ident(
+  def l "disk.ml" 92 2261 2293 "disk.ml" 95 2323 2391
+)
+"disk.ml" 92 2261 2293 "disk.ml" 92 2261 2294
+type(
+  string
+)
+ident(
+  def s "disk.ml" 93 2297 2298 "disk.ml" 95 2323 2391
+)
+"disk.ml" 93 2297 2304 "disk.ml" 93 2297 2305
+type(
+  (int * int) list
+)
+ident(
+  int_ref l "disk.ml" 92 2261 2291 "disk.ml" 92 2261 2292
+)
+"disk.ml" 94 2311 2314 "disk.ml" 94 2311 2316
+type(
+  (int * int) list
+)
+"disk.ml" 94 2311 2320 "disk.ml" 94 2311 2322
+type(
+  string list
+)
+"disk.ml" 95 2323 2327 "disk.ml" 95 2323 2328
+type(
+  int
+)
+ident(
+  def a "disk.ml" 95 2323 2340 "disk.ml" 95 2323 2391
+)
+"disk.ml" 95 2323 2329 "disk.ml" 95 2323 2330
+type(
+  int
+)
+ident(
+  def b "disk.ml" 95 2323 2340 "disk.ml" 95 2323 2391
+)
+"disk.ml" 95 2323 2326 "disk.ml" 95 2323 2331
+type(
+  int * int
+)
+"disk.ml" 95 2323 2335 "disk.ml" 95 2323 2336
+type(
+  (int * int) list
+)
+ident(
+  def l "disk.ml" 95 2323 2340 "disk.ml" 95 2323 2391
+)
+"disk.ml" 95 2323 2326 "disk.ml" 95 2323 2336
+type(
+  (int * int) list
+)
+"disk.ml" 95 2323 2340 "disk.ml" 95 2323 2350
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"disk.ml" 95 2323 2351 "disk.ml" 95 2323 2352
+type(
+  string
+)
+ident(
+  int_ref s "disk.ml" 92 2261 2293 "disk.ml" 92 2261 2294
+)
+"disk.ml" 95 2323 2353 "disk.ml" 95 2323 2354
+type(
+  int
+)
+ident(
+  int_ref a "disk.ml" 95 2323 2327 "disk.ml" 95 2323 2328
+)
+"disk.ml" 95 2323 2356 "disk.ml" 95 2323 2357
+type(
+  int
+)
+ident(
+  int_ref b "disk.ml" 95 2323 2329 "disk.ml" 95 2323 2330
+)
+"disk.ml" 95 2323 2358 "disk.ml" 95 2323 2359
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"disk.ml" 95 2323 2360 "disk.ml" 95 2323 2361
+type(
+  int
+)
+ident(
+  int_ref a "disk.ml" 95 2323 2327 "disk.ml" 95 2323 2328
+)
+"disk.ml" 95 2323 2355 "disk.ml" 95 2323 2362
+type(
+  int
+)
+"disk.ml" 95 2323 2340 "disk.ml" 95 2323 2362
+call(
+  stack
+)
+type(
+  string
+)
+"disk.ml" 95 2323 2366 "disk.ml" 95 2323 2387
+type(
+  (int * int) list -> string -> string list
+)
+ident(
+  int_ref map_string_list_range "disk.ml" 92 2261 2269 "disk.ml" 92 2261 2290
+)
+"disk.ml" 95 2323 2388 "disk.ml" 95 2323 2389
+type(
+  (int * int) list
+)
+ident(
+  int_ref l "disk.ml" 95 2323 2335 "disk.ml" 95 2323 2336
+)
+"disk.ml" 95 2323 2390 "disk.ml" 95 2323 2391
+type(
+  string
+)
+ident(
+  int_ref s "disk.ml" 92 2261 2293 "disk.ml" 92 2261 2294
+)
+"disk.ml" 95 2323 2366 "disk.ml" 95 2323 2391
+call(
+  stack
+)
+type(
+  string list
+)
+"disk.ml" 95 2323 2340 "disk.ml" 95 2323 2391
+type(
+  string list
+)
+"disk.ml" 93 2297 2298 "disk.ml" 95 2323 2391
+type(
+  string list
+)
+"disk.ml" 97 2393 2397 "disk.ml" 97 2393 2405
+type(
+  char -> bool
+)
+ident(
+  def is_digit "disk.ml" 100 2461 2461 "disk.ml" 1 0 -1
+)
+"disk.ml" 97 2393 2406 "disk.ml" 97 2393 2407
+type(
+  char
+)
+ident(
+  def c "disk.ml" 98 2410 2411 "disk.ml" 98 2410 2459
+)
+"disk.ml" 98 2410 2415 "disk.ml" 98 2410 2421
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"disk.ml" 98 2410 2423 "disk.ml" 98 2410 2434
+type(
+  char -> int
+)
+ident(
+  ext_ref Pervasives.int_of_char
+)
+"disk.ml" 98 2410 2435 "disk.ml" 98 2410 2436
+type(
+  char
+)
+ident(
+  int_ref c "disk.ml" 97 2393 2406 "disk.ml" 97 2393 2407
+)
+"disk.ml" 98 2410 2422 "disk.ml" 98 2410 2437
+type(
+  int
+)
+"disk.ml" 98 2410 2415 "disk.ml" 98 2410 2437
+type(
+  unit
+)
+"disk.ml" 98 2410 2439 "disk.ml" 98 2410 2443
+type(
+  bool
+)
+"disk.ml" 98 2410 2415 "disk.ml" 98 2410 2443
+type(
+  bool
+)
+"disk.ml" 98 2410 2449 "disk.ml" 98 2410 2450
+type(
+  exn
+)
+"disk.ml" 98 2410 2454 "disk.ml" 98 2410 2459
+type(
+  bool
+)
+"disk.ml" 98 2410 2411 "disk.ml" 98 2410 2459
+type(
+  bool
+)
+"disk.ml" 100 2461 2469 "disk.ml" 100 2461 2479
+type(
+  string -> string list
+)
+ident(
+  def parse_perm "disk.ml" 100 2461 2461 "disk.ml" 1 0 -1
+)
+"disk.ml" 100 2461 2480 "disk.ml" 100 2461 2481
+type(
+  string
+)
+ident(
+  def s "disk.ml" 101 2484 2485 "disk.ml" 109 2675 2695
+)
+"disk.ml" 101 2484 2489 "disk.ml" 101 2484 2492
+type(
+  int
+)
+ident(
+  def len "disk.ml" 102 2514 2515 "disk.ml" 109 2675 2695
+)
+"disk.ml" 101 2484 2495 "disk.ml" 101 2484 2508
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"disk.ml" 101 2484 2509 "disk.ml" 101 2484 2510
+type(
+  string
+)
+ident(
+  int_ref s "disk.ml" 100 2461 2480 "disk.ml" 100 2461 2481
+)
+"disk.ml" 101 2484 2495 "disk.ml" 101 2484 2510
+type(
+  int
+)
+"disk.ml" 102 2514 2518 "disk.ml" 102 2514 2521
+type(
+  int
+)
+ident(
+  int_ref len "disk.ml" 101 2484 2489 "disk.ml" 101 2484 2492
+)
+"disk.ml" 102 2514 2522 "disk.ml" 102 2514 2523
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"disk.ml" 102 2514 2524 "disk.ml" 102 2514 2525
+type(
+  int
+)
+"disk.ml" 102 2514 2518 "disk.ml" 102 2514 2525
+type(
+  bool
+)
+"disk.ml" 103 2531 2533 "disk.ml" 103 2531 2535
+type(
+  string list
+)
+"disk.ml" 105 2542 2548 "disk.ml" 105 2542 2549
+type(
+  int ref
+)
+ident(
+  def i "disk.ml" 106 2561 2563 "disk.ml" 109 2675 2695
+)
+"disk.ml" 105 2542 2552 "disk.ml" 105 2542 2555
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"disk.ml" 105 2542 2556 "disk.ml" 105 2542 2557
+type(
+  int
+)
+"disk.ml" 105 2542 2552 "disk.ml" 105 2542 2557
+type(
+  int ref
+)
+"disk.ml" 106 2561 2569 "disk.ml" 106 2561 2570
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"disk.ml" 106 2561 2570 "disk.ml" 106 2561 2571
+type(
+  int ref
+)
+ident(
+  int_ref i "disk.ml" 105 2542 2548 "disk.ml" 105 2542 2549
+)
+"disk.ml" 106 2561 2569 "disk.ml" 106 2561 2571
+type(
+  int
+)
+"disk.ml" 106 2561 2572 "disk.ml" 106 2561 2573
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"disk.ml" 106 2561 2574 "disk.ml" 106 2561 2577
+type(
+  int
+)
+ident(
+  int_ref len "disk.ml" 101 2484 2489 "disk.ml" 101 2484 2492
+)
+"disk.ml" 106 2561 2569 "disk.ml" 106 2561 2577
+type(
+  bool
+)
+"disk.ml" 106 2561 2578 "disk.ml" 106 2561 2580
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"disk.ml" 106 2561 2581 "disk.ml" 106 2561 2589
+type(
+  char -> bool
+)
+ident(
+  int_ref is_digit "disk.ml" 97 2393 2397 "disk.ml" 97 2393 2405
+)
+"disk.ml" 106 2561 2590 "disk.ml" 106 2561 2591
+type(
+  string
+)
+ident(
+  int_ref s "disk.ml" 100 2461 2480 "disk.ml" 100 2461 2481
+)
+"disk.ml" 106 2561 2593 "disk.ml" 106 2561 2594
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"disk.ml" 106 2561 2594 "disk.ml" 106 2561 2595
+type(
+  int ref
+)
+ident(
+  int_ref i "disk.ml" 105 2542 2548 "disk.ml" 105 2542 2549
+)
+"disk.ml" 106 2561 2593 "disk.ml" 106 2561 2595
+type(
+  int
+)
+"disk.ml" 106 2561 2590 "disk.ml" 106 2561 2596
+type(
+  char
+)
+"disk.ml" 106 2561 2581 "disk.ml" 106 2561 2596
+call(
+  stack
+)
+type(
+  bool
+)
+"disk.ml" 106 2561 2569 "disk.ml" 106 2561 2596
+type(
+  bool
+)
+"disk.ml" 106 2561 2600 "disk.ml" 106 2561 2604
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"disk.ml" 106 2561 2605 "disk.ml" 106 2561 2606
+type(
+  int ref
+)
+ident(
+  int_ref i "disk.ml" 105 2542 2548 "disk.ml" 105 2542 2549
+)
+"disk.ml" 106 2561 2600 "disk.ml" 106 2561 2606
+type(
+  unit
+)
+"disk.ml" 106 2561 2563 "disk.ml" 106 2561 2611
+type(
+  unit
+)
+"disk.ml" 107 2613 2619 "disk.ml" 107 2613 2620
+type(
+  string
+)
+ident(
+  def x "disk.ml" 109 2675 2677 "disk.ml" 109 2675 2695
+)
+"disk.ml" 107 2613 2623 "disk.ml" 107 2613 2633
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"disk.ml" 107 2613 2634 "disk.ml" 107 2613 2635
+type(
+  string
+)
+ident(
+  int_ref s "disk.ml" 100 2461 2480 "disk.ml" 100 2461 2481
+)
+"disk.ml" 107 2613 2636 "disk.ml" 107 2613 2637
+type(
+  int
+)
+"disk.ml" 107 2613 2638 "disk.ml" 107 2613 2639
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"disk.ml" 107 2613 2639 "disk.ml" 107 2613 2640
+type(
+  int ref
+)
+ident(
+  int_ref i "disk.ml" 105 2542 2548 "disk.ml" 105 2542 2549
+)
+"disk.ml" 107 2613 2638 "disk.ml" 107 2613 2640
+type(
+  int
+)
+"disk.ml" 107 2613 2623 "disk.ml" 107 2613 2640
+call(
+  stack
+)
+type(
+  string
+)
+"disk.ml" 108 2641 2647 "disk.ml" 108 2641 2649
+type(
+  string
+)
+ident(
+  def lx "disk.ml" 109 2675 2677 "disk.ml" 109 2675 2695
+)
+"disk.ml" 108 2641 2652 "disk.ml" 108 2641 2662
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"disk.ml" 108 2641 2663 "disk.ml" 108 2641 2664
+type(
+  string
+)
+ident(
+  int_ref s "disk.ml" 100 2461 2480 "disk.ml" 100 2461 2481
+)
+"disk.ml" 108 2641 2665 "disk.ml" 108 2641 2666
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"disk.ml" 108 2641 2666 "disk.ml" 108 2641 2667
+type(
+  int ref
+)
+ident(
+  int_ref i "disk.ml" 105 2542 2548 "disk.ml" 105 2542 2549
+)
+"disk.ml" 108 2641 2665 "disk.ml" 108 2641 2667
+type(
+  int
+)
+"disk.ml" 108 2641 2668 "disk.ml" 108 2641 2671
+type(
+  int
+)
+ident(
+  int_ref len "disk.ml" 101 2484 2489 "disk.ml" 101 2484 2492
+)
+"disk.ml" 108 2641 2652 "disk.ml" 108 2641 2671
+call(
+  stack
+)
+type(
+  string
+)
+"disk.ml" 109 2675 2677 "disk.ml" 109 2675 2678
+type(
+  string
+)
+ident(
+  int_ref x "disk.ml" 107 2613 2619 "disk.ml" 107 2613 2620
+)
+"disk.ml" 109 2675 2682 "disk.ml" 109 2675 2692
+type(
+  string -> string list
+)
+ident(
+  int_ref parse_perm "disk.ml" 100 2461 2469 "disk.ml" 100 2461 2479
+)
+"disk.ml" 109 2675 2693 "disk.ml" 109 2675 2695
+type(
+  string
+)
+ident(
+  int_ref lx "disk.ml" 108 2641 2647 "disk.ml" 108 2641 2649
+)
+"disk.ml" 109 2675 2682 "disk.ml" 109 2675 2695
+call(
+  stack
+)
+type(
+  string list
+)
+"disk.ml" 109 2675 2677 "disk.ml" 109 2675 2695
+type(
+  string list
+)
+"disk.ml" 107 2613 2615 "disk.ml" 109 2675 2695
+type(
+  string list
+)
+"disk.ml" 106 2561 2563 "disk.ml" 109 2675 2695
+type(
+  string list
+)
+"disk.ml" 105 2542 2544 "disk.ml" 109 2675 2695
+type(
+  string list
+)
+"disk.ml" 102 2514 2515 "disk.ml" 109 2675 2695
+type(
+  string list
+)
+"disk.ml" 101 2484 2485 "disk.ml" 109 2675 2695
+type(
+  string list
+)
+"disk.ml" 111 2697 2701 "disk.ml" 111 2697 2705
+type(
+  Store.t -> unit
+)
+ident(
+  def read "disk.ml" 146 3896 3896 "disk.ml" 1 0 -1
+)
+"disk.ml" 111 2697 2706 "disk.ml" 111 2697 2711
+type(
+  Store.t
+)
+ident(
+  def store "disk.ml" 113 2774 2775 "disk.ml" 144 3846 3894
+)
+"disk.ml" 113 2774 2779 "disk.ml" 113 2774 2780
+type(
+  Store.ops
+)
+ident(
+  def v "disk.ml" 116 2888 2889 "disk.ml" 144 3846 3894
+)
+"disk.ml" 113 2774 2783 "disk.ml" 113 2774 2796
+type(
+  Store.t -> Perms.Connection.t -> Store.ops
+)
+ident(
+  ext_ref Store.get_ops
+)
+"disk.ml" 113 2774 2797 "disk.ml" 113 2774 2802
+type(
+  Store.t
+)
+ident(
+  int_ref store "disk.ml" 111 2697 2706 "disk.ml" 111 2697 2711
+)
+"disk.ml" 113 2774 2803 "disk.ml" 113 2774 2831
+type(
+  Perms.Connection.t
+)
+ident(
+  ext_ref Perms.Connection.full_rights
+)
+"disk.ml" 113 2774 2783 "disk.ml" 113 2774 2831
+call(
+  stack
+)
+type(
+  Store.ops
+)
+"disk.ml" 116 2888 2893 "disk.ml" 116 2888 2903
+type(
+  string -> unit
+)
+ident(
+  def parse_line "disk.ml" 140 3735 3736 "disk.ml" 144 3846 3894
+)
+"disk.ml" 116 2888 2904 "disk.ml" 116 2888 2905
+type(
+  string
+)
+ident(
+  def s "disk.ml" 117 2908 2910 "disk.ml" 139 3666 3731
+)
+"disk.ml" 117 2908 2914 "disk.ml" 117 2908 2918
+type(
+  string
+)
+ident(
+  def path "disk.ml" 137 3577 3579 "disk.ml" 139 3666 3731
+)
+"disk.ml" 117 2908 2920 "disk.ml" 117 2908 2924
+type(
+  string
+)
+ident(
+  def perm "disk.ml" 137 3577 3579 "disk.ml" 139 3666 3731
+)
+"disk.ml" 117 2908 2926 "disk.ml" 117 2908 2931
+type(
+  string
+)
+ident(
+  def value "disk.ml" 137 3577 3579 "disk.ml" 139 3666 3731
+)
+"disk.ml" 117 2908 2914 "disk.ml" 117 2908 2931
+type(
+  string * string * string
+)
+"disk.ml" 118 2934 2941 "disk.ml" 118 2934 2944
+type(
+  int
+)
+ident(
+  def len "disk.ml" 119 2966 2969 "disk.ml" 135 3532 3570
+)
+"disk.ml" 118 2934 2947 "disk.ml" 118 2934 2960
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"disk.ml" 118 2934 2961 "disk.ml" 118 2934 2962
+type(
+  string
+)
+ident(
+  int_ref s "disk.ml" 116 2888 2904 "disk.ml" 116 2888 2905
+)
+"disk.ml" 118 2934 2947 "disk.ml" 118 2934 2962
+type(
+  int
+)
+"disk.ml" 119 2966 2973 "disk.ml" 119 2966 2975
+type(
+  int
+)
+ident(
+  def si "disk.ml" 123 3057 3060 "disk.ml" 135 3532 3570
+)
+"disk.ml" 119 2966 2981 "disk.ml" 119 2966 2996
+type(
+  string -> char -> bool
+)
+ident(
+  ext_ref String.contains
+)
+"disk.ml" 119 2966 2997 "disk.ml" 119 2966 2998
+type(
+  string
+)
+ident(
+  int_ref s "disk.ml" 116 2888 2904 "disk.ml" 116 2888 2905
+)
+"disk.ml" 119 2966 2999 "disk.ml" 119 2966 3002
+type(
+  char
+)
+"disk.ml" 119 2966 2981 "disk.ml" 119 2966 3002
+call(
+  stack
+)
+type(
+  bool
+)
+"disk.ml" 120 3008 3013 "disk.ml" 120 3008 3025
+type(
+  string -> char -> int
+)
+ident(
+  ext_ref String.index
+)
+"disk.ml" 120 3008 3026 "disk.ml" 120 3008 3027
+type(
+  string
+)
+ident(
+  int_ref s "disk.ml" 116 2888 2904 "disk.ml" 116 2888 2905
+)
+"disk.ml" 120 3008 3028 "disk.ml" 120 3008 3031
+type(
+  char
+)
+"disk.ml" 120 3008 3013 "disk.ml" 120 3008 3031
+call(
+  stack
+)
+type(
+  int
+)
+"disk.ml" 122 3041 3046 "disk.ml" 122 3041 3049
+type(
+  int
+)
+ident(
+  int_ref len "disk.ml" 118 2934 2941 "disk.ml" 118 2934 2944
+)
+"disk.ml" 122 3041 3050 "disk.ml" 122 3041 3051
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"disk.ml" 122 3041 3052 "disk.ml" 122 3041 3053
+type(
+  int
+)
+"disk.ml" 122 3041 3046 "disk.ml" 122 3041 3053
+type(
+  int
+)
+"disk.ml" 119 2966 2978 "disk.ml" 122 3041 3053
+type(
+  int
+)
+"disk.ml" 123 3057 3064 "disk.ml" 123 3057 3066
+type(
+  int
+)
+ident(
+  def pi "disk.ml" 124 3100 3103 "disk.ml" 135 3532 3570
+)
+"disk.ml" 123 3057 3069 "disk.ml" 123 3057 3087
+type(
+  string -> int -> char -> int
+)
+ident(
+  ext_ref String.rindex_from
+)
+"disk.ml" 123 3057 3088 "disk.ml" 123 3057 3089
+type(
+  string
+)
+ident(
+  int_ref s "disk.ml" 116 2888 2904 "disk.ml" 116 2888 2905
+)
+"disk.ml" 123 3057 3090 "disk.ml" 123 3057 3092
+type(
+  int
+)
+ident(
+  int_ref si "disk.ml" 119 2966 2973 "disk.ml" 119 2966 2975
+)
+"disk.ml" 123 3057 3093 "disk.ml" 123 3057 3096
+type(
+  char
+)
+"disk.ml" 123 3057 3069 "disk.ml" 123 3057 3096
+call(
+  stack
+)
+type(
+  int
+)
+"disk.ml" 124 3100 3107 "disk.ml" 124 3100 3110
+type(
+  int
+)
+ident(
+  def epi "disk.ml" 126 3144 3147 "disk.ml" 135 3532 3570
+)
+"disk.ml" 124 3100 3113 "disk.ml" 124 3100 3130
+type(
+  string -> int -> char -> int
+)
+ident(
+  ext_ref String.index_from
+)
+"disk.ml" 124 3100 3131 "disk.ml" 124 3100 3132
+type(
+  string
+)
+ident(
+  int_ref s "disk.ml" 116 2888 2904 "disk.ml" 116 2888 2905
+)
+"disk.ml" 124 3100 3133 "disk.ml" 124 3100 3135
+type(
+  int
+)
+ident(
+  int_ref pi "disk.ml" 123 3057 3064 "disk.ml" 123 3057 3066
+)
+"disk.ml" 124 3100 3136 "disk.ml" 124 3100 3139
+type(
+  char
+)
+"disk.ml" 124 3100 3113 "disk.ml" 124 3100 3139
+call(
+  stack
+)
+type(
+  int
+)
+"disk.ml" 126 3144 3150 "disk.ml" 126 3144 3165
+type(
+  string -> char -> bool
+)
+ident(
+  ext_ref String.contains
+)
+"disk.ml" 126 3144 3166 "disk.ml" 126 3144 3167
+type(
+  string
+)
+ident(
+  int_ref s "disk.ml" 116 2888 2904 "disk.ml" 116 2888 2905
+)
+"disk.ml" 126 3144 3168 "disk.ml" 126 3144 3171
+type(
+  char
+)
+"disk.ml" 126 3144 3150 "disk.ml" 126 3144 3171
+call(
+  stack
+)
+type(
+  bool
+)
+"disk.ml" 127 3177 3185 "disk.ml" 127 3177 3187
+type(
+  string list
+)
+ident(
+  def ss "disk.ml" 130 3334 3338 "disk.ml" 130 3334 3383
+)
+"disk.ml" 127 3177 3190 "disk.ml" 127 3177 3211
+type(
+  (int * int) list -> string -> string list
+)
+ident(
+  int_ref map_string_list_range "disk.ml" 92 2261 2269 "disk.ml" 92 2261 2290
+)
+"disk.ml" 127 3177 3215 "disk.ml" 127 3177 3216
+type(
+  int
+)
+"disk.ml" 127 3177 3218 "disk.ml" 127 3177 3220
+type(
+  int
+)
+ident(
+  int_ref pi "disk.ml" 123 3057 3064 "disk.ml" 123 3057 3066
+)
+"disk.ml" 127 3177 3214 "disk.ml" 127 3177 3221
+type(
+  int * int
+)
+"disk.ml" 128 3223 3261 "disk.ml" 128 3223 3263
+type(
+  int
+)
+ident(
+  int_ref pi "disk.ml" 123 3057 3064 "disk.ml" 123 3057 3066
+)
+"disk.ml" 128 3223 3264 "disk.ml" 128 3223 3265
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"disk.ml" 128 3223 3266 "disk.ml" 128 3223 3267
+type(
+  int
+)
+"disk.ml" 128 3223 3261 "disk.ml" 128 3223 3267
+type(
+  int
+)
+"disk.ml" 128 3223 3269 "disk.ml" 128 3223 3272
+type(
+  int
+)
+ident(
+  int_ref epi "disk.ml" 124 3100 3107 "disk.ml" 124 3100 3110
+)
+"disk.ml" 128 3223 3260 "disk.ml" 128 3223 3273
+type(
+  int * int
+)
+"disk.ml" 129 3275 3313 "disk.ml" 129 3275 3315
+type(
+  int
+)
+ident(
+  int_ref si "disk.ml" 119 2966 2973 "disk.ml" 119 2966 2975
+)
+"disk.ml" 129 3275 3316 "disk.ml" 129 3275 3317
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"disk.ml" 129 3275 3318 "disk.ml" 129 3275 3319
+type(
+  int
+)
+"disk.ml" 129 3275 3313 "disk.ml" 129 3275 3319
+type(
+  int
+)
+"disk.ml" 129 3275 3321 "disk.ml" 129 3275 3324
+type(
+  int
+)
+ident(
+  int_ref len "disk.ml" 118 2934 2941 "disk.ml" 118 2934 2944
+)
+"disk.ml" 129 3275 3312 "disk.ml" 129 3275 3325
+type(
+  int * int
+)
+"disk.ml" 127 3177 3212 "disk.ml" 129 3275 3328
+type(
+  (int * int) list
+)
+"disk.ml" 129 3275 3329 "disk.ml" 129 3275 3330
+type(
+  string
+)
+ident(
+  int_ref s "disk.ml" 116 2888 2904 "disk.ml" 116 2888 2905
+)
+"disk.ml" 127 3177 3190 "disk.ml" 129 3275 3330
+call(
+  stack
+)
+type(
+  string list
+)
+"disk.ml" 130 3334 3339 "disk.ml" 130 3334 3347
+type(
+  string list -> int -> string
+)
+ident(
+  ext_ref List.nth
+)
+"disk.ml" 130 3334 3348 "disk.ml" 130 3334 3350
+type(
+  string list
+)
+ident(
+  int_ref ss "disk.ml" 127 3177 3185 "disk.ml" 127 3177 3187
+)
+"disk.ml" 130 3334 3351 "disk.ml" 130 3334 3352
+type(
+  int
+)
+"disk.ml" 130 3334 3339 "disk.ml" 130 3334 3352
+call(
+  stack
+)
+type(
+  string
+)
+"disk.ml" 130 3334 3354 "disk.ml" 130 3334 3362
+type(
+  string list -> int -> string
+)
+ident(
+  ext_ref List.nth
+)
+"disk.ml" 130 3334 3363 "disk.ml" 130 3334 3365
+type(
+  string list
+)
+ident(
+  int_ref ss "disk.ml" 127 3177 3185 "disk.ml" 127 3177 3187
+)
+"disk.ml" 130 3334 3366 "disk.ml" 130 3334 3367
+type(
+  int
+)
+"disk.ml" 130 3334 3354 "disk.ml" 130 3334 3367
+call(
+  stack
+)
+type(
+  string
+)
+"disk.ml" 130 3334 3369 "disk.ml" 130 3334 3377
+type(
+  string list -> int -> string
+)
+ident(
+  ext_ref List.nth
+)
+"disk.ml" 130 3334 3378 "disk.ml" 130 3334 3380
+type(
+  string list
+)
+ident(
+  int_ref ss "disk.ml" 127 3177 3185 "disk.ml" 127 3177 3187
+)
+"disk.ml" 130 3334 3381 "disk.ml" 130 3334 3382
+type(
+  int
+)
+"disk.ml" 130 3334 3369 "disk.ml" 130 3334 3382
+call(
+  stack
+)
+type(
+  string
+)
+"disk.ml" 130 3334 3338 "disk.ml" 130 3334 3383
+type(
+  string * string * string
+)
+"disk.ml" 127 3177 3181 "disk.ml" 130 3334 3383
+type(
+  string * string * string
+)
+"disk.ml" 132 3392 3400 "disk.ml" 132 3392 3402
+type(
+  string list
+)
+ident(
+  def ss "disk.ml" 135 3532 3536 "disk.ml" 135 3532 3570
+)
+"disk.ml" 132 3392 3405 "disk.ml" 132 3392 3426
+type(
+  (int * int) list -> string -> string list
+)
+ident(
+  int_ref map_string_list_range "disk.ml" 92 2261 2269 "disk.ml" 92 2261 2290
+)
+"disk.ml" 132 3392 3430 "disk.ml" 132 3392 3431
+type(
+  int
+)
+"disk.ml" 132 3392 3433 "disk.ml" 132 3392 3435
+type(
+  int
+)
+ident(
+  int_ref pi "disk.ml" 123 3057 3064 "disk.ml" 123 3057 3066
+)
+"disk.ml" 132 3392 3429 "disk.ml" 132 3392 3436
+type(
+  int * int
+)
+"disk.ml" 133 3438 3476 "disk.ml" 133 3438 3478
+type(
+  int
+)
+ident(
+  int_ref pi "disk.ml" 123 3057 3064 "disk.ml" 123 3057 3066
+)
+"disk.ml" 133 3438 3479 "disk.ml" 133 3438 3480
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"disk.ml" 133 3438 3481 "disk.ml" 133 3438 3482
+type(
+  int
+)
+"disk.ml" 133 3438 3476 "disk.ml" 133 3438 3482
+type(
+  int
+)
+"disk.ml" 133 3438 3484 "disk.ml" 133 3438 3487
+type(
+  int
+)
+ident(
+  int_ref epi "disk.ml" 124 3100 3107 "disk.ml" 124 3100 3110
+)
+"disk.ml" 133 3438 3475 "disk.ml" 133 3438 3488
+type(
+  int * int
+)
+"disk.ml" 132 3392 3427 "disk.ml" 134 3490 3526
+type(
+  (int * int) list
+)
+"disk.ml" 134 3490 3527 "disk.ml" 134 3490 3528
+type(
+  string
+)
+ident(
+  int_ref s "disk.ml" 116 2888 2904 "disk.ml" 116 2888 2905
+)
+"disk.ml" 132 3392 3405 "disk.ml" 134 3490 3528
+call(
+  stack
+)
+type(
+  string list
+)
+"disk.ml" 135 3532 3537 "disk.ml" 135 3532 3545
+type(
+  string list -> int -> string
+)
+ident(
+  ext_ref List.nth
+)
+"disk.ml" 135 3532 3546 "disk.ml" 135 3532 3548
+type(
+  string list
+)
+ident(
+  int_ref ss "disk.ml" 132 3392 3400 "disk.ml" 132 3392 3402
+)
+"disk.ml" 135 3532 3549 "disk.ml" 135 3532 3550
+type(
+  int
+)
+"disk.ml" 135 3532 3537 "disk.ml" 135 3532 3550
+call(
+  stack
+)
+type(
+  string
+)
+"disk.ml" 135 3532 3552 "disk.ml" 135 3532 3560
+type(
+  string list -> int -> string
+)
+ident(
+  ext_ref List.nth
+)
+"disk.ml" 135 3532 3561 "disk.ml" 135 3532 3563
+type(
+  string list
+)
+ident(
+  int_ref ss "disk.ml" 132 3392 3400 "disk.ml" 132 3392 3402
+)
+"disk.ml" 135 3532 3564 "disk.ml" 135 3532 3565
+type(
+  int
+)
+"disk.ml" 135 3532 3552 "disk.ml" 135 3532 3565
+call(
+  stack
+)
+type(
+  string
+)
+"disk.ml" 135 3532 3567 "disk.ml" 135 3532 3569
+type(
+  string
+)
+"disk.ml" 135 3532 3536 "disk.ml" 135 3532 3570
+type(
+  string * string * string
+)
+"disk.ml" 132 3392 3396 "disk.ml" 135 3532 3570
+type(
+  string * string * string
+)
+"disk.ml" 126 3144 3147 "disk.ml" 135 3532 3570
+type(
+  string * string * string
+)
+"disk.ml" 124 3100 3103 "disk.ml" 135 3532 3570
+type(
+  string * string * string
+)
+"disk.ml" 123 3057 3060 "disk.ml" 135 3532 3570
+type(
+  string * string * string
+)
+"disk.ml" 119 2966 2969 "disk.ml" 135 3532 3570
+type(
+  string * string * string
+)
+"disk.ml" 118 2934 2937 "disk.ml" 135 3532 3570
+type(
+  string * string * string
+)
+"disk.ml" 137 3577 3583 "disk.ml" 137 3577 3587
+type(
+  string list
+)
+ident(
+  def path "disk.ml" 138 3619 3621 "disk.ml" 139 3666 3731
+)
+"disk.ml" 137 3577 3590 "disk.ml" 137 3577 3610
+type(
+  string -> string list
+)
+ident(
+  ext_ref Store.Path.of_string
+)
+"disk.ml" 137 3577 3611 "disk.ml" 137 3577 3615
+type(
+  string
+)
+ident(
+  int_ref path "disk.ml" 117 2908 2914 "disk.ml" 117 2908 2918
+)
+"disk.ml" 137 3577 3590 "disk.ml" 137 3577 3615
+call(
+  stack
+)
+type(
+  string list
+)
+"disk.ml" 138 3619 3621 "disk.ml" 138 3619 3622
+type(
+  Store.ops
+)
+ident(
+  int_ref v "disk.ml" 113 2774 2779 "disk.ml" 113 2774 2780
+)
+"disk.ml" 138 3619 3621 "disk.ml" 138 3619 3634
+type(
+  Store.Path.t -> string -> unit
+)
+"disk.ml" 138 3619 3635 "disk.ml" 138 3619 3639
+type(
+  Store.Path.t
+)
+ident(
+  int_ref path "disk.ml" 137 3577 3583 "disk.ml" 137 3577 3587
+)
+"disk.ml" 138 3619 3641 "disk.ml" 138 3619 3657
+type(
+  string -> string
+)
+ident(
+  int_ref string_unescaped "disk.ml" 39 1224 1228 "disk.ml" 39 1224 1244
+)
+"disk.ml" 138 3619 3658 "disk.ml" 138 3619 3663
+type(
+  string
+)
+ident(
+  int_ref value "disk.ml" 117 2908 2926 "disk.ml" 117 2908 2931
+)
+"disk.ml" 138 3619 3640 "disk.ml" 138 3619 3664
+call(
+  stack
+)
+type(
+  string
+)
+"disk.ml" 138 3619 3621 "disk.ml" 138 3619 3664
+call(
+  stack
+)
+type(
+  unit
+)
+"disk.ml" 139 3666 3668 "disk.ml" 139 3666 3669
+type(
+  Store.ops
+)
+ident(
+  int_ref v "disk.ml" 113 2774 2779 "disk.ml" 113 2774 2780
+)
+"disk.ml" 139 3666 3668 "disk.ml" 139 3666 3684
+type(
+  Store.Path.t -> Perms.Node.t -> unit
+)
+"disk.ml" 139 3666 3685 "disk.ml" 139 3666 3689
+type(
+  Store.Path.t
+)
+ident(
+  int_ref path "disk.ml" 137 3577 3583 "disk.ml" 137 3577 3587
+)
+"disk.ml" 139 3666 3691 "disk.ml" 139 3666 3712
+type(
+  string list -> Perms.Node.t
+)
+ident(
+  ext_ref Perms.Node.of_strings
+)
+"disk.ml" 139 3666 3714 "disk.ml" 139 3666 3724
+type(
+  string -> string list
+)
+ident(
+  int_ref parse_perm "disk.ml" 100 2461 2469 "disk.ml" 100 2461 2479
+)
+"disk.ml" 139 3666 3725 "disk.ml" 139 3666 3729
+type(
+  string
+)
+ident(
+  int_ref perm "disk.ml" 117 2908 2920 "disk.ml" 117 2908 2924
+)
+"disk.ml" 139 3666 3713 "disk.ml" 139 3666 3730
+call(
+  stack
+)
+type(
+  string list
+)
+"disk.ml" 139 3666 3690 "disk.ml" 139 3666 3731
+call(
+  stack
+)
+type(
+  Perms.Node.t
+)
+"disk.ml" 139 3666 3668 "disk.ml" 139 3666 3731
+call(
+  tail
+)
+type(
+  unit
+)
+"disk.ml" 138 3619 3621 "disk.ml" 139 3666 3731
+type(
+  unit
+)
+"disk.ml" 137 3577 3579 "disk.ml" 139 3666 3731
+type(
+  unit
+)
+"disk.ml" 117 2908 2910 "disk.ml" 139 3666 3731
+type(
+  unit
+)
+"disk.ml" 141 3740 3746 "disk.ml" 141 3740 3751
+type(
+  string list
+)
+ident(
+  def lines "disk.ml" 142 3791 3793 "disk.ml" 142 3791 3832
+)
+"disk.ml" 141 3740 3754 "disk.ml" 141 3740 3768
+type(
+  string -> string list
+)
+ident(
+  int_ref file_readlines "disk.ml" 80 1970 1974 "disk.ml" 80 1970 1988
+)
+"disk.ml" 141 3740 3769 "disk.ml" 141 3740 3787
+type(
+  string
+)
+ident(
+  int_ref xs_daemon_database "disk.ml" 18 699 703 "disk.ml" 18 699 721
+)
+"disk.ml" 141 3740 3754 "disk.ml" 141 3740 3787
+call(
+  stack
+)
+type(
+  string list
+)
+"disk.ml" 142 3791 3793 "disk.ml" 142 3791 3802
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"disk.ml" 142 3791 3808 "disk.ml" 142 3791 3809
+type(
+  string
+)
+ident(
+  def s "disk.ml" 142 3791 3813 "disk.ml" 142 3791 3825
+)
+"disk.ml" 142 3791 3813 "disk.ml" 142 3791 3823
+type(
+  string -> unit
+)
+ident(
+  int_ref parse_line "disk.ml" 116 2888 2893 "disk.ml" 116 2888 2903
+)
+"disk.ml" 142 3791 3824 "disk.ml" 142 3791 3825
+type(
+  string
+)
+ident(
+  int_ref s "disk.ml" 142 3791 3808 "disk.ml" 142 3791 3809
+)
+"disk.ml" 142 3791 3813 "disk.ml" 142 3791 3825
+call(
+  tail
+)
+type(
+  unit
+)
+"disk.ml" 142 3791 3803 "disk.ml" 142 3791 3826
+type(
+  string -> unit
+)
+"disk.ml" 142 3791 3827 "disk.ml" 142 3791 3832
+type(
+  string list
+)
+ident(
+  int_ref lines "disk.ml" 141 3740 3746 "disk.ml" 141 3740 3751
+)
+"disk.ml" 142 3791 3793 "disk.ml" 142 3791 3832
+call(
+  stack
+)
+type(
+  unit
+)
+"disk.ml" 141 3740 3742 "disk.ml" 142 3791 3832
+type(
+  unit
+)
+"disk.ml" 143 3833 3839 "disk.ml" 143 3833 3842
+type(
+  exn
+)
+ident(
+  def exc "disk.ml" 144 3846 3848 "disk.ml" 144 3846 3894
+)
+"disk.ml" 144 3846 3848 "disk.ml" 144 3846 3853
+type(
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  int_ref error "disk.ml" 20 749 753 "disk.ml" 20 749 758
+)
+"disk.ml" 144 3846 3854 "disk.ml" 144 3846 3869
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"disk.ml" 144 3846 3871 "disk.ml" 144 3846 3889
+type(
+  exn -> string
+)
+ident(
+  ext_ref Printexc.to_string
+)
+"disk.ml" 144 3846 3890 "disk.ml" 144 3846 3893
+type(
+  exn
+)
+ident(
+  int_ref exc "disk.ml" 143 3833 3839 "disk.ml" 143 3833 3842
+)
+"disk.ml" 144 3846 3870 "disk.ml" 144 3846 3894
+call(
+  stack
+)
+type(
+  string
+)
+"disk.ml" 144 3846 3848 "disk.ml" 144 3846 3894
+call(
+  tail
+)
+type(
+  unit
+)
+"disk.ml" 140 3735 3736 "disk.ml" 144 3846 3894
+type(
+  unit
+)
+"disk.ml" 116 2888 2889 "disk.ml" 144 3846 3894
+type(
+  unit
+)
+"disk.ml" 113 2774 2775 "disk.ml" 144 3846 3894
+type(
+  unit
+)
+"disk.ml" 146 3896 3900 "disk.ml" 146 3896 3905
+type(
+  Store.t -> unit
+)
+ident(
+  def write "disk.ml" 157 4225 4273 "disk.ml" 1 0 -1
+)
+"disk.ml" 146 3896 3906 "disk.ml" 146 3896 3911
+type(
+  Store.t
+)
+ident(
+  def store "disk.ml" 147 3914 3915 "disk.ml" 157 4225 4273
+)
+"disk.ml" 147 3914 3918 "disk.ml" 147 3914 3919
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"disk.ml" 147 3914 3919 "disk.ml" 147 3914 3925
+type(
+  bool ref
+)
+ident(
+  int_ref enable "disk.ml" 17 676 680 "disk.ml" 17 676 686
+)
+"disk.ml" 147 3914 3918 "disk.ml" 147 3914 3925
+type(
+  bool
+)
+"disk.ml" 149 3936 3942 "disk.ml" 149 3936 3947
+type(
+  string
+)
+ident(
+  def tfile "disk.ml" 150 3993 3995 "disk.ml" 155 4173 4211
+)
+"disk.ml" 149 3936 3950 "disk.ml" 149 3936 3964
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"disk.ml" 149 3936 3965 "disk.ml" 149 3936 3970
+type(
+  (string -> string, unit, string) format
+)
+"disk.ml" 149 3936 3971 "disk.ml" 149 3936 3989
+type(
+  string
+)
+ident(
+  int_ref xs_daemon_database "disk.ml" 18 699 703 "disk.ml" 18 699 721
+)
+"disk.ml" 149 3936 3950 "disk.ml" 149 3936 3989
+call(
+  stack
+)
+type(
+  string
+)
+"disk.ml" 150 3993 3999 "disk.ml" 150 3993 4006
+type(
+  out_channel
+)
+ident(
+  def channel "disk.ml" 152 4107 4109 "disk.ml" 155 4173 4211
+)
+"disk.ml" 150 3993 4009 "disk.ml" 150 3993 4021
+type(
+  open_flag list -> int -> string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out_gen
+)
+"disk.ml" 150 3993 4024 "disk.ml" 150 3993 4035
+type(
+  open_flag
+)
+"disk.ml" 150 3993 4037 "disk.ml" 150 3993 4047
+type(
+  open_flag
+)
+"disk.ml" 150 3993 4049 "disk.ml" 150 3993 4059
+type(
+  open_flag
+)
+"disk.ml" 150 3993 4022 "disk.ml" 150 3993 4062
+type(
+  open_flag list
+)
+"disk.ml" 151 4063 4092 "disk.ml" 151 4063 4097
+type(
+  int
+)
+"disk.ml" 151 4063 4098 "disk.ml" 151 4063 4103
+type(
+  string
+)
+ident(
+  int_ref tfile "disk.ml" 149 3936 3942 "disk.ml" 149 3936 3947
+)
+"disk.ml" 150 3993 4009 "disk.ml" 151 4063 4103
+call(
+  stack
+)
+type(
+  out_channel
+)
+"disk.ml" 152 4107 4109 "disk.ml" 152 4107 4119
+type(
+  Store.t -> out_channel -> unit
+)
+ident(
+  ext_ref Store.dump
+)
+"disk.ml" 152 4107 4120 "disk.ml" 152 4107 4125
+type(
+  Store.t
+)
+ident(
+  int_ref store "disk.ml" 146 3896 3906 "disk.ml" 146 3896 3911
+)
+"disk.ml" 152 4107 4126 "disk.ml" 152 4107 4133
+type(
+  out_channel
+)
+ident(
+  int_ref channel "disk.ml" 150 3993 3999 "disk.ml" 150 3993 4006
+)
+"disk.ml" 152 4107 4109 "disk.ml" 152 4107 4133
+call(
+  stack
+)
+type(
+  unit
+)
+"disk.ml" 153 4135 4137 "disk.ml" 153 4135 4142
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.flush
+)
+"disk.ml" 153 4135 4143 "disk.ml" 153 4135 4150
+type(
+  out_channel
+)
+ident(
+  int_ref channel "disk.ml" 150 3993 3999 "disk.ml" 150 3993 4006
+)
+"disk.ml" 153 4135 4137 "disk.ml" 153 4135 4150
+call(
+  stack
+)
+type(
+  unit
+)
+"disk.ml" 154 4152 4154 "disk.ml" 154 4152 4163
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"disk.ml" 154 4152 4164 "disk.ml" 154 4152 4171
+type(
+  out_channel
+)
+ident(
+  int_ref channel "disk.ml" 150 3993 3999 "disk.ml" 150 3993 4006
+)
+"disk.ml" 154 4152 4154 "disk.ml" 154 4152 4171
+call(
+  stack
+)
+type(
+  unit
+)
+"disk.ml" 155 4173 4175 "disk.ml" 155 4173 4186
+type(
+  string -> string -> unit
+)
+ident(
+  ext_ref Unix.rename
+)
+"disk.ml" 155 4173 4187 "disk.ml" 155 4173 4192
+type(
+  string
+)
+ident(
+  int_ref tfile "disk.ml" 149 3936 3942 "disk.ml" 149 3936 3947
+)
+"disk.ml" 155 4173 4193 "disk.ml" 155 4173 4211
+type(
+  string
+)
+ident(
+  int_ref xs_daemon_database "disk.ml" 18 699 703 "disk.ml" 18 699 721
+)
+"disk.ml" 155 4173 4175 "disk.ml" 155 4173 4211
+call(
+  stack
+)
+type(
+  unit
+)
+"disk.ml" 154 4152 4154 "disk.ml" 155 4173 4211
+type(
+  unit
+)
+"disk.ml" 153 4135 4137 "disk.ml" 155 4173 4211
+type(
+  unit
+)
+"disk.ml" 152 4107 4109 "disk.ml" 155 4173 4211
+type(
+  unit
+)
+"disk.ml" 150 3993 3995 "disk.ml" 155 4173 4211
+type(
+  unit
+)
+"disk.ml" 149 3936 3938 "disk.ml" 155 4173 4211
+type(
+  unit
+)
+"disk.ml" 156 4212 4218 "disk.ml" 156 4212 4221
+type(
+  exn
+)
+ident(
+  def exc "disk.ml" 157 4225 4227 "disk.ml" 157 4225 4273
+)
+"disk.ml" 157 4225 4227 "disk.ml" 157 4225 4232
+type(
+  (string -> unit, unit, string, unit) format4 -> string -> unit
+)
+ident(
+  int_ref error "disk.ml" 20 749 753 "disk.ml" 20 749 758
+)
+"disk.ml" 157 4225 4233 "disk.ml" 157 4225 4248
+type(
+  (string -> unit, unit, string, unit) format4
+)
+"disk.ml" 157 4225 4250 "disk.ml" 157 4225 4268
+type(
+  exn -> string
+)
+ident(
+  ext_ref Printexc.to_string
+)
+"disk.ml" 157 4225 4269 "disk.ml" 157 4225 4272
+type(
+  exn
+)
+ident(
+  int_ref exc "disk.ml" 156 4212 4218 "disk.ml" 156 4212 4221
+)
+"disk.ml" 157 4225 4249 "disk.ml" 157 4225 4273
+call(
+  stack
+)
+type(
+  string
+)
+"disk.ml" 157 4225 4227 "disk.ml" 157 4225 4273
+call(
+  tail
+)
+type(
+  unit
+)
+"disk.ml" 148 3931 3932 "disk.ml" 157 4225 4273
+type(
+  unit
+)
+"disk.ml" 147 3914 3915 "disk.ml" 157 4225 4273
+type(
+  unit
+)

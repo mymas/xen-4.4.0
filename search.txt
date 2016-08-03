@@ -1,0 +1,17 @@
+vmcs_dump
+virtual_vmcs_vmread
+nvmx_vcpu_eptp_base
+nept_translate_l2ga
+hvm_map_guest_frame2
+struct nestedvcpu
+
+copy_from_guest
+
+struct domain
+nvmx_hap_walk_L1_p2m(struct vcpu *v, paddr_t L2_gpa, paddr_t *L1_gpa,
+target_gpa
+target_eptp
+get_domain_by_id
+target_domid
+
+

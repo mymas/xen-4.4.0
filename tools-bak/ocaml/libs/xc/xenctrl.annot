@@ -1,0 +1,2250 @@
+"xenctrl.ml" 113 2548 2552 "xenctrl.ml" 113 2548 2561
+type(
+  (handle -> 'a) -> 'a
+)
+ident(
+  def with_intf "xenctrl.ml" 119 2685 2685 "xenctrl.ml" 1 0 -1
+)
+"xenctrl.ml" 113 2548 2562 "xenctrl.ml" 113 2548 2563
+type(
+  handle -> 'a
+)
+ident(
+  def f "xenctrl.ml" 114 2566 2567 "xenctrl.ml" 117 2681 2683
+)
+"xenctrl.ml" 114 2566 2571 "xenctrl.ml" 114 2566 2573
+type(
+  handle
+)
+ident(
+  def xc "xenctrl.ml" 115 2597 2598 "xenctrl.ml" 117 2681 2683
+)
+"xenctrl.ml" 114 2566 2576 "xenctrl.ml" 114 2566 2590
+type(
+  unit -> handle
+)
+ident(
+  int_ref interface_open "xenctrl.ml" 108 2349 2349 "xenctrl.ml" 108 2349 2415
+)
+"xenctrl.ml" 114 2566 2591 "xenctrl.ml" 114 2566 2593
+type(
+  unit
+)
+"xenctrl.ml" 114 2566 2576 "xenctrl.ml" 114 2566 2593
+type(
+  handle
+)
+"xenctrl.ml" 115 2597 2602 "xenctrl.ml" 115 2597 2603
+type(
+  'a
+)
+ident(
+  def r "xenctrl.ml" 116 2660 2661 "xenctrl.ml" 117 2681 2683
+)
+"xenctrl.ml" 115 2597 2610 "xenctrl.ml" 115 2597 2611
+type(
+  handle -> 'a
+)
+ident(
+  int_ref f "xenctrl.ml" 113 2548 2562 "xenctrl.ml" 113 2548 2563
+)
+"xenctrl.ml" 115 2597 2612 "xenctrl.ml" 115 2597 2614
+type(
+  handle
+)
+ident(
+  int_ref xc "xenctrl.ml" 114 2566 2571 "xenctrl.ml" 114 2566 2573
+)
+"xenctrl.ml" 115 2597 2610 "xenctrl.ml" 115 2597 2614
+call(
+  stack
+)
+type(
+  'a
+)
+"xenctrl.ml" 115 2597 2620 "xenctrl.ml" 115 2597 2623
+type(
+  exn
+)
+ident(
+  def exn "xenctrl.ml" 115 2597 2627 "xenctrl.ml" 115 2597 2656
+)
+"xenctrl.ml" 115 2597 2627 "xenctrl.ml" 115 2597 2642
+type(
+  handle -> unit
+)
+ident(
+  int_ref interface_close "xenctrl.ml" 109 2416 2416 "xenctrl.ml" 109 2416 2484
+)
+"xenctrl.ml" 115 2597 2643 "xenctrl.ml" 115 2597 2645
+type(
+  handle
+)
+ident(
+  int_ref xc "xenctrl.ml" 114 2566 2571 "xenctrl.ml" 114 2566 2573
+)
+"xenctrl.ml" 115 2597 2627 "xenctrl.ml" 115 2597 2645
+type(
+  unit
+)
+"xenctrl.ml" 115 2597 2647 "xenctrl.ml" 115 2597 2652
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"xenctrl.ml" 115 2597 2653 "xenctrl.ml" 115 2597 2656
+type(
+  exn
+)
+ident(
+  int_ref exn "xenctrl.ml" 115 2597 2620 "xenctrl.ml" 115 2597 2623
+)
+"xenctrl.ml" 115 2597 2647 "xenctrl.ml" 115 2597 2656
+type(
+  'a
+)
+"xenctrl.ml" 115 2597 2627 "xenctrl.ml" 115 2597 2656
+type(
+  'a
+)
+"xenctrl.ml" 115 2597 2606 "xenctrl.ml" 115 2597 2656
+type(
+  'a
+)
+"xenctrl.ml" 116 2660 2661 "xenctrl.ml" 116 2660 2676
+type(
+  handle -> unit
+)
+ident(
+  int_ref interface_close "xenctrl.ml" 109 2416 2416 "xenctrl.ml" 109 2416 2484
+)
+"xenctrl.ml" 116 2660 2677 "xenctrl.ml" 116 2660 2679
+type(
+  handle
+)
+ident(
+  int_ref xc "xenctrl.ml" 114 2566 2571 "xenctrl.ml" 114 2566 2573
+)
+"xenctrl.ml" 116 2660 2661 "xenctrl.ml" 116 2660 2679
+type(
+  unit
+)
+"xenctrl.ml" 117 2681 2682 "xenctrl.ml" 117 2681 2683
+type(
+  'a
+)
+ident(
+  int_ref r "xenctrl.ml" 115 2597 2602 "xenctrl.ml" 115 2597 2603
+)
+"xenctrl.ml" 116 2660 2661 "xenctrl.ml" 117 2681 2683
+type(
+  'a
+)
+"xenctrl.ml" 115 2597 2598 "xenctrl.ml" 117 2681 2683
+type(
+  'a
+)
+"xenctrl.ml" 114 2566 2567 "xenctrl.ml" 117 2681 2683
+type(
+  'a
+)
+"xenctrl.ml" 122 2809 2813 "xenctrl.ml" 122 2809 2837
+type(
+  string -> int array
+)
+ident(
+  def int_array_of_uuid_string "xenctrl.ml" 131 3152 3152 "xenctrl.ml" 1 0 -1
+)
+"xenctrl.ml" 122 2809 2838 "xenctrl.ml" 122 2809 2839
+type(
+  string
+)
+ident(
+  def s "xenctrl.ml" 123 2842 2843 "xenctrl.ml" 129 3090 3150
+)
+"xenctrl.ml" 124 2847 2849 "xenctrl.ml" 124 2847 2861
+type(
+  string ->
+  (int ->
+   int ->
+   int ->
+   int ->
+   int ->
+   int ->
+   int ->
+   int -> int -> int -> int -> int -> int -> int -> int -> int -> int array,
+   '_a,
+   (int ->
+    int ->
+    int ->
+    int ->
+    int ->
+    int ->
+    int ->
+    int -> int -> int -> int -> int -> int -> int -> int -> int -> int array) ->
+   int array, int array)
+  Scanf.scanner
+)
+ident(
+  ext_ref Scanf.sscanf
+)
+"xenctrl.ml" 124 2847 2862 "xenctrl.ml" 124 2847 2863
+type(
+  string
+)
+ident(
+  int_ref s "xenctrl.ml" 122 2809 2838 "xenctrl.ml" 122 2809 2839
+)
+"xenctrl.ml" 125 2864 2867 "xenctrl.ml" 125 2864 2937
+type(
+  (int ->
+   int ->
+   int ->
+   int ->
+   int ->
+   int ->
+   int ->
+   int -> int -> int -> int -> int -> int -> int -> int -> int -> int array,
+   Scanf.Scanning.in_channel, '_a,
+   (int ->
+    int ->
+    int ->
+    int ->
+    int ->
+    int ->
+    int ->
+    int -> int -> int -> int -> int -> int -> int -> int -> int -> int array) ->
+   int array,
+   (int ->
+    int ->
+    int ->
+    int ->
+    int ->
+    int ->
+    int ->
+    int -> int -> int -> int -> int -> int -> int -> int -> int -> int array) ->
+   int array, int array)
+  format6
+)
+"xenctrl.ml" 126 2938 2946 "xenctrl.ml" 126 2938 2948
+type(
+  int
+)
+ident(
+  def a0 "xenctrl.ml" 126 2938 2949 "xenctrl.ml" 128 3042 3088
+)
+"xenctrl.ml" 126 2938 2949 "xenctrl.ml" 126 2938 2951
+type(
+  int
+)
+ident(
+  def a1 "xenctrl.ml" 126 2938 2952 "xenctrl.ml" 128 3042 3088
+)
+"xenctrl.ml" 126 2938 2952 "xenctrl.ml" 126 2938 2954
+type(
+  int
+)
+ident(
+  def a2 "xenctrl.ml" 126 2938 2955 "xenctrl.ml" 128 3042 3088
+)
+"xenctrl.ml" 126 2938 2955 "xenctrl.ml" 126 2938 2957
+type(
+  int
+)
+ident(
+  def a3 "xenctrl.ml" 126 2938 2958 "xenctrl.ml" 128 3042 3088
+)
+"xenctrl.ml" 126 2938 2958 "xenctrl.ml" 126 2938 2960
+type(
+  int
+)
+ident(
+  def a4 "xenctrl.ml" 126 2938 2961 "xenctrl.ml" 128 3042 3088
+)
+"xenctrl.ml" 126 2938 2961 "xenctrl.ml" 126 2938 2963
+type(
+  int
+)
+ident(
+  def a5 "xenctrl.ml" 126 2938 2964 "xenctrl.ml" 128 3042 3088
+)
+"xenctrl.ml" 126 2938 2964 "xenctrl.ml" 126 2938 2966
+type(
+  int
+)
+ident(
+  def a6 "xenctrl.ml" 126 2938 2967 "xenctrl.ml" 128 3042 3088
+)
+"xenctrl.ml" 126 2938 2967 "xenctrl.ml" 126 2938 2969
+type(
+  int
+)
+ident(
+  def a7 "xenctrl.ml" 126 2938 2970 "xenctrl.ml" 128 3042 3088
+)
+"xenctrl.ml" 126 2938 2970 "xenctrl.ml" 126 2938 2972
+type(
+  int
+)
+ident(
+  def a8 "xenctrl.ml" 126 2938 2973 "xenctrl.ml" 128 3042 3088
+)
+"xenctrl.ml" 126 2938 2973 "xenctrl.ml" 126 2938 2975
+type(
+  int
+)
+ident(
+  def a9 "xenctrl.ml" 126 2938 2976 "xenctrl.ml" 128 3042 3088
+)
+"xenctrl.ml" 126 2938 2976 "xenctrl.ml" 126 2938 2979
+type(
+  int
+)
+ident(
+  def a10 "xenctrl.ml" 126 2938 2980 "xenctrl.ml" 128 3042 3088
+)
+"xenctrl.ml" 126 2938 2980 "xenctrl.ml" 126 2938 2983
+type(
+  int
+)
+ident(
+  def a11 "xenctrl.ml" 126 2938 2984 "xenctrl.ml" 128 3042 3088
+)
+"xenctrl.ml" 126 2938 2984 "xenctrl.ml" 126 2938 2987
+type(
+  int
+)
+ident(
+  def a12 "xenctrl.ml" 126 2938 2988 "xenctrl.ml" 128 3042 3088
+)
+"xenctrl.ml" 126 2938 2988 "xenctrl.ml" 126 2938 2991
+type(
+  int
+)
+ident(
+  def a13 "xenctrl.ml" 126 2938 2992 "xenctrl.ml" 128 3042 3088
+)
+"xenctrl.ml" 126 2938 2992 "xenctrl.ml" 126 2938 2995
+type(
+  int
+)
+ident(
+  def a14 "xenctrl.ml" 126 2938 2996 "xenctrl.ml" 128 3042 3088
+)
+"xenctrl.ml" 126 2938 2996 "xenctrl.ml" 126 2938 2999
+type(
+  int
+)
+ident(
+  def a15 "xenctrl.ml" 127 3003 3007 "xenctrl.ml" 128 3042 3088
+)
+"xenctrl.ml" 127 3003 3010 "xenctrl.ml" 127 3003 3012
+type(
+  int
+)
+ident(
+  int_ref a0 "xenctrl.ml" 126 2938 2946 "xenctrl.ml" 126 2938 2948
+)
+"xenctrl.ml" 127 3003 3014 "xenctrl.ml" 127 3003 3016
+type(
+  int
+)
+ident(
+  int_ref a1 "xenctrl.ml" 126 2938 2949 "xenctrl.ml" 126 2938 2951
+)
+"xenctrl.ml" 127 3003 3018 "xenctrl.ml" 127 3003 3020
+type(
+  int
+)
+ident(
+  int_ref a2 "xenctrl.ml" 126 2938 2952 "xenctrl.ml" 126 2938 2954
+)
+"xenctrl.ml" 127 3003 3022 "xenctrl.ml" 127 3003 3024
+type(
+  int
+)
+ident(
+  int_ref a3 "xenctrl.ml" 126 2938 2955 "xenctrl.ml" 126 2938 2957
+)
+"xenctrl.ml" 127 3003 3026 "xenctrl.ml" 127 3003 3028
+type(
+  int
+)
+ident(
+  int_ref a4 "xenctrl.ml" 126 2938 2958 "xenctrl.ml" 126 2938 2960
+)
+"xenctrl.ml" 127 3003 3030 "xenctrl.ml" 127 3003 3032
+type(
+  int
+)
+ident(
+  int_ref a5 "xenctrl.ml" 126 2938 2961 "xenctrl.ml" 126 2938 2963
+)
+"xenctrl.ml" 127 3003 3034 "xenctrl.ml" 127 3003 3036
+type(
+  int
+)
+ident(
+  int_ref a6 "xenctrl.ml" 126 2938 2964 "xenctrl.ml" 126 2938 2966
+)
+"xenctrl.ml" 127 3003 3038 "xenctrl.ml" 127 3003 3040
+type(
+  int
+)
+ident(
+  int_ref a7 "xenctrl.ml" 126 2938 2967 "xenctrl.ml" 126 2938 2969
+)
+"xenctrl.ml" 128 3042 3049 "xenctrl.ml" 128 3042 3051
+type(
+  int
+)
+ident(
+  int_ref a8 "xenctrl.ml" 126 2938 2970 "xenctrl.ml" 126 2938 2972
+)
+"xenctrl.ml" 128 3042 3053 "xenctrl.ml" 128 3042 3055
+type(
+  int
+)
+ident(
+  int_ref a9 "xenctrl.ml" 126 2938 2973 "xenctrl.ml" 126 2938 2975
+)
+"xenctrl.ml" 128 3042 3057 "xenctrl.ml" 128 3042 3060
+type(
+  int
+)
+ident(
+  int_ref a10 "xenctrl.ml" 126 2938 2976 "xenctrl.ml" 126 2938 2979
+)
+"xenctrl.ml" 128 3042 3062 "xenctrl.ml" 128 3042 3065
+type(
+  int
+)
+ident(
+  int_ref a11 "xenctrl.ml" 126 2938 2980 "xenctrl.ml" 126 2938 2983
+)
+"xenctrl.ml" 128 3042 3067 "xenctrl.ml" 128 3042 3070
+type(
+  int
+)
+ident(
+  int_ref a12 "xenctrl.ml" 126 2938 2984 "xenctrl.ml" 126 2938 2987
+)
+"xenctrl.ml" 128 3042 3072 "xenctrl.ml" 128 3042 3075
+type(
+  int
+)
+ident(
+  int_ref a13 "xenctrl.ml" 126 2938 2988 "xenctrl.ml" 126 2938 2991
+)
+"xenctrl.ml" 128 3042 3077 "xenctrl.ml" 128 3042 3080
+type(
+  int
+)
+ident(
+  int_ref a14 "xenctrl.ml" 126 2938 2992 "xenctrl.ml" 126 2938 2995
+)
+"xenctrl.ml" 128 3042 3082 "xenctrl.ml" 128 3042 3085
+type(
+  int
+)
+ident(
+  int_ref a15 "xenctrl.ml" 126 2938 2996 "xenctrl.ml" 126 2938 2999
+)
+"xenctrl.ml" 127 3003 3007 "xenctrl.ml" 128 3042 3088
+type(
+  int array
+)
+"xenctrl.ml" 126 2938 2941 "xenctrl.ml" 128 3042 3089
+type(
+  int ->
+  int ->
+  int ->
+  int ->
+  int ->
+  int ->
+  int ->
+  int -> int -> int -> int -> int -> int -> int -> int -> int -> int array
+)
+"xenctrl.ml" 124 2847 2849 "xenctrl.ml" 128 3042 3089
+call(
+  stack
+)
+type(
+  int array
+)
+"xenctrl.ml" 129 3090 3096 "xenctrl.ml" 129 3090 3097
+type(
+  exn
+)
+"xenctrl.ml" 129 3090 3101 "xenctrl.ml" 129 3090 3112
+type(
+  string -> int array
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"xenctrl.ml" 129 3090 3114 "xenctrl.ml" 129 3090 3145
+type(
+  string
+)
+"xenctrl.ml" 129 3090 3146 "xenctrl.ml" 129 3090 3147
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"xenctrl.ml" 129 3090 3148 "xenctrl.ml" 129 3090 3149
+type(
+  string
+)
+ident(
+  int_ref s "xenctrl.ml" 122 2809 2838 "xenctrl.ml" 122 2809 2839
+)
+"xenctrl.ml" 129 3090 3113 "xenctrl.ml" 129 3090 3150
+call(
+  stack
+)
+type(
+  string
+)
+"xenctrl.ml" 129 3090 3101 "xenctrl.ml" 129 3090 3150
+call(
+  tail
+)
+type(
+  int array
+)
+"xenctrl.ml" 123 2842 2843 "xenctrl.ml" 129 3090 3150
+type(
+  int array
+)
+"xenctrl.ml" 131 3152 3156 "xenctrl.ml" 131 3152 3169
+type(
+  handle -> int32 -> domain_create_flag list -> string -> domid
+)
+ident(
+  def domain_create "xenctrl.ml" 134 3256 3256 "xenctrl.ml" 1 0 -1
+)
+"xenctrl.ml" 131 3152 3170 "xenctrl.ml" 131 3152 3176
+type(
+  handle
+)
+ident(
+  def handle "xenctrl.ml" 131 3152 3177 "xenctrl.ml" 132 3192 3254
+)
+"xenctrl.ml" 131 3152 3177 "xenctrl.ml" 131 3152 3178
+type(
+  int32
+)
+ident(
+  def n "xenctrl.ml" 131 3152 3179 "xenctrl.ml" 132 3192 3254
+)
+"xenctrl.ml" 131 3152 3179 "xenctrl.ml" 131 3152 3184
+type(
+  domain_create_flag list
+)
+ident(
+  def flags "xenctrl.ml" 131 3152 3185 "xenctrl.ml" 132 3192 3254
+)
+"xenctrl.ml" 131 3152 3185 "xenctrl.ml" 131 3152 3189
+type(
+  string
+)
+ident(
+  def uuid "xenctrl.ml" 132 3192 3193 "xenctrl.ml" 132 3192 3254
+)
+"xenctrl.ml" 132 3192 3193 "xenctrl.ml" 132 3192 3207
+type(
+  handle -> int32 -> domain_create_flag list -> int array -> domid
+)
+ident(
+  int_ref _domain_create "xenctrl.ml" 119 2685 2685 "xenctrl.ml" 120 2775 2807
+)
+"xenctrl.ml" 132 3192 3208 "xenctrl.ml" 132 3192 3214
+type(
+  handle
+)
+ident(
+  int_ref handle "xenctrl.ml" 131 3152 3170 "xenctrl.ml" 131 3152 3176
+)
+"xenctrl.ml" 132 3192 3215 "xenctrl.ml" 132 3192 3216
+type(
+  int32
+)
+ident(
+  int_ref n "xenctrl.ml" 131 3152 3177 "xenctrl.ml" 131 3152 3178
+)
+"xenctrl.ml" 132 3192 3217 "xenctrl.ml" 132 3192 3222
+type(
+  domain_create_flag list
+)
+ident(
+  int_ref flags "xenctrl.ml" 131 3152 3179 "xenctrl.ml" 131 3152 3184
+)
+"xenctrl.ml" 132 3192 3224 "xenctrl.ml" 132 3192 3248
+type(
+  string -> int array
+)
+ident(
+  int_ref int_array_of_uuid_string "xenctrl.ml" 122 2809 2813 "xenctrl.ml" 122 2809 2837
+)
+"xenctrl.ml" 132 3192 3249 "xenctrl.ml" 132 3192 3253
+type(
+  string
+)
+ident(
+  int_ref uuid "xenctrl.ml" 131 3152 3185 "xenctrl.ml" 131 3152 3189
+)
+"xenctrl.ml" 132 3192 3223 "xenctrl.ml" 132 3192 3254
+call(
+  stack
+)
+type(
+  int array
+)
+"xenctrl.ml" 132 3192 3193 "xenctrl.ml" 132 3192 3254
+type(
+  domid
+)
+"xenctrl.ml" 137 3377 3381 "xenctrl.ml" 137 3377 3397
+type(
+  handle -> domid -> string -> unit
+)
+ident(
+  def domain_sethandle "xenctrl.ml" 140 3475 3475 "xenctrl.ml" 1 0 -1
+)
+"xenctrl.ml" 137 3377 3398 "xenctrl.ml" 137 3377 3404
+type(
+  handle
+)
+ident(
+  def handle "xenctrl.ml" 137 3377 3405 "xenctrl.ml" 138 3414 3473
+)
+"xenctrl.ml" 137 3377 3405 "xenctrl.ml" 137 3377 3406
+type(
+  domid
+)
+ident(
+  def n "xenctrl.ml" 137 3377 3407 "xenctrl.ml" 138 3414 3473
+)
+"xenctrl.ml" 137 3377 3407 "xenctrl.ml" 137 3377 3411
+type(
+  string
+)
+ident(
+  def uuid "xenctrl.ml" 138 3414 3415 "xenctrl.ml" 138 3414 3473
+)
+"xenctrl.ml" 138 3414 3415 "xenctrl.ml" 138 3414 3432
+type(
+  handle -> domid -> int array -> unit
+)
+ident(
+  int_ref _domain_sethandle "xenctrl.ml" 134 3256 3256 "xenctrl.ml" 135 3321 3375
+)
+"xenctrl.ml" 138 3414 3433 "xenctrl.ml" 138 3414 3439
+type(
+  handle
+)
+ident(
+  int_ref handle "xenctrl.ml" 137 3377 3398 "xenctrl.ml" 137 3377 3404
+)
+"xenctrl.ml" 138 3414 3440 "xenctrl.ml" 138 3414 3441
+type(
+  domid
+)
+ident(
+  int_ref n "xenctrl.ml" 137 3377 3405 "xenctrl.ml" 137 3377 3406
+)
+"xenctrl.ml" 138 3414 3443 "xenctrl.ml" 138 3414 3467
+type(
+  string -> int array
+)
+ident(
+  int_ref int_array_of_uuid_string "xenctrl.ml" 122 2809 2813 "xenctrl.ml" 122 2809 2837
+)
+"xenctrl.ml" 138 3414 3468 "xenctrl.ml" 138 3414 3472
+type(
+  string
+)
+ident(
+  int_ref uuid "xenctrl.ml" 137 3377 3407 "xenctrl.ml" 137 3377 3411
+)
+"xenctrl.ml" 138 3414 3442 "xenctrl.ml" 138 3414 3473
+call(
+  stack
+)
+type(
+  int array
+)
+"xenctrl.ml" 138 3414 3415 "xenctrl.ml" 138 3414 3473
+type(
+  unit
+)
+"xenctrl.ml" 154 4095 4099 "xenctrl.ml" 154 4095 4117
+type(
+  handle -> domid -> domaininfo list
+)
+ident(
+  def domain_getinfolist "xenctrl.ml" 163 4383 4383 "xenctrl.ml" 1 0 -1
+)
+"xenctrl.ml" 154 4095 4118 "xenctrl.ml" 154 4095 4124
+type(
+  handle
+)
+ident(
+  def handle "xenctrl.ml" 154 4095 4125 "xenctrl.ml" 161 4347 4381
+)
+"xenctrl.ml" 154 4095 4125 "xenctrl.ml" 154 4095 4137
+type(
+  domid
+)
+ident(
+  def first_domain "xenctrl.ml" 155 4140 4141 "xenctrl.ml" 161 4347 4381
+)
+"xenctrl.ml" 155 4140 4145 "xenctrl.ml" 155 4140 4147
+type(
+  int
+)
+ident(
+  def nb "xenctrl.ml" 156 4155 4156 "xenctrl.ml" 161 4347 4381
+)
+"xenctrl.ml" 155 4140 4150 "xenctrl.ml" 155 4140 4151
+type(
+  int
+)
+"xenctrl.ml" 156 4155 4160 "xenctrl.ml" 156 4155 4170
+type(
+  domaininfo list -> int
+)
+ident(
+  def last_domid "xenctrl.ml" 157 4200 4201 "xenctrl.ml" 161 4347 4381
+)
+"xenctrl.ml" 156 4155 4171 "xenctrl.ml" 156 4155 4172
+type(
+  domaininfo list
+)
+ident(
+  def l "xenctrl.ml" 156 4155 4175 "xenctrl.ml" 156 4155 4196
+)
+"xenctrl.ml" 156 4155 4176 "xenctrl.ml" 156 4155 4183
+type(
+  domaininfo list -> domaininfo
+)
+ident(
+  ext_ref List.hd
+)
+"xenctrl.ml" 156 4155 4184 "xenctrl.ml" 156 4155 4185
+type(
+  domaininfo list
+)
+ident(
+  int_ref l "xenctrl.ml" 156 4155 4171 "xenctrl.ml" 156 4155 4172
+)
+"xenctrl.ml" 156 4155 4175 "xenctrl.ml" 156 4155 4186
+call(
+  stack
+)
+type(
+  domaininfo
+)
+"xenctrl.ml" 156 4155 4175 "xenctrl.ml" 156 4155 4192
+type(
+  domid
+)
+"xenctrl.ml" 156 4155 4193 "xenctrl.ml" 156 4155 4194
+type(
+  domid -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"xenctrl.ml" 156 4155 4195 "xenctrl.ml" 156 4155 4196
+type(
+  int
+)
+"xenctrl.ml" 156 4155 4175 "xenctrl.ml" 156 4155 4196
+type(
+  int
+)
+"xenctrl.ml" 157 4200 4209 "xenctrl.ml" 157 4200 4218
+type(
+  domid -> domaininfo list
+)
+ident(
+  def __getlist "xenctrl.ml" 157 4200 4201 "xenctrl.ml" 161 4347 4381
+)
+"xenctrl.ml" 157 4200 4219 "xenctrl.ml" 157 4200 4223
+type(
+  domid
+)
+ident(
+  def from "xenctrl.ml" 158 4226 4228 "xenctrl.ml" 159 4274 4341
+)
+"xenctrl.ml" 158 4226 4232 "xenctrl.ml" 158 4226 4233
+type(
+  domaininfo list
+)
+ident(
+  def l "xenctrl.ml" 159 4274 4276 "xenctrl.ml" 159 4274 4341
+)
+"xenctrl.ml" 158 4226 4236 "xenctrl.ml" 158 4226 4255
+type(
+  handle -> domid -> int -> domaininfo list
+)
+ident(
+  int_ref _domain_getinfolist "xenctrl.ml" 151 3984 3984 "xenctrl.ml" 152 4056 4093
+)
+"xenctrl.ml" 158 4226 4256 "xenctrl.ml" 158 4226 4262
+type(
+  handle
+)
+ident(
+  int_ref handle "xenctrl.ml" 154 4095 4118 "xenctrl.ml" 154 4095 4124
+)
+"xenctrl.ml" 158 4226 4263 "xenctrl.ml" 158 4226 4267
+type(
+  domid
+)
+ident(
+  int_ref from "xenctrl.ml" 157 4200 4219 "xenctrl.ml" 157 4200 4223
+)
+"xenctrl.ml" 158 4226 4268 "xenctrl.ml" 158 4226 4270
+type(
+  int
+)
+ident(
+  int_ref nb "xenctrl.ml" 155 4140 4145 "xenctrl.ml" 155 4140 4147
+)
+"xenctrl.ml" 158 4226 4236 "xenctrl.ml" 158 4226 4270
+type(
+  domaininfo list
+)
+"xenctrl.ml" 159 4274 4280 "xenctrl.ml" 159 4274 4291
+type(
+  domaininfo list -> int
+)
+ident(
+  ext_ref List.length
+)
+"xenctrl.ml" 159 4274 4292 "xenctrl.ml" 159 4274 4293
+type(
+  domaininfo list
+)
+ident(
+  int_ref l "xenctrl.ml" 158 4226 4232 "xenctrl.ml" 158 4226 4233
+)
+"xenctrl.ml" 159 4274 4280 "xenctrl.ml" 159 4274 4293
+call(
+  stack
+)
+type(
+  int
+)
+"xenctrl.ml" 159 4274 4294 "xenctrl.ml" 159 4274 4295
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"xenctrl.ml" 159 4274 4296 "xenctrl.ml" 159 4274 4298
+type(
+  int
+)
+ident(
+  int_ref nb "xenctrl.ml" 155 4140 4145 "xenctrl.ml" 155 4140 4147
+)
+"xenctrl.ml" 159 4274 4280 "xenctrl.ml" 159 4274 4298
+type(
+  bool
+)
+"xenctrl.ml" 159 4274 4304 "xenctrl.ml" 159 4274 4313
+type(
+  domid -> domaininfo list
+)
+ident(
+  int_ref __getlist "xenctrl.ml" 157 4200 4209 "xenctrl.ml" 157 4200 4218
+)
+"xenctrl.ml" 159 4274 4315 "xenctrl.ml" 159 4274 4325
+type(
+  domaininfo list -> domid
+)
+ident(
+  int_ref last_domid "xenctrl.ml" 156 4155 4160 "xenctrl.ml" 156 4155 4170
+)
+"xenctrl.ml" 159 4274 4326 "xenctrl.ml" 159 4274 4327
+type(
+  domaininfo list
+)
+ident(
+  int_ref l "xenctrl.ml" 158 4226 4232 "xenctrl.ml" 158 4226 4233
+)
+"xenctrl.ml" 159 4274 4314 "xenctrl.ml" 159 4274 4328
+call(
+  stack
+)
+type(
+  domid
+)
+"xenctrl.ml" 159 4274 4304 "xenctrl.ml" 159 4274 4328
+call(
+  stack
+)
+type(
+  domaininfo list
+)
+"xenctrl.ml" 159 4274 4334 "xenctrl.ml" 159 4274 4336
+type(
+  domaininfo list
+)
+"xenctrl.ml" 159 4274 4276 "xenctrl.ml" 159 4274 4337
+type(
+  domaininfo list
+)
+"xenctrl.ml" 159 4274 4338 "xenctrl.ml" 159 4274 4339
+type(
+  domaininfo list -> domaininfo list -> domaininfo list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"xenctrl.ml" 159 4274 4340 "xenctrl.ml" 159 4274 4341
+type(
+  domaininfo list
+)
+ident(
+  int_ref l "xenctrl.ml" 158 4226 4232 "xenctrl.ml" 158 4226 4233
+)
+"xenctrl.ml" 159 4274 4276 "xenctrl.ml" 159 4274 4341
+call(
+  tail
+)
+type(
+  domaininfo list
+)
+"xenctrl.ml" 158 4226 4228 "xenctrl.ml" 159 4274 4341
+type(
+  domaininfo list
+)
+"xenctrl.ml" 161 4347 4348 "xenctrl.ml" 161 4347 4356
+type(
+  domaininfo list -> domaininfo list
+)
+ident(
+  ext_ref List.rev
+)
+"xenctrl.ml" 161 4347 4358 "xenctrl.ml" 161 4347 4367
+type(
+  domid -> domaininfo list
+)
+ident(
+  int_ref __getlist "xenctrl.ml" 157 4200 4209 "xenctrl.ml" 157 4200 4218
+)
+"xenctrl.ml" 161 4347 4368 "xenctrl.ml" 161 4347 4380
+type(
+  domid
+)
+ident(
+  int_ref first_domain "xenctrl.ml" 154 4095 4125 "xenctrl.ml" 154 4095 4137
+)
+"xenctrl.ml" 161 4347 4357 "xenctrl.ml" 161 4347 4381
+call(
+  stack
+)
+type(
+  domaininfo list
+)
+"xenctrl.ml" 161 4347 4348 "xenctrl.ml" 161 4347 4381
+call(
+  tail
+)
+type(
+  domaininfo list
+)
+"xenctrl.ml" 157 4200 4201 "xenctrl.ml" 161 4347 4381
+type(
+  domaininfo list
+)
+"xenctrl.ml" 156 4155 4156 "xenctrl.ml" 161 4347 4381
+type(
+  domaininfo list
+)
+"xenctrl.ml" 155 4140 4141 "xenctrl.ml" 161 4347 4381
+type(
+  domaininfo list
+)
+"xenctrl.ml" 265 8579 8583 "xenctrl.ml" 265 8579 8591
+type(
+  handle -> domid -> Unix.file_descr -> unit
+)
+ident(
+  def coredump "xenctrl.ml" 333 10306 10306 "xenctrl.ml" 1 0 -1
+)
+"xenctrl.ml" 265 8579 8592 "xenctrl.ml" 265 8579 8595
+type(
+  handle
+)
+ident(
+  def xch "xenctrl.ml" 265 8579 8596 "xenctrl.ml" 326 10203 10208
+)
+"xenctrl.ml" 265 8579 8596 "xenctrl.ml" 265 8579 8601
+type(
+  domid
+)
+ident(
+  def domid "xenctrl.ml" 265 8579 8602 "xenctrl.ml" 326 10203 10208
+)
+"xenctrl.ml" 265 8579 8602 "xenctrl.ml" 265 8579 8604
+type(
+  Unix.file_descr
+)
+ident(
+  def fd "xenctrl.ml" 266 8607 8608 "xenctrl.ml" 326 10203 10208
+)
+"xenctrl.ml" 266 8607 8612 "xenctrl.ml" 266 8607 8616
+type(
+  string -> unit
+)
+ident(
+  def dump "xenctrl.ml" 272 8744 8745 "xenctrl.ml" 326 10203 10208
+)
+"xenctrl.ml" 266 8607 8617 "xenctrl.ml" 266 8607 8618
+type(
+  string
+)
+ident(
+  def s "xenctrl.ml" 267 8621 8623 "xenctrl.ml" 269 8703 8737
+)
+"xenctrl.ml" 267 8621 8627 "xenctrl.ml" 267 8621 8629
+type(
+  int
+)
+ident(
+  def wd "xenctrl.ml" 268 8671 8673 "xenctrl.ml" 269 8703 8737
+)
+"xenctrl.ml" 267 8621 8632 "xenctrl.ml" 267 8621 8642
+type(
+  Unix.file_descr -> string -> int -> int -> int
+)
+ident(
+  ext_ref Unix.write
+)
+"xenctrl.ml" 267 8621 8643 "xenctrl.ml" 267 8621 8645
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref fd "xenctrl.ml" 265 8579 8602 "xenctrl.ml" 265 8579 8604
+)
+"xenctrl.ml" 267 8621 8646 "xenctrl.ml" 267 8621 8647
+type(
+  string
+)
+ident(
+  int_ref s "xenctrl.ml" 266 8607 8617 "xenctrl.ml" 266 8607 8618
+)
+"xenctrl.ml" 267 8621 8648 "xenctrl.ml" 267 8621 8649
+type(
+  int
+)
+"xenctrl.ml" 267 8621 8651 "xenctrl.ml" 267 8621 8664
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"xenctrl.ml" 267 8621 8665 "xenctrl.ml" 267 8621 8666
+type(
+  string
+)
+ident(
+  int_ref s "xenctrl.ml" 266 8607 8617 "xenctrl.ml" 266 8607 8618
+)
+"xenctrl.ml" 267 8621 8650 "xenctrl.ml" 267 8621 8667
+type(
+  int
+)
+"xenctrl.ml" 267 8621 8632 "xenctrl.ml" 267 8621 8667
+call(
+  stack
+)
+type(
+  int
+)
+"xenctrl.ml" 268 8671 8676 "xenctrl.ml" 268 8671 8678
+type(
+  int
+)
+ident(
+  int_ref wd "xenctrl.ml" 267 8621 8627 "xenctrl.ml" 267 8621 8629
+)
+"xenctrl.ml" 268 8671 8679 "xenctrl.ml" 268 8671 8681
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"xenctrl.ml" 268 8671 8682 "xenctrl.ml" 268 8671 8695
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"xenctrl.ml" 268 8671 8696 "xenctrl.ml" 268 8671 8697
+type(
+  string
+)
+ident(
+  int_ref s "xenctrl.ml" 266 8607 8617 "xenctrl.ml" 266 8607 8618
+)
+"xenctrl.ml" 268 8671 8682 "xenctrl.ml" 268 8671 8697
+type(
+  int
+)
+"xenctrl.ml" 268 8671 8676 "xenctrl.ml" 268 8671 8697
+type(
+  bool
+)
+"xenctrl.ml" 269 8703 8706 "xenctrl.ml" 269 8703 8714
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"xenctrl.ml" 269 8703 8715 "xenctrl.ml" 269 8703 8736
+type(
+  string
+)
+"xenctrl.ml" 269 8703 8706 "xenctrl.ml" 269 8703 8736
+call(
+  tail
+)
+type(
+  unit
+)
+"xenctrl.ml" 268 8671 8673 "xenctrl.ml" 269 8703 8737
+type(
+  unit
+)
+"xenctrl.ml" 267 8621 8623 "xenctrl.ml" 269 8703 8737
+type(
+  unit
+)
+"xenctrl.ml" 272 8744 8749 "xenctrl.ml" 272 8744 8753
+type(
+  domaininfo
+)
+ident(
+  def info "xenctrl.ml" 274 8785 8786 "xenctrl.ml" 326 10203 10208
+)
+"xenctrl.ml" 272 8744 8756 "xenctrl.ml" 272 8744 8770
+type(
+  handle -> domid -> domaininfo
+)
+ident(
+  int_ref domain_getinfo "xenctrl.ml" 163 4383 4383 "xenctrl.ml" 163 4383 4463
+)
+"xenctrl.ml" 272 8744 8771 "xenctrl.ml" 272 8744 8774
+type(
+  handle
+)
+ident(
+  int_ref xch "xenctrl.ml" 265 8579 8592 "xenctrl.ml" 265 8579 8595
+)
+"xenctrl.ml" 272 8744 8775 "xenctrl.ml" 272 8744 8780
+type(
+  domid
+)
+ident(
+  int_ref domid "xenctrl.ml" 265 8579 8596 "xenctrl.ml" 265 8579 8601
+)
+"xenctrl.ml" 272 8744 8756 "xenctrl.ml" 272 8744 8780
+type(
+  domaininfo
+)
+"xenctrl.ml" 274 8785 8790 "xenctrl.ml" 274 8785 8797
+type(
+  nativeint
+)
+ident(
+  def nrpages "xenctrl.ml" 275 8827 8828 "xenctrl.ml" 326 10203 10208
+)
+"xenctrl.ml" 274 8785 8800 "xenctrl.ml" 274 8785 8804
+type(
+  domaininfo
+)
+ident(
+  int_ref info "xenctrl.ml" 272 8744 8749 "xenctrl.ml" 272 8744 8753
+)
+"xenctrl.ml" 274 8785 8800 "xenctrl.ml" 274 8785 8823
+type(
+  nativeint
+)
+"xenctrl.ml" 275 8827 8832 "xenctrl.ml" 275 8827 8836
+type(
+  string option array
+)
+ident(
+  def ctxt "xenctrl.ml" 276 8875 8876 "xenctrl.ml" 326 10203 10208
+)
+"xenctrl.ml" 275 8827 8839 "xenctrl.ml" 275 8827 8849
+type(
+  int -> string option -> string option array
+)
+ident(
+  ext_ref Array.make
+)
+"xenctrl.ml" 275 8827 8850 "xenctrl.ml" 275 8827 8854
+type(
+  domaininfo
+)
+ident(
+  int_ref info "xenctrl.ml" 272 8744 8749 "xenctrl.ml" 272 8744 8753
+)
+"xenctrl.ml" 275 8827 8850 "xenctrl.ml" 275 8827 8866
+type(
+  int
+)
+"xenctrl.ml" 275 8827 8867 "xenctrl.ml" 275 8827 8871
+type(
+  string option
+)
+"xenctrl.ml" 275 8827 8839 "xenctrl.ml" 275 8827 8871
+type(
+  string option array
+)
+"xenctrl.ml" 276 8875 8880 "xenctrl.ml" 276 8875 8888
+type(
+  int ref
+)
+ident(
+  def nr_vcpus "xenctrl.ml" 277 8900 8901 "xenctrl.ml" 326 10203 10208
+)
+"xenctrl.ml" 276 8875 8891 "xenctrl.ml" 276 8875 8894
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"xenctrl.ml" 276 8875 8895 "xenctrl.ml" 276 8875 8896
+type(
+  int
+)
+"xenctrl.ml" 276 8875 8891 "xenctrl.ml" 276 8875 8896
+type(
+  int ref
+)
+"xenctrl.ml" 277 8900 8909 "xenctrl.ml" 277 8900 8910
+type(
+  int
+)
+"xenctrl.ml" 277 8900 8914 "xenctrl.ml" 277 8900 8918
+type(
+  domaininfo
+)
+ident(
+  int_ref info "xenctrl.ml" 272 8744 8749 "xenctrl.ml" 272 8744 8753
+)
+"xenctrl.ml" 277 8900 8914 "xenctrl.ml" 277 8900 8930
+type(
+  int
+)
+"xenctrl.ml" 277 8900 8931 "xenctrl.ml" 277 8900 8932
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"xenctrl.ml" 277 8900 8933 "xenctrl.ml" 277 8900 8934
+type(
+  int
+)
+"xenctrl.ml" 277 8900 8914 "xenctrl.ml" 277 8900 8934
+type(
+  int
+)
+"xenctrl.ml" 279 8939 8941 "xenctrl.ml" 279 8939 8945
+type(
+  string option array
+)
+ident(
+  int_ref ctxt "xenctrl.ml" 275 8827 8832 "xenctrl.ml" 275 8827 8836
+)
+"xenctrl.ml" 279 8939 8947 "xenctrl.ml" 279 8939 8948
+type(
+  int
+)
+ident(
+  int_ref i "xenctrl.ml" 277 8900 8901 "xenctrl.ml" 284 9046 9051
+)
+"xenctrl.ml" 280 8957 8964 "xenctrl.ml" 280 8957 8965
+type(
+  string
+)
+ident(
+  def v "xenctrl.ml" 281 9000 9003 "xenctrl.ml" 282 9018 9027
+)
+"xenctrl.ml" 280 8957 8968 "xenctrl.ml" 280 8957 8984
+type(
+  handle -> domid -> int -> string
+)
+ident(
+  int_ref vcpu_context_get "xenctrl.ml" 180 5145 5145 "xenctrl.ml" 181 5205 5240
+)
+"xenctrl.ml" 280 8957 8985 "xenctrl.ml" 280 8957 8988
+type(
+  handle
+)
+ident(
+  int_ref xch "xenctrl.ml" 265 8579 8592 "xenctrl.ml" 265 8579 8595
+)
+"xenctrl.ml" 280 8957 8989 "xenctrl.ml" 280 8957 8994
+type(
+  domid
+)
+ident(
+  int_ref domid "xenctrl.ml" 265 8579 8596 "xenctrl.ml" 265 8579 8601
+)
+"xenctrl.ml" 280 8957 8995 "xenctrl.ml" 280 8957 8996
+type(
+  int
+)
+ident(
+  int_ref i "xenctrl.ml" 277 8900 8901 "xenctrl.ml" 284 9046 9051
+)
+"xenctrl.ml" 280 8957 8968 "xenctrl.ml" 280 8957 8996
+type(
+  string
+)
+"xenctrl.ml" 281 9000 9003 "xenctrl.ml" 281 9000 9007
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"xenctrl.ml" 281 9000 9008 "xenctrl.ml" 281 9000 9016
+type(
+  int ref
+)
+ident(
+  int_ref nr_vcpus "xenctrl.ml" 276 8875 8880 "xenctrl.ml" 276 8875 8888
+)
+"xenctrl.ml" 281 9000 9003 "xenctrl.ml" 281 9000 9016
+type(
+  unit
+)
+"xenctrl.ml" 282 9018 9026 "xenctrl.ml" 282 9018 9027
+type(
+  string
+)
+ident(
+  int_ref v "xenctrl.ml" 280 8957 8964 "xenctrl.ml" 280 8957 8965
+)
+"xenctrl.ml" 282 9018 9021 "xenctrl.ml" 282 9018 9027
+type(
+  string option
+)
+"xenctrl.ml" 281 9000 9003 "xenctrl.ml" 282 9018 9027
+type(
+  string option
+)
+"xenctrl.ml" 280 8957 8960 "xenctrl.ml" 282 9018 9027
+type(
+  string option
+)
+"xenctrl.ml" 283 9028 9036 "xenctrl.ml" 283 9028 9037
+type(
+  exn
+)
+"xenctrl.ml" 283 9028 9041 "xenctrl.ml" 283 9028 9045
+type(
+  string option
+)
+"xenctrl.ml" 279 8939 8953 "xenctrl.ml" 283 9028 9045
+type(
+  string option
+)
+"xenctrl.ml" 279 8939 8941 "xenctrl.ml" 283 9028 9045
+type(
+  unit
+)
+"xenctrl.ml" 277 8900 8901 "xenctrl.ml" 284 9046 9051
+type(
+  unit
+)
+"xenctrl.ml" 287 9101 9106 "xenctrl.ml" 287 9101 9117
+type(
+  int64
+)
+ident(
+  def page_offset "xenctrl.ml" 298 9336 9337 "xenctrl.ml" 326 10203 10208
+)
+"xenctrl.ml" 288 9120 9122 "xenctrl.ml" 288 9120 9131
+type(
+  int64 -> int64 -> int64
+)
+ident(
+  ext_ref Int64.add
+)
+"xenctrl.ml" 289 9132 9136 "xenctrl.ml" 289 9132 9148
+type(
+  int -> int64
+)
+ident(
+  ext_ref Int64.of_int
+)
+"xenctrl.ml" 289 9132 9150 "xenctrl.ml" 289 9132 9168
+type(
+  unit -> int
+)
+ident(
+  int_ref sizeof_core_header "xenctrl.ml" 101 2104 2104 "xenctrl.ml" 102 2145 2179
+)
+"xenctrl.ml" 289 9132 9169 "xenctrl.ml" 289 9132 9171
+type(
+  unit
+)
+"xenctrl.ml" 289 9132 9150 "xenctrl.ml" 289 9132 9171
+type(
+  int
+)
+"xenctrl.ml" 289 9132 9172 "xenctrl.ml" 289 9132 9173
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"xenctrl.ml" 290 9174 9179 "xenctrl.ml" 290 9174 9204
+type(
+  unit -> int
+)
+ident(
+  int_ref sizeof_vcpu_guest_context "xenctrl.ml" 103 2180 2180 "xenctrl.ml" 104 2228 2269
+)
+"xenctrl.ml" 290 9174 9205 "xenctrl.ml" 290 9174 9207
+type(
+  unit
+)
+"xenctrl.ml" 290 9174 9179 "xenctrl.ml" 290 9174 9207
+type(
+  int
+)
+"xenctrl.ml" 290 9174 9208 "xenctrl.ml" 290 9174 9209
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"xenctrl.ml" 290 9174 9210 "xenctrl.ml" 290 9174 9211
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"xenctrl.ml" 290 9174 9211 "xenctrl.ml" 290 9174 9219
+type(
+  int ref
+)
+ident(
+  int_ref nr_vcpus "xenctrl.ml" 276 8875 8880 "xenctrl.ml" 276 8875 8888
+)
+"xenctrl.ml" 290 9174 9210 "xenctrl.ml" 290 9174 9219
+type(
+  int
+)
+"xenctrl.ml" 290 9174 9178 "xenctrl.ml" 290 9174 9220
+type(
+  int
+)
+"xenctrl.ml" 289 9132 9149 "xenctrl.ml" 290 9174 9221
+type(
+  int
+)
+"xenctrl.ml" 289 9132 9135 "xenctrl.ml" 290 9174 9222
+type(
+  int64
+)
+"xenctrl.ml" 291 9223 9227 "xenctrl.ml" 291 9223 9245
+type(
+  nativeint -> int64
+)
+ident(
+  ext_ref Int64.of_nativeint
+)
+"xenctrl.ml" 292 9248 9252 "xenctrl.ml" 292 9248 9265
+type(
+  nativeint -> nativeint -> nativeint
+)
+ident(
+  ext_ref Nativeint.mul
+)
+"xenctrl.ml" 293 9266 9272 "xenctrl.ml" 293 9266 9288
+type(
+  int -> nativeint
+)
+ident(
+  ext_ref Nativeint.of_int
+)
+"xenctrl.ml" 293 9266 9290 "xenctrl.ml" 293 9266 9304
+type(
+  unit -> int
+)
+ident(
+  int_ref sizeof_xen_pfn "xenctrl.ml" 105 2270 2270 "xenctrl.ml" 105 2270 2330
+)
+"xenctrl.ml" 293 9266 9305 "xenctrl.ml" 293 9266 9307
+type(
+  unit
+)
+"xenctrl.ml" 293 9266 9289 "xenctrl.ml" 293 9266 9308
+type(
+  int
+)
+"xenctrl.ml" 293 9266 9271 "xenctrl.ml" 293 9266 9309
+type(
+  nativeint
+)
+"xenctrl.ml" 294 9310 9315 "xenctrl.ml" 294 9310 9322
+type(
+  nativeint
+)
+ident(
+  int_ref nrpages "xenctrl.ml" 274 8785 8790 "xenctrl.ml" 274 8785 8797
+)
+"xenctrl.ml" 291 9223 9246 "xenctrl.ml" 294 9310 9323
+type(
+  nativeint
+)
+"xenctrl.ml" 291 9223 9226 "xenctrl.ml" 295 9324 9329
+type(
+  int64
+)
+"xenctrl.ml" 288 9120 9122 "xenctrl.ml" 295 9324 9329
+type(
+  int64
+)
+"xenctrl.ml" 298 9336 9341 "xenctrl.ml" 298 9336 9347
+type(
+  core_header
+)
+ident(
+  def header "xenctrl.ml" 308 9662 9663 "xenctrl.ml" 326 10203 10208
+)
+"xenctrl.ml" 299 9352 9369 "xenctrl.ml" 299 9352 9373
+type(
+  domaininfo
+)
+ident(
+  int_ref info "xenctrl.ml" 272 8744 8749 "xenctrl.ml" 272 8744 8753
+)
+"xenctrl.ml" 299 9352 9369 "xenctrl.ml" 299 9352 9383
+type(
+  bool
+)
+"xenctrl.ml" 299 9352 9389 "xenctrl.ml" 299 9352 9398
+type(
+  core_magic
+)
+"xenctrl.ml" 299 9352 9404 "xenctrl.ml" 299 9352 9412
+type(
+  core_magic
+)
+"xenctrl.ml" 299 9352 9366 "xenctrl.ml" 299 9352 9412
+type(
+  core_magic
+)
+"xenctrl.ml" 300 9414 9431 "xenctrl.ml" 300 9414 9432
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"xenctrl.ml" 300 9414 9432 "xenctrl.ml" 300 9414 9440
+type(
+  int ref
+)
+ident(
+  int_ref nr_vcpus "xenctrl.ml" 276 8875 8880 "xenctrl.ml" 276 8875 8888
+)
+"xenctrl.ml" 300 9414 9431 "xenctrl.ml" 300 9414 9440
+type(
+  int
+)
+"xenctrl.ml" 301 9442 9459 "xenctrl.ml" 301 9442 9466
+type(
+  nativeint
+)
+ident(
+  int_ref nrpages "xenctrl.ml" 274 8785 8790 "xenctrl.ml" 274 8785 8797
+)
+"xenctrl.ml" 302 9468 9488 "xenctrl.ml" 302 9468 9500
+type(
+  int -> int64
+)
+ident(
+  ext_ref Int64.of_int
+)
+"xenctrl.ml" 302 9468 9502 "xenctrl.ml" 302 9468 9520
+type(
+  unit -> int
+)
+ident(
+  int_ref sizeof_core_header "xenctrl.ml" 101 2104 2104 "xenctrl.ml" 102 2145 2179
+)
+"xenctrl.ml" 302 9468 9521 "xenctrl.ml" 302 9468 9523
+type(
+  unit
+)
+"xenctrl.ml" 302 9468 9501 "xenctrl.ml" 302 9468 9524
+type(
+  int
+)
+"xenctrl.ml" 302 9468 9488 "xenctrl.ml" 302 9468 9524
+type(
+  int64
+)
+"xenctrl.ml" 303 9526 9547 "xenctrl.ml" 303 9526 9559
+type(
+  int -> int64
+)
+ident(
+  ext_ref Int64.of_int
+)
+"xenctrl.ml" 303 9526 9561 "xenctrl.ml" 303 9526 9579
+type(
+  unit -> int
+)
+ident(
+  int_ref sizeof_core_header "xenctrl.ml" 101 2104 2104 "xenctrl.ml" 102 2145 2179
+)
+"xenctrl.ml" 303 9526 9580 "xenctrl.ml" 303 9526 9582
+type(
+  unit
+)
+"xenctrl.ml" 303 9526 9561 "xenctrl.ml" 303 9526 9582
+type(
+  int
+)
+"xenctrl.ml" 304 9583 9588 "xenctrl.ml" 304 9583 9589
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"xenctrl.ml" 304 9583 9590 "xenctrl.ml" 304 9583 9615
+type(
+  unit -> int
+)
+ident(
+  int_ref sizeof_vcpu_guest_context "xenctrl.ml" 103 2180 2180 "xenctrl.ml" 104 2228 2269
+)
+"xenctrl.ml" 304 9583 9616 "xenctrl.ml" 304 9583 9618
+type(
+  unit
+)
+"xenctrl.ml" 304 9583 9590 "xenctrl.ml" 304 9583 9618
+type(
+  int
+)
+"xenctrl.ml" 303 9526 9560 "xenctrl.ml" 304 9583 9619
+type(
+  int
+)
+"xenctrl.ml" 303 9526 9547 "xenctrl.ml" 304 9583 9619
+type(
+  int64
+)
+"xenctrl.ml" 305 9621 9642 "xenctrl.ml" 305 9621 9653
+type(
+  int64
+)
+ident(
+  int_ref page_offset "xenctrl.ml" 287 9101 9106 "xenctrl.ml" 287 9101 9117
+)
+"xenctrl.ml" 298 9336 9350 "xenctrl.ml" 306 9655 9657
+type(
+  core_header
+)
+"xenctrl.ml" 308 9662 9663 "xenctrl.ml" 308 9662 9667
+type(
+  string -> unit
+)
+ident(
+  int_ref dump "xenctrl.ml" 266 8607 8612 "xenctrl.ml" 266 8607 8616
+)
+"xenctrl.ml" 308 9662 9669 "xenctrl.ml" 308 9662 9689
+type(
+  core_header -> string
+)
+ident(
+  int_ref marshall_core_header "xenctrl.ml" 262 8480 8480 "xenctrl.ml" 262 8480 8562
+)
+"xenctrl.ml" 308 9662 9690 "xenctrl.ml" 308 9662 9696
+type(
+  core_header
+)
+ident(
+  int_ref header "xenctrl.ml" 298 9336 9341 "xenctrl.ml" 298 9336 9347
+)
+"xenctrl.ml" 308 9662 9668 "xenctrl.ml" 308 9662 9697
+type(
+  string
+)
+"xenctrl.ml" 308 9662 9663 "xenctrl.ml" 308 9662 9697
+call(
+  stack
+)
+type(
+  unit
+)
+"xenctrl.ml" 309 9699 9708 "xenctrl.ml" 309 9699 9709
+type(
+  int
+)
+"xenctrl.ml" 309 9699 9713 "xenctrl.ml" 309 9699 9717
+type(
+  domaininfo
+)
+ident(
+  int_ref info "xenctrl.ml" 272 8744 8749 "xenctrl.ml" 272 8744 8753
+)
+"xenctrl.ml" 309 9699 9713 "xenctrl.ml" 309 9699 9729
+type(
+  int
+)
+"xenctrl.ml" 309 9699 9730 "xenctrl.ml" 309 9699 9731
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"xenctrl.ml" 309 9699 9732 "xenctrl.ml" 309 9699 9733
+type(
+  int
+)
+"xenctrl.ml" 309 9699 9713 "xenctrl.ml" 309 9699 9733
+type(
+  int
+)
+"xenctrl.ml" 311 9738 9746 "xenctrl.ml" 311 9738 9750
+type(
+  string option array
+)
+ident(
+  int_ref ctxt "xenctrl.ml" 275 8827 8832 "xenctrl.ml" 275 8827 8836
+)
+"xenctrl.ml" 311 9738 9752 "xenctrl.ml" 311 9738 9753
+type(
+  int
+)
+ident(
+  int_ref i "xenctrl.ml" 309 9699 9700 "xenctrl.ml" 314 9806 9811
+)
+"xenctrl.ml" 311 9738 9746 "xenctrl.ml" 311 9738 9754
+type(
+  string option
+)
+"xenctrl.ml" 312 9760 9764 "xenctrl.ml" 312 9760 9768
+type(
+  string option
+)
+"xenctrl.ml" 312 9760 9772 "xenctrl.ml" 312 9760 9774
+type(
+  unit
+)
+"xenctrl.ml" 313 9775 9784 "xenctrl.ml" 313 9775 9790
+type(
+  string
+)
+ident(
+  def ctxt_i "xenctrl.ml" 313 9775 9794 "xenctrl.ml" 313 9775 9805
+)
+"xenctrl.ml" 313 9775 9779 "xenctrl.ml" 313 9775 9790
+type(
+  string option
+)
+"xenctrl.ml" 313 9775 9794 "xenctrl.ml" 313 9775 9798
+type(
+  string -> unit
+)
+ident(
+  int_ref dump "xenctrl.ml" 266 8607 8612 "xenctrl.ml" 266 8607 8616
+)
+"xenctrl.ml" 313 9775 9799 "xenctrl.ml" 313 9775 9805
+type(
+  string
+)
+ident(
+  int_ref ctxt_i "xenctrl.ml" 313 9775 9784 "xenctrl.ml" 313 9775 9790
+)
+"xenctrl.ml" 313 9775 9794 "xenctrl.ml" 313 9775 9805
+call(
+  stack
+)
+type(
+  unit
+)
+"xenctrl.ml" 311 9738 9740 "xenctrl.ml" 313 9775 9805
+type(
+  unit
+)
+"xenctrl.ml" 309 9699 9700 "xenctrl.ml" 314 9806 9811
+type(
+  unit
+)
+"xenctrl.ml" 315 9813 9818 "xenctrl.ml" 315 9813 9822
+type(
+  nativeint array
+)
+ident(
+  def pfns "xenctrl.ml" 316 9866 9867 "xenctrl.ml" 326 10203 10208
+)
+"xenctrl.ml" 315 9813 9825 "xenctrl.ml" 315 9813 9844
+type(
+  handle -> domid -> nativeint -> nativeint array
+)
+ident(
+  int_ref domain_get_pfn_list "xenctrl.ml" 230 7353 7353 "xenctrl.ml" 231 7431 7469
+)
+"xenctrl.ml" 315 9813 9845 "xenctrl.ml" 315 9813 9848
+type(
+  handle
+)
+ident(
+  int_ref xch "xenctrl.ml" 265 8579 8592 "xenctrl.ml" 265 8579 8595
+)
+"xenctrl.ml" 315 9813 9849 "xenctrl.ml" 315 9813 9854
+type(
+  domid
+)
+ident(
+  int_ref domid "xenctrl.ml" 265 8579 8596 "xenctrl.ml" 265 8579 8601
+)
+"xenctrl.ml" 315 9813 9855 "xenctrl.ml" 315 9813 9862
+type(
+  nativeint
+)
+ident(
+  int_ref nrpages "xenctrl.ml" 274 8785 8790 "xenctrl.ml" 274 8785 8797
+)
+"xenctrl.ml" 315 9813 9825 "xenctrl.ml" 315 9813 9862
+type(
+  nativeint array
+)
+"xenctrl.ml" 316 9866 9870 "xenctrl.ml" 316 9866 9882
+type(
+  nativeint array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"xenctrl.ml" 316 9866 9883 "xenctrl.ml" 316 9866 9887
+type(
+  nativeint array
+)
+ident(
+  int_ref pfns "xenctrl.ml" 315 9813 9818 "xenctrl.ml" 315 9813 9822
+)
+"xenctrl.ml" 316 9866 9870 "xenctrl.ml" 316 9866 9887
+type(
+  int
+)
+"xenctrl.ml" 316 9866 9888 "xenctrl.ml" 316 9866 9890
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"xenctrl.ml" 316 9866 9891 "xenctrl.ml" 316 9866 9907
+type(
+  nativeint -> int
+)
+ident(
+  ext_ref Nativeint.to_int
+)
+"xenctrl.ml" 316 9866 9908 "xenctrl.ml" 316 9866 9915
+type(
+  nativeint
+)
+ident(
+  int_ref nrpages "xenctrl.ml" 274 8785 8790 "xenctrl.ml" 274 8785 8797
+)
+"xenctrl.ml" 316 9866 9891 "xenctrl.ml" 316 9866 9915
+type(
+  int
+)
+"xenctrl.ml" 316 9866 9870 "xenctrl.ml" 316 9866 9915
+type(
+  bool
+)
+"xenctrl.ml" 317 9921 9923 "xenctrl.ml" 317 9921 9931
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"xenctrl.ml" 317 9921 9932 "xenctrl.ml" 317 9921 9967
+type(
+  string
+)
+"xenctrl.ml" 317 9921 9923 "xenctrl.ml" 317 9921 9967
+call(
+  stack
+)
+type(
+  unit
+)
+"xenctrl.ml" 316 9866 9867 "xenctrl.ml" 317 9921 9967
+type(
+  unit
+)
+"xenctrl.ml" 319 9970 9975 "xenctrl.ml" 319 9970 9984
+type(
+  int
+)
+ident(
+  def page_size "xenctrl.ml" 320 10013 10014 "xenctrl.ml" 326 10203 10208
+)
+"xenctrl.ml" 319 9970 9987 "xenctrl.ml" 319 9970 10006
+type(
+  unit -> int
+)
+ident(
+  ext_ref Xenmmap.getpagesize
+)
+"xenctrl.ml" 319 9970 10007 "xenctrl.ml" 319 9970 10009
+type(
+  unit
+)
+"xenctrl.ml" 319 9970 9987 "xenctrl.ml" 319 9970 10009
+type(
+  int
+)
+"xenctrl.ml" 320 10013 10022 "xenctrl.ml" 320 10013 10023
+type(
+  int
+)
+"xenctrl.ml" 320 10013 10027 "xenctrl.ml" 320 10013 10043
+type(
+  nativeint -> int
+)
+ident(
+  ext_ref Nativeint.to_int
+)
+"xenctrl.ml" 320 10013 10044 "xenctrl.ml" 320 10013 10051
+type(
+  nativeint
+)
+ident(
+  int_ref nrpages "xenctrl.ml" 274 8785 8790 "xenctrl.ml" 274 8785 8797
+)
+"xenctrl.ml" 320 10013 10027 "xenctrl.ml" 320 10013 10051
+type(
+  int
+)
+"xenctrl.ml" 320 10013 10052 "xenctrl.ml" 320 10013 10053
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"xenctrl.ml" 320 10013 10054 "xenctrl.ml" 320 10013 10055
+type(
+  int
+)
+"xenctrl.ml" 320 10013 10027 "xenctrl.ml" 320 10013 10055
+type(
+  int
+)
+"xenctrl.ml" 322 10060 10066 "xenctrl.ml" 322 10060 10070
+type(
+  Xenmmap.mmap_interface
+)
+ident(
+  def page "xenctrl.ml" 323 10123 10125 "xenctrl.ml" 325 10191 10202
+)
+"xenctrl.ml" 322 10060 10073 "xenctrl.ml" 322 10060 10090
+type(
+  handle -> domid -> int -> nativeint -> Xenmmap.mmap_interface
+)
+ident(
+  int_ref map_foreign_range "xenctrl.ml" 226 7203 7203 "xenctrl.ml" 228 7318 7351
+)
+"xenctrl.ml" 322 10060 10091 "xenctrl.ml" 322 10060 10094
+type(
+  handle
+)
+ident(
+  int_ref xch "xenctrl.ml" 265 8579 8592 "xenctrl.ml" 265 8579 8595
+)
+"xenctrl.ml" 322 10060 10095 "xenctrl.ml" 322 10060 10100
+type(
+  domid
+)
+ident(
+  int_ref domid "xenctrl.ml" 265 8579 8596 "xenctrl.ml" 265 8579 8601
+)
+"xenctrl.ml" 322 10060 10101 "xenctrl.ml" 322 10060 10110
+type(
+  int
+)
+ident(
+  int_ref page_size "xenctrl.ml" 319 9970 9975 "xenctrl.ml" 319 9970 9984
+)
+"xenctrl.ml" 322 10060 10111 "xenctrl.ml" 322 10060 10115
+type(
+  nativeint array
+)
+ident(
+  int_ref pfns "xenctrl.ml" 315 9813 9818 "xenctrl.ml" 315 9813 9822
+)
+"xenctrl.ml" 322 10060 10117 "xenctrl.ml" 322 10060 10118
+type(
+  int
+)
+ident(
+  int_ref i "xenctrl.ml" 320 10013 10014 "xenctrl.ml" 326 10203 10208
+)
+"xenctrl.ml" 322 10060 10111 "xenctrl.ml" 322 10060 10119
+type(
+  nativeint
+)
+"xenctrl.ml" 322 10060 10073 "xenctrl.ml" 322 10060 10119
+type(
+  Xenmmap.mmap_interface
+)
+"xenctrl.ml" 323 10123 10129 "xenctrl.ml" 323 10123 10133
+type(
+  string
+)
+ident(
+  def data "xenctrl.ml" 324 10169 10171 "xenctrl.ml" 325 10191 10202
+)
+"xenctrl.ml" 323 10123 10136 "xenctrl.ml" 323 10123 10148
+type(
+  Xenmmap.mmap_interface -> int -> int -> string
+)
+ident(
+  ext_ref Xenmmap.read
+)
+"xenctrl.ml" 323 10123 10149 "xenctrl.ml" 323 10123 10153
+type(
+  Xenmmap.mmap_interface
+)
+ident(
+  int_ref page "xenctrl.ml" 322 10060 10066 "xenctrl.ml" 322 10060 10070
+)
+"xenctrl.ml" 323 10123 10154 "xenctrl.ml" 323 10123 10155
+type(
+  int
+)
+"xenctrl.ml" 323 10123 10156 "xenctrl.ml" 323 10123 10165
+type(
+  int
+)
+ident(
+  int_ref page_size "xenctrl.ml" 319 9970 9975 "xenctrl.ml" 319 9970 9984
+)
+"xenctrl.ml" 323 10123 10136 "xenctrl.ml" 323 10123 10165
+type(
+  string
+)
+"xenctrl.ml" 324 10169 10171 "xenctrl.ml" 324 10169 10184
+type(
+  Xenmmap.mmap_interface -> unit
+)
+ident(
+  ext_ref Xenmmap.unmap
+)
+"xenctrl.ml" 324 10169 10185 "xenctrl.ml" 324 10169 10189
+type(
+  Xenmmap.mmap_interface
+)
+ident(
+  int_ref page "xenctrl.ml" 322 10060 10066 "xenctrl.ml" 322 10060 10070
+)
+"xenctrl.ml" 324 10169 10171 "xenctrl.ml" 324 10169 10189
+type(
+  unit
+)
+"xenctrl.ml" 325 10191 10193 "xenctrl.ml" 325 10191 10197
+type(
+  string -> unit
+)
+ident(
+  int_ref dump "xenctrl.ml" 266 8607 8612 "xenctrl.ml" 266 8607 8616
+)
+"xenctrl.ml" 325 10191 10198 "xenctrl.ml" 325 10191 10202
+type(
+  string
+)
+ident(
+  int_ref data "xenctrl.ml" 323 10123 10129 "xenctrl.ml" 323 10123 10133
+)
+"xenctrl.ml" 325 10191 10193 "xenctrl.ml" 325 10191 10202
+call(
+  stack
+)
+type(
+  unit
+)
+"xenctrl.ml" 324 10169 10171 "xenctrl.ml" 325 10191 10202
+type(
+  unit
+)
+"xenctrl.ml" 323 10123 10125 "xenctrl.ml" 325 10191 10202
+type(
+  unit
+)
+"xenctrl.ml" 322 10060 10062 "xenctrl.ml" 325 10191 10202
+type(
+  unit
+)
+"xenctrl.ml" 320 10013 10014 "xenctrl.ml" 326 10203 10208
+type(
+  unit
+)
+"xenctrl.ml" 319 9970 9971 "xenctrl.ml" 326 10203 10208
+type(
+  unit
+)
+"xenctrl.ml" 316 9866 9867 "xenctrl.ml" 326 10203 10208
+type(
+  unit
+)
+"xenctrl.ml" 315 9813 9814 "xenctrl.ml" 326 10203 10208
+type(
+  unit
+)
+"xenctrl.ml" 309 9699 9700 "xenctrl.ml" 326 10203 10208
+type(
+  unit
+)
+"xenctrl.ml" 308 9662 9663 "xenctrl.ml" 326 10203 10208
+type(
+  unit
+)
+"xenctrl.ml" 298 9336 9337 "xenctrl.ml" 326 10203 10208
+type(
+  unit
+)
+"xenctrl.ml" 287 9101 9102 "xenctrl.ml" 326 10203 10208
+type(
+  unit
+)
+"xenctrl.ml" 277 8900 8901 "xenctrl.ml" 326 10203 10208
+type(
+  unit
+)
+"xenctrl.ml" 276 8875 8876 "xenctrl.ml" 326 10203 10208
+type(
+  unit
+)
+"xenctrl.ml" 275 8827 8828 "xenctrl.ml" 326 10203 10208
+type(
+  unit
+)
+"xenctrl.ml" 274 8785 8786 "xenctrl.ml" 326 10203 10208
+type(
+  unit
+)
+"xenctrl.ml" 272 8744 8745 "xenctrl.ml" 326 10203 10208
+type(
+  unit
+)
+"xenctrl.ml" 266 8607 8608 "xenctrl.ml" 326 10203 10208
+type(
+  unit
+)
+"xenctrl.ml" 334 10367 10371 "xenctrl.ml" 334 10367 10383
+type(
+  int64 -> int64
+)
+ident(
+  def pages_to_mib "xenctrl.ml" 336 10430 10430 "xenctrl.ml" 1 0 -1
+)
+"xenctrl.ml" 334 10367 10384 "xenctrl.ml" 334 10367 10389
+type(
+  int64
+)
+ident(
+  def pages "xenctrl.ml" 334 10367 10392 "xenctrl.ml" 334 10367 10428
+)
+"xenctrl.ml" 334 10367 10392 "xenctrl.ml" 334 10367 10401
+type(
+  int64 -> int64 -> int64
+)
+ident(
+  ext_ref Int64.div
+)
+"xenctrl.ml" 334 10367 10403 "xenctrl.ml" 334 10367 10415
+type(
+  int64 -> int64
+)
+ident(
+  int_ref pages_to_kib "xenctrl.ml" 333 10306 10306 "xenctrl.ml" 333 10306 10366
+)
+"xenctrl.ml" 334 10367 10416 "xenctrl.ml" 334 10367 10421
+type(
+  int64
+)
+ident(
+  int_ref pages "xenctrl.ml" 334 10367 10384 "xenctrl.ml" 334 10367 10389
+)
+"xenctrl.ml" 334 10367 10402 "xenctrl.ml" 334 10367 10422
+type(
+  int64
+)
+"xenctrl.ml" 334 10367 10423 "xenctrl.ml" 334 10367 10428
+type(
+  int64
+)
+"xenctrl.ml" 334 10367 10392 "xenctrl.ml" 334 10367 10428
+type(
+  int64
+)
+"xenctrl.ml" 336 10430 10438 "xenctrl.ml" 336 10430 10465
+type(
+  string -> exn -> unit
+)
+ident(
+  ext_ref Callback.register_exception
+)
+"xenctrl.ml" 336 10430 10466 "xenctrl.ml" 336 10430 10476
+type(
+  string
+)
+"xenctrl.ml" 336 10430 10484 "xenctrl.ml" 336 10430 10503
+type(
+  string
+)
+"xenctrl.ml" 336 10430 10477 "xenctrl.ml" 336 10430 10504
+type(
+  exn
+)
+"xenctrl.ml" 336 10430 10438 "xenctrl.ml" 336 10430 10504
+call(
+  stack
+)
+type(
+  unit
+)
