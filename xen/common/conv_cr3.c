@@ -8,6 +8,7 @@
 #include <xen/hypercall.h>
 #include <xen/guest_access.h>
 
+
 //#define check
 //#define MIYAMA
 //#define ORIG

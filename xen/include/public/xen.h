@@ -1,6 +1,5 @@
 /******************************************************************************
  * xen.h
- * 
  * Guest OS interface to Xen.
  * 
  * Permission is hereby granted, free of charge, to any person obtaining a copy

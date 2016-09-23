@@ -1,6 +1,5 @@
 /******************************************************************************
  * xc_domain.c
- *
  * API for manipulating and obtaining information on domains.
  *
  * This library is free software; you can redistribute it and/or

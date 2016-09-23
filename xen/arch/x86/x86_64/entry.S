@@ -1,6 +1,5 @@
 /*
  * Hypercall and fault low-level handling routines.
- *
  * Copyright (c) 2005, K A Fraser
  */
 

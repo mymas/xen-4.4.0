@@ -1,6 +1,5 @@
 /******************************************************************************
  * xenctrl.h
- *
  * A library for low-level access to the Xen control interfaces.
  *
  * Copyright (c) 2003-2004, K A Fraser.
