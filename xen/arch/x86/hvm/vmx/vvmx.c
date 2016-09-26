@@ -2322,6 +2322,16 @@ int nvmx_n2_vmexit_handler(struct cpu_user_regs *regs,
     case EXIT_REASON_TASK_SWITCH:
     case EXIT_REASON_CPUID:
     case EXIT_REASON_VMCALL:
+#ifdef MIYAMA 
+	{
+		if (regs->eax == 1000) {
+			unsigned long id = regs->rdi;  // 第１引数
+			printk("VMCALL:id -> %ld\n",id);
+			nvcpu->nv_vmexit_pending = 0;  // ゲストハイパーバイザに送らない
+			break;
+		}
+	}
+#endif
     case EXIT_REASON_VMCLEAR:
     case EXIT_REASON_VMLAUNCH:
     case EXIT_REASON_VMPTRLD:
@@ -2506,7 +2516,7 @@ int nvmx_n2_vmexit_handler(struct cpu_user_regs *regs,
             if (reg)
                 guest_cr3 = *reg;
 
-	    printk("hypervisor cr3 %lx\n", guest_cr3);
+	    //printk("hypervisor cr3 %lx\n", guest_cr3);
 	    target_domid = v->domain->domain_id;
 	    target_eptp = nvmx_vcpu_eptp_base(v);
 
