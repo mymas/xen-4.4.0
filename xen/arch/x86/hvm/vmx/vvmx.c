@@ -27,20 +27,125 @@
 #include <asm/hvm/vmx/vvmx.h>
 #include <asm/hvm/nestedhvm.h>
 
+#include<xen/xmalloc.h>
+
 #define MIYAMA
+#define MIYAMA_VM_LIST
 //#define SHOTA
 
 #ifdef MIYAMA
 u64 guest_cr3;
 domid_t target_domid;
 uint64_t target_eptp;
+
+#ifdef MIYAMA_VM_LIST
+struct VM_LIST{
+	int target_domain_id;
+	unsigned long target_cr3;
+	unsigned long target_ept;
+	struct VM_LIST *next;
+};
+struct VM_LIST *VM_TOP = NULL;
+typedef int VM_NUM;
+typedef struct VM_LIST *VM_LIST_POS;
+#define VM_LIST_TAIL NULL
+#endif /*MIYAMA_VM_LIST*/
+
 #endif
 
 static DEFINE_PER_CPU(u64 *, vvmcs_buf);
-
 static void nvmx_purge_vvmcs(struct vcpu *v);
 
 #define VMCS_BUF_SIZE 100
+
+#ifdef MIYAMA_VM_LIST
+//void VM_list_init(void){
+//	while(VM_TOP != VM_LIST_TAIL){
+//		struct VM_LIST *delete_pos = VM_TOP;
+//		VM_TOP = VM_TOP->next;
+//		free(delete_pos);
+//	}
+//
+//}
+
+VM_LIST_POS VM_list_top(void){
+	return VM_TOP;
+}
+
+VM_LIST_POS VM_list_next(VM_LIST_POS pos){
+	if(pos != VM_LIST_TAIL){
+		return pos->next;
+	}else{
+		return VM_LIST_TAIL;
+	}
+}
+
+struct VM_LIST * VM_list_search_by_domid(int dom_id){
+	struct VM_LIST *p;
+	for(p = VM_TOP; p!= VM_LIST_TAIL; p=p->next){
+		if(p->target_domain_id == dom_id){
+			return p;
+		}
+		//printf("dom_id %d cr3 %lx ept %lx\n",p->target_domain_id,p->target_cr3,p->target_ept);
+	}
+	return 0;
+}
+
+
+struct VM_LIST * VM_list_search_by_ept(unsigned long dom_ept){
+	struct VM_LIST *p;
+	for(p = VM_TOP; p!= VM_LIST_TAIL; p=p->next){
+		if(p->target_ept == dom_ept){
+			return p;
+		}
+		//printf("dom_id %d cr3 %lx ept %lx\n",p->target_domain_id,p->target_cr3,p->target_ept);
+	}
+	return 0;
+}
+
+void VM_list_update(unsigned long dom_cr3, unsigned long dom_ept){
+	struct VM_LIST *p;
+	p = VM_list_search_by_ept(dom_ept);
+	if(p){
+		p->target_cr3 = dom_cr3;
+		//p->target_ept = dom_ept;
+		return;
+	}else{
+		return;
+	}
+}
+
+void VM_list_add(unsigned long cr3, unsigned long ept){
+	if(VM_TOP == VM_LIST_TAIL){
+		//VM_TOP = (struct VM_LIST *)malloc(sizeof(struct VM_LIST));
+		VM_TOP = (struct VM_LIST *)xmalloc(struct VM_LIST);
+		VM_TOP->target_domain_id = 0;
+		VM_TOP->target_cr3 = cr3;
+		VM_TOP->target_ept = ept;
+		VM_TOP->next = VM_LIST_TAIL;
+	}else{
+		struct VM_LIST *p = VM_TOP;
+		while(p->next != VM_LIST_TAIL){
+			p = p->next;
+		}
+		//p->next = (struct VM_LIST *)malloc(sizeof(struct VM_LIST));
+		p->next = (struct VM_LIST *)xmalloc(struct VM_LIST);
+		p->next->target_domain_id = 0;
+		p->next->target_cr3 = cr3;
+		p->next->target_ept = ept;
+		p->next->next = VM_LIST_TAIL;
+	}
+}
+
+void VM_list_count(void){
+	struct VM_LIST *p;
+	for(p = VM_TOP; p!= VM_LIST_TAIL; p=p->next){
+		printk("dom_id %d cr3 %lx ept %lx\n",p->target_domain_id,p->target_cr3,p->target_ept);
+	}
+
+}
+#endif /*MIYAMA_VM_LIST*/
+
 
 int nvmx_cpu_up_prepare(unsigned int cpu)
 {
@@ -2500,13 +2605,6 @@ int nvmx_n2_vmexit_handler(struct cpu_user_regs *regs,
         if ( cr == 3 )
         {
 #ifdef MIYAMA
-#if 0
-            static u64 prev_cr3 = 0;
-            static int count = 0;
-            void *vvmcs = nvcpu->nv_vvmcx;
-            u64 old_cr3;
-            unsigned long cr3_gfn, gfn;
-#endif // 0
             unsigned long gpr;
             unsigned long *reg;
 
@@ -2519,48 +2617,11 @@ int nvmx_n2_vmexit_handler(struct cpu_user_regs *regs,
 	    //printk("hypervisor cr3 %lx\n", guest_cr3);
 	    target_domid = v->domain->domain_id;
 	    target_eptp = nvmx_vcpu_eptp_base(v);
-
-#if 0
-            if (guest_cr3 != prev_cr3) {
-                cr3_gfn = l2_to_l1(v, guest_cr3);
-
-                /* linux_proc_banner's virtual address */
-                gfn = translate_l2_address(v, 0xffffffff81800040);
-
-                /* test */
-                old_cr3 = __get_vvmcs(vvmcs, GUEST_CR3);
-
-                printk("CR3: %lx -> %lx (L1: %lx), gfn: %lx\n",
-                       (unsigned long)old_cr3, (unsigned long)guest_cr3,
-                       cr3_gfn << PAGE_SHIFT, gfn);
-
-                /* show guest linux_proc_banner */
-                if (gfn && count == 0) {
-                    struct page_info *page;
-                    unsigned long mfn;
-                    char *addr;
-
-                    page = get_page_from_gfn(v->domain, gfn, NULL, P2M_ALLOC);
-                    if (page == NULL) {
-                        printk("page is null\n");
-                        return 0;
-                    }
-                    mfn = page_to_mfn(page);
-                    addr = map_domain_page(mfn);
-                    if (!addr) {
-                        printk("cannot map\n");
-                        return 0;
-                    }
-                    printk("%s\n", addr + (0xffffffff81800040 & ~PAGE_MASK));
-                    unmap_domain_page(addr);
-                    put_page(page);
-
-                    count++;
-                }
-
-                prev_cr3 = guest_cr3;
-            }
-#endif // 0
+	   if(VM_list_search_by_ept(target_eptp)){
+		   VM_list_update(guest_cr3,target_eptp);
+	   }else{
+		   VM_list_add(guest_cr3,target_eptp);
+	   } 
 #endif /* MIYAMA */
 
             mask = write? CPU_BASED_CR3_STORE_EXITING:
