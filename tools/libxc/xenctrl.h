@@ -2430,5 +2430,6 @@ int xc_get_cr3(xc_interface *xch, uint64_t *cr3);
 //uint64_t do_conv_cr3(xc_interface *xch, uint64_t val);
 //int do_conv_cr3(xc_interface *xch, uint64_t paddr, unsigned long l1gfn);
 int xc_conv_ept(xc_interface *xch, unsigned long l2gfn, unsigned long *l1gfn);
+int xc_register_vm_id(xc_interface *xch, int vm_id);
 
 #endif /* XENCTRL_H */

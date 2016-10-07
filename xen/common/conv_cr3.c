@@ -1,5 +1,4 @@
 #include <xen/lib.h>
-//#include <asm-x86/hvm/vmx/vvmx.h>
 #include <asm-x86/hvm/vmx/vmx.h>
 #include <asm-x86/hvm/hvm.h>
 #include <asm/hvm/hvm.h>

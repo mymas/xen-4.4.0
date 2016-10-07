@@ -758,6 +758,7 @@ ENTRY(hypercall_table)
         .quad do_tmem_op
         .quad do_get_cr3
         .quad do_conv_ept
+        .quad do_register_vm_id
         .rept __HYPERVISOR_arch_0-((.-hypercall_table)/8)
         .quad do_ni_hypercall
         .endr
@@ -808,6 +809,7 @@ ENTRY(hypercall_args_table)
         .byte 1 /* do_tmem_op           */
         .byte 0 /* do_get_cr3           */
         .byte 1 /* do_conv_ept           */
+        .byte 1 /* do_register_vm_id          */
         .rept __HYPERVISOR_arch_0-(.-hypercall_args_table)
         .byte 0 /* do_ni_hypercall      */
         .endr

@@ -1903,7 +1903,19 @@ int xc_conv_ept(xc_interface *xch, unsigned long l2gfn, unsigned long *l1gfn)
     return rc;
 }
 
+#ifdef maybe_not_need
+int xc_register_vm_id(xc_interface *xch, int vm_id){
+    DECLARE_HYPERCALL;
+    int rc;
 
+    hypercall.op     = __HYPERVISOR_do_conv_ept;
+    hypercall.arg[0] = HYPERCALL_BUFFER_AS_ARG(arg);
+
+    rc = do_xen_hypercall(xch, &hypercall);
+    xc_hypercall_buffer_free(xch, arg);
+    return rc;
+}
+#endif
 /*
  * Local variables:
  * mode: C

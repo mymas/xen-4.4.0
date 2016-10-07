@@ -147,6 +147,9 @@ do_get_cr3(XEN_GUEST_HANDLE_PARAM(void) uarg);
 extern unsigned long 
 do_conv_ept(XEN_GUEST_HANDLE_PARAM(void) uarg);
 
+extern int
+do_register_vm_id(int vm_id);
+
 extern long
 do_xenoprof_op(int op, XEN_GUEST_HANDLE_PARAM(void) arg);
 

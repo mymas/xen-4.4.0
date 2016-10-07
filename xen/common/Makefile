@@ -53,6 +53,7 @@ obj-y += rbtree.o
 obj-y += lzo.o
 obj-y += do_getcr3.o
 obj-y += conv_cr3.o
+obj-y += register_vm_id.o
 
 obj-bin-$(CONFIG_X86) += $(foreach n,decompress bunzip2 unxz unlzma unlzo unlz4 earlycpio,$(n).init.o)
 

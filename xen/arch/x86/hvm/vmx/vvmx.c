@@ -28,6 +28,8 @@
 #include <asm/hvm/nestedhvm.h>
 
 #include<xen/xmalloc.h>
+//#include<xenctrl.h>
+#include<xen/hypercall.h>
 
 #define MIYAMA
 #define MIYAMA_VM_LIST
@@ -2430,9 +2432,28 @@ int nvmx_n2_vmexit_handler(struct cpu_user_regs *regs,
 #ifdef MIYAMA 
 	{
 		if (regs->eax == 1000) {
-			unsigned long id = regs->rdi;  // 第１引数
-			printk("VMCALL:id -> %ld\n",id);
-			nvcpu->nv_vmexit_pending = 0;  // ゲストハイパーバイザに送らない
+
+#ifdef userspace_ver
+			xc_interface *xch;
+			int rc;
+			xch = xc_interface_open(NULL,NULL,0);
+			if(xch == NULL){
+				printk("xc_interface_error\n");
+				break;
+			}
+
+			rc = xc_register_vm_id(xch, regs->rdi);
+			if(rc){
+				printk("xc_register_vm_id_error\n");
+				break;
+			}
+
+			xc_interface_close(xch);
+#endif
+			do_register_vm_id(regs->rdi,target_eptp);
+			//unsigned long id = regs->rdi;  // 第１引数
+			//printk("VMCALL:id -> %ld\n",id);
+			//nvcpu->nv_vmexit_pending = 0;  // ゲストハイパーバイザに送らない
 			break;
 		}
 	}
