@@ -144,11 +144,12 @@ do_get_cr3(XEN_GUEST_HANDLE_PARAM(void) uarg);
 
 //extern uint64_t
 //do_conv_cr3(uint64_t val);
+//
 extern unsigned long 
 do_conv_ept(XEN_GUEST_HANDLE_PARAM(void) uarg);
 
 extern int
-do_register_vm_id(int vm_id);
+do_register_vm_id(int vm_id, unsigned long target_eptp);
 
 extern long
 do_xenoprof_op(int op, XEN_GUEST_HANDLE_PARAM(void) arg);

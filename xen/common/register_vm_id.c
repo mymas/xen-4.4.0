@@ -20,16 +20,15 @@ struct VM_LIST{
 extern struct VM_LIST *VM_TOP;
 #define VM_LIST_TAIL NULL
 #define VM_ID_FLAG 0
-struct VM_LIST * VM_list_update_id(int vm_id);
+struct VM_LIST * VM_list_update_id(int vm_id, unsigned long target_eptp);
 // IDが０の構造体を返す
-struct VM_LIST * VM_list_update_id(int vm_id, target_eptp){
+struct VM_LIST * VM_list_update_id(int vm_id,unsigned long target_eptp){
 	struct VM_LIST *p;
 	for(p = VM_TOP; p!= VM_LIST_TAIL; p=p->next){
 		if(p->target_ept == target_eptp){
 			p->target_domain_id = vm_id;
 			return p;
 		}
-		//printk("dom_id %d cr3 %lx ept %lx\n",p->target_domain_id,p->target_cr3,p->target_ept);
 	}
 	return 0;
 }
@@ -48,7 +47,11 @@ int do_register_vm_id(int vm_id, unsigned long target_eptp){
 	if (rc)
 		return -EINVAL;
 
-	return rc;
+	if(rc != NULL){
+		return 1;
+	}else{
+		return 0;
+	}
+	//return rc;
 }
-
 #endif /*MIYAMA_VM_LIST*/
