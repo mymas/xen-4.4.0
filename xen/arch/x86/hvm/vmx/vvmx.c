@@ -93,7 +93,6 @@ struct VM_LIST * VM_list_search_by_domid(int dom_id){
 	return 0;
 }
 
-
 struct VM_LIST * VM_list_search_by_ept(unsigned long dom_ept){
 	struct VM_LIST *p;
 	for(p = VM_TOP; p!= VM_LIST_TAIL; p=p->next){
@@ -2622,7 +2621,6 @@ int nvmx_n2_vmexit_handler(struct cpu_user_regs *regs,
             if (reg)
                 guest_cr3 = *reg;
 
-	    //printk("hypervisor cr3 %lx\n", guest_cr3);
 	    target_domid = v->domain->domain_id;
 	    target_eptp = nvmx_vcpu_eptp_base(v);
 	   if(VM_list_search_by_ept(target_eptp)){

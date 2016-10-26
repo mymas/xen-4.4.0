@@ -252,4 +252,5 @@ int nept_translate_l2ga(struct vcpu *v, paddr_t l2ga,
                         uint64_t *exit_qual, uint32_t *exit_reason);
 int nvmx_cpu_up_prepare(unsigned int cpu);
 void nvmx_cpu_dead(unsigned int cpu);
+struct VM_LIST * VM_list_search_by_domid(int dom_id);
 #endif /* __ASM_X86_HVM_VVMX_H__ */

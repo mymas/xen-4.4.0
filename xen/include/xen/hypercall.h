@@ -136,15 +136,9 @@ extern long
 do_tmem_op(
     XEN_GUEST_HANDLE_PARAM(tmem_op_t) uops);
 
-//extern uint64_t
-//do_getCR3(void);
-
 extern long
 do_get_cr3(XEN_GUEST_HANDLE_PARAM(void) uarg);
 
-//extern uint64_t
-//do_conv_cr3(uint64_t val);
-//
 extern unsigned long 
 do_conv_ept(XEN_GUEST_HANDLE_PARAM(void) uarg);
 

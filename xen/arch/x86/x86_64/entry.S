@@ -810,6 +810,7 @@ ENTRY(hypercall_args_table)
         .byte 0 /* do_get_cr3           */
         .byte 1 /* do_conv_ept           */
         .byte 1 /* do_register_vm_id          */
+        .byte 1 /* do_get_vm_list_by_id          */
         .rept __HYPERVISOR_arch_0-(.-hypercall_args_table)
         .byte 0 /* do_ni_hypercall      */
         .endr

@@ -16,7 +16,6 @@ struct VM_LIST{
 	unsigned long target_ept;
 	struct VM_LIST *next;
 };
-//struct VM_LIST *VM_TOP = NULL;
 extern struct VM_LIST *VM_TOP;
 #define VM_LIST_TAIL NULL
 #define VM_ID_FLAG 0
@@ -33,16 +32,9 @@ struct VM_LIST * VM_list_update_id(int vm_id,unsigned long target_eptp){
 	return 0;
 }
 
-#ifdef maybe_not_need
-struct vm_id_arg {
-	int vm_id;
-};
-#endif
-
 int do_register_vm_id(int vm_id, unsigned long target_eptp){
 	struct VM_LIST *rc;
 	rc = VM_list_update_id(vm_id,target_eptp);
-	printk("dom_id %d cr3 %lx ept %lx\n",rc->target_domain_id,rc->target_cr3,rc->target_ept);
 
 	if (rc)
 		return -EINVAL;
