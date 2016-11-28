@@ -1,3 +1,0 @@
-+ test -d /usr/local/xen-4.4.0/tools/../tools/qemu-xen-traditional
-+ mkdir -p qemu-xen-traditional-dir
-Parsing /usr/local/xen-4.4.0/tools/python/../../tools/libxl/libxl_types.idl
