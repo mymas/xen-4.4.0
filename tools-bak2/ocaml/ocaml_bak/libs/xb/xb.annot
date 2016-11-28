@@ -1,0 +1,3021 @@
+"xb.ml" 50 1344 1348 "xb.ml" 50 1344 1363
+type(
+  unit -> partial_buf
+)
+ident(
+  def init_partial_in "xb.ml" 53 1446 1446 "xb.ml" 1 0 -1
+)
+"xb.ml" 50 1344 1364 "xb.ml" 50 1344 1366
+type(
+  unit
+)
+"xb.ml" 51 1375 1377 "xb.ml" 51 1375 1396
+type(
+  unit -> int
+)
+ident(
+  ext_ref Partial.header_size
+)
+"xb.ml" 51 1375 1397 "xb.ml" 51 1375 1399
+type(
+  unit
+)
+"xb.ml" 51 1375 1377 "xb.ml" 51 1375 1399
+type(
+  int
+)
+"xb.ml" 51 1375 1401 "xb.ml" 51 1375 1412
+type(
+  int -> char -> string
+)
+ident(
+  ext_ref String.make
+)
+"xb.ml" 51 1375 1414 "xb.ml" 51 1375 1433
+type(
+  unit -> int
+)
+ident(
+  ext_ref Partial.header_size
+)
+"xb.ml" 51 1375 1433 "xb.ml" 51 1375 1435
+type(
+  unit
+)
+"xb.ml" 51 1375 1413 "xb.ml" 51 1375 1436
+type(
+  int
+)
+"xb.ml" 51 1375 1437 "xb.ml" 51 1375 1443
+type(
+  char
+)
+"xb.ml" 51 1375 1401 "xb.ml" 51 1375 1443
+call(
+  stack
+)
+type(
+  string
+)
+"xb.ml" 50 1344 1369 "xb.ml" 51 1375 1444
+type(
+  partial_buf
+)
+"xb.ml" 53 1446 1450 "xb.ml" 53 1446 1455
+type(
+  t -> Packet.t -> unit
+)
+ident(
+  def queue "xb.ml" 55 1494 1494 "xb.ml" 1 0 -1
+)
+"xb.ml" 53 1446 1456 "xb.ml" 53 1446 1459
+type(
+  t
+)
+ident(
+  def con "xb.ml" 53 1446 1460 "xb.ml" 53 1446 1492
+)
+"xb.ml" 53 1446 1460 "xb.ml" 53 1446 1463
+type(
+  Packet.t
+)
+ident(
+  def pkt "xb.ml" 53 1446 1466 "xb.ml" 53 1446 1492
+)
+"xb.ml" 53 1446 1466 "xb.ml" 53 1446 1476
+type(
+  Packet.t -> Packet.t Queue.t -> unit
+)
+ident(
+  ext_ref Queue.push
+)
+"xb.ml" 53 1446 1477 "xb.ml" 53 1446 1480
+type(
+  Packet.t
+)
+ident(
+  int_ref pkt "xb.ml" 53 1446 1460 "xb.ml" 53 1446 1463
+)
+"xb.ml" 53 1446 1481 "xb.ml" 53 1446 1484
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 53 1446 1456 "xb.ml" 53 1446 1459
+)
+"xb.ml" 53 1446 1481 "xb.ml" 53 1446 1492
+type(
+  Packet.t Queue.t
+)
+"xb.ml" 53 1446 1466 "xb.ml" 53 1446 1492
+call(
+  tail
+)
+type(
+  unit
+)
+"xb.ml" 55 1494 1498 "xb.ml" 55 1494 1505
+type(
+  backend_fd -> 'a -> string -> int -> int
+)
+ident(
+  def read_fd "xb.ml" 61 1604 1604 "xb.ml" 1 0 -1
+)
+"xb.ml" 55 1494 1506 "xb.ml" 55 1494 1510
+type(
+  backend_fd
+)
+ident(
+  def back "xb.ml" 55 1494 1511 "xb.ml" 59 1599 1602
+)
+"xb.ml" 55 1494 1511 "xb.ml" 55 1494 1514
+type(
+  'a
+)
+ident(
+  def con "xb.ml" 55 1494 1515 "xb.ml" 59 1599 1602
+)
+"xb.ml" 55 1494 1515 "xb.ml" 55 1494 1516
+type(
+  string
+)
+ident(
+  def s "xb.ml" 55 1494 1517 "xb.ml" 59 1599 1602
+)
+"xb.ml" 55 1494 1517 "xb.ml" 55 1494 1520
+type(
+  int
+)
+ident(
+  def len "xb.ml" 56 1523 1524 "xb.ml" 59 1599 1602
+)
+"xb.ml" 56 1523 1528 "xb.ml" 56 1523 1530
+type(
+  int
+)
+ident(
+  def rd "xb.ml" 57 1562 1563 "xb.ml" 59 1599 1602
+)
+"xb.ml" 56 1523 1533 "xb.ml" 56 1523 1542
+type(
+  Unix.file_descr -> string -> int -> int -> int
+)
+ident(
+  ext_ref Unix.read
+)
+"xb.ml" 56 1523 1543 "xb.ml" 56 1523 1547
+type(
+  backend_fd
+)
+ident(
+  int_ref back "xb.ml" 55 1494 1506 "xb.ml" 55 1494 1510
+)
+"xb.ml" 56 1523 1543 "xb.ml" 56 1523 1550
+type(
+  Unix.file_descr
+)
+"xb.ml" 56 1523 1551 "xb.ml" 56 1523 1552
+type(
+  string
+)
+ident(
+  int_ref s "xb.ml" 55 1494 1515 "xb.ml" 55 1494 1516
+)
+"xb.ml" 56 1523 1553 "xb.ml" 56 1523 1554
+type(
+  int
+)
+"xb.ml" 56 1523 1555 "xb.ml" 56 1523 1558
+type(
+  int
+)
+ident(
+  int_ref len "xb.ml" 55 1494 1517 "xb.ml" 55 1494 1520
+)
+"xb.ml" 56 1523 1533 "xb.ml" 56 1523 1558
+call(
+  stack
+)
+type(
+  int
+)
+"xb.ml" 57 1562 1566 "xb.ml" 57 1562 1568
+type(
+  int
+)
+ident(
+  int_ref rd "xb.ml" 56 1523 1528 "xb.ml" 56 1523 1530
+)
+"xb.ml" 57 1562 1569 "xb.ml" 57 1562 1570
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"xb.ml" 57 1562 1571 "xb.ml" 57 1562 1572
+type(
+  int
+)
+"xb.ml" 57 1562 1566 "xb.ml" 57 1562 1572
+type(
+  bool
+)
+"xb.ml" 58 1578 1580 "xb.ml" 58 1578 1585
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"xb.ml" 58 1578 1586 "xb.ml" 58 1578 1597
+type(
+  exn
+)
+"xb.ml" 58 1578 1580 "xb.ml" 58 1578 1597
+type(
+  unit
+)
+"xb.ml" 57 1562 1563 "xb.ml" 58 1578 1597
+type(
+  unit
+)
+"xb.ml" 59 1599 1600 "xb.ml" 59 1599 1602
+type(
+  int
+)
+ident(
+  int_ref rd "xb.ml" 56 1523 1528 "xb.ml" 56 1523 1530
+)
+"xb.ml" 57 1562 1563 "xb.ml" 59 1599 1602
+type(
+  int
+)
+"xb.ml" 56 1523 1524 "xb.ml" 59 1599 1602
+type(
+  int
+)
+"xb.ml" 61 1604 1608 "xb.ml" 61 1604 1617
+type(
+  backend_mmap -> 'a -> string -> int -> int
+)
+ident(
+  def read_mmap "xb.ml" 68 1755 1755 "xb.ml" 1 0 -1
+)
+"xb.ml" 61 1604 1618 "xb.ml" 61 1604 1622
+type(
+  backend_mmap
+)
+ident(
+  def back "xb.ml" 61 1604 1623 "xb.ml" 66 1750 1753
+)
+"xb.ml" 61 1604 1623 "xb.ml" 61 1604 1626
+type(
+  'a
+)
+ident(
+  def con "xb.ml" 61 1604 1627 "xb.ml" 66 1750 1753
+)
+"xb.ml" 61 1604 1627 "xb.ml" 61 1604 1628
+type(
+  string
+)
+ident(
+  def s "xb.ml" 61 1604 1629 "xb.ml" 66 1750 1753
+)
+"xb.ml" 61 1604 1629 "xb.ml" 61 1604 1632
+type(
+  int
+)
+ident(
+  def len "xb.ml" 62 1635 1636 "xb.ml" 66 1750 1753
+)
+"xb.ml" 62 1635 1640 "xb.ml" 62 1635 1642
+type(
+  int
+)
+ident(
+  def rd "xb.ml" 63 1677 1678 "xb.ml" 66 1750 1753
+)
+"xb.ml" 62 1635 1645 "xb.ml" 62 1635 1657
+type(
+  Xenmmap.mmap_interface -> string -> int -> int
+)
+ident(
+  ext_ref Xs_ring.read
+)
+"xb.ml" 62 1635 1658 "xb.ml" 62 1635 1662
+type(
+  backend_mmap
+)
+ident(
+  int_ref back "xb.ml" 61 1604 1618 "xb.ml" 61 1604 1622
+)
+"xb.ml" 62 1635 1658 "xb.ml" 62 1635 1667
+type(
+  Xenmmap.mmap_interface
+)
+"xb.ml" 62 1635 1668 "xb.ml" 62 1635 1669
+type(
+  string
+)
+ident(
+  int_ref s "xb.ml" 61 1604 1627 "xb.ml" 61 1604 1628
+)
+"xb.ml" 62 1635 1670 "xb.ml" 62 1635 1673
+type(
+  int
+)
+ident(
+  int_ref len "xb.ml" 61 1604 1629 "xb.ml" 61 1604 1632
+)
+"xb.ml" 62 1635 1645 "xb.ml" 62 1635 1673
+type(
+  int
+)
+"xb.ml" 63 1677 1678 "xb.ml" 63 1677 1682
+type(
+  backend_mmap
+)
+ident(
+  int_ref back "xb.ml" 61 1604 1618 "xb.ml" 61 1604 1622
+)
+"xb.ml" 63 1677 1698 "xb.ml" 63 1677 1700
+type(
+  int
+)
+ident(
+  int_ref rd "xb.ml" 62 1635 1640 "xb.ml" 62 1635 1642
+)
+"xb.ml" 63 1677 1701 "xb.ml" 63 1677 1702
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"xb.ml" 63 1677 1703 "xb.ml" 63 1677 1704
+type(
+  int
+)
+"xb.ml" 63 1677 1697 "xb.ml" 63 1677 1705
+type(
+  bool
+)
+"xb.ml" 63 1677 1678 "xb.ml" 63 1677 1705
+type(
+  unit
+)
+"xb.ml" 64 1707 1711 "xb.ml" 64 1707 1713
+type(
+  int
+)
+ident(
+  int_ref rd "xb.ml" 62 1635 1640 "xb.ml" 62 1635 1642
+)
+"xb.ml" 64 1707 1714 "xb.ml" 64 1707 1715
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"xb.ml" 64 1707 1716 "xb.ml" 64 1707 1717
+type(
+  int
+)
+"xb.ml" 64 1707 1711 "xb.ml" 64 1707 1717
+type(
+  bool
+)
+"xb.ml" 65 1723 1725 "xb.ml" 65 1723 1729
+type(
+  backend_mmap
+)
+ident(
+  int_ref back "xb.ml" 61 1604 1618 "xb.ml" 61 1604 1622
+)
+"xb.ml" 65 1723 1725 "xb.ml" 65 1723 1745
+type(
+  unit -> unit
+)
+"xb.ml" 65 1723 1746 "xb.ml" 65 1723 1748
+type(
+  unit
+)
+"xb.ml" 65 1723 1725 "xb.ml" 65 1723 1748
+call(
+  stack
+)
+type(
+  unit
+)
+"xb.ml" 64 1707 1708 "xb.ml" 65 1723 1748
+type(
+  unit
+)
+"xb.ml" 66 1750 1751 "xb.ml" 66 1750 1753
+type(
+  int
+)
+ident(
+  int_ref rd "xb.ml" 62 1635 1640 "xb.ml" 62 1635 1642
+)
+"xb.ml" 64 1707 1708 "xb.ml" 66 1750 1753
+type(
+  int
+)
+"xb.ml" 63 1677 1678 "xb.ml" 66 1750 1753
+type(
+  int
+)
+"xb.ml" 62 1635 1636 "xb.ml" 66 1750 1753
+type(
+  int
+)
+"xb.ml" 68 1755 1759 "xb.ml" 68 1755 1763
+type(
+  t -> string -> int -> int
+)
+ident(
+  def read "xb.ml" 73 1898 1898 "xb.ml" 1 0 -1
+)
+"xb.ml" 68 1755 1764 "xb.ml" 68 1755 1767
+type(
+  t
+)
+ident(
+  def con "xb.ml" 68 1755 1768 "xb.ml" 71 1845 1896
+)
+"xb.ml" 68 1755 1768 "xb.ml" 68 1755 1769
+type(
+  string
+)
+ident(
+  def s "xb.ml" 68 1755 1770 "xb.ml" 71 1845 1896
+)
+"xb.ml" 68 1755 1770 "xb.ml" 68 1755 1773
+type(
+  int
+)
+ident(
+  def len "xb.ml" 69 1776 1777 "xb.ml" 71 1845 1896
+)
+"xb.ml" 69 1776 1783 "xb.ml" 69 1776 1786
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 68 1755 1764 "xb.ml" 68 1755 1767
+)
+"xb.ml" 69 1776 1783 "xb.ml" 69 1776 1794
+type(
+  backend
+)
+"xb.ml" 70 1800 1806 "xb.ml" 70 1800 1812
+type(
+  backend_fd
+)
+ident(
+  def backfd "xb.ml" 70 1800 1820 "xb.ml" 70 1800 1844
+)
+"xb.ml" 70 1800 1803 "xb.ml" 70 1800 1812
+type(
+  backend
+)
+"xb.ml" 70 1800 1820 "xb.ml" 70 1800 1827
+type(
+  backend_fd -> t -> string -> int -> int
+)
+ident(
+  int_ref read_fd "xb.ml" 55 1494 1498 "xb.ml" 55 1494 1505
+)
+"xb.ml" 70 1800 1828 "xb.ml" 70 1800 1834
+type(
+  backend_fd
+)
+ident(
+  int_ref backfd "xb.ml" 70 1800 1806 "xb.ml" 70 1800 1812
+)
+"xb.ml" 70 1800 1835 "xb.ml" 70 1800 1838
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 68 1755 1764 "xb.ml" 68 1755 1767
+)
+"xb.ml" 70 1800 1839 "xb.ml" 70 1800 1840
+type(
+  string
+)
+ident(
+  int_ref s "xb.ml" 68 1755 1768 "xb.ml" 68 1755 1769
+)
+"xb.ml" 70 1800 1841 "xb.ml" 70 1800 1844
+type(
+  int
+)
+ident(
+  int_ref len "xb.ml" 68 1755 1770 "xb.ml" 68 1755 1773
+)
+"xb.ml" 70 1800 1820 "xb.ml" 70 1800 1844
+call(
+  tail
+)
+type(
+  int
+)
+"xb.ml" 71 1845 1856 "xb.ml" 71 1845 1864
+type(
+  backend_mmap
+)
+ident(
+  def backmmap "xb.ml" 71 1845 1868 "xb.ml" 71 1845 1896
+)
+"xb.ml" 71 1845 1848 "xb.ml" 71 1845 1864
+type(
+  backend
+)
+"xb.ml" 71 1845 1868 "xb.ml" 71 1845 1877
+type(
+  backend_mmap -> t -> string -> int -> int
+)
+ident(
+  int_ref read_mmap "xb.ml" 61 1604 1608 "xb.ml" 61 1604 1617
+)
+"xb.ml" 71 1845 1878 "xb.ml" 71 1845 1886
+type(
+  backend_mmap
+)
+ident(
+  int_ref backmmap "xb.ml" 71 1845 1856 "xb.ml" 71 1845 1864
+)
+"xb.ml" 71 1845 1887 "xb.ml" 71 1845 1890
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 68 1755 1764 "xb.ml" 68 1755 1767
+)
+"xb.ml" 71 1845 1891 "xb.ml" 71 1845 1892
+type(
+  string
+)
+ident(
+  int_ref s "xb.ml" 68 1755 1768 "xb.ml" 68 1755 1769
+)
+"xb.ml" 71 1845 1893 "xb.ml" 71 1845 1896
+type(
+  int
+)
+ident(
+  int_ref len "xb.ml" 68 1755 1770 "xb.ml" 68 1755 1773
+)
+"xb.ml" 71 1845 1868 "xb.ml" 71 1845 1896
+call(
+  tail
+)
+type(
+  int
+)
+"xb.ml" 69 1776 1777 "xb.ml" 71 1845 1896
+type(
+  int
+)
+"xb.ml" 73 1898 1902 "xb.ml" 73 1898 1910
+type(
+  backend_fd -> 'a -> string -> int -> int
+)
+ident(
+  def write_fd "xb.ml" 76 1957 1957 "xb.ml" 1 0 -1
+)
+"xb.ml" 73 1898 1911 "xb.ml" 73 1898 1915
+type(
+  backend_fd
+)
+ident(
+  def back "xb.ml" 73 1898 1916 "xb.ml" 74 1928 1955
+)
+"xb.ml" 73 1898 1916 "xb.ml" 73 1898 1919
+type(
+  'a
+)
+ident(
+  def con "xb.ml" 73 1898 1920 "xb.ml" 74 1928 1955
+)
+"xb.ml" 73 1898 1920 "xb.ml" 73 1898 1921
+type(
+  string
+)
+ident(
+  def s "xb.ml" 73 1898 1922 "xb.ml" 74 1928 1955
+)
+"xb.ml" 73 1898 1922 "xb.ml" 73 1898 1925
+type(
+  int
+)
+ident(
+  def len "xb.ml" 74 1928 1929 "xb.ml" 74 1928 1955
+)
+"xb.ml" 74 1928 1929 "xb.ml" 74 1928 1939
+type(
+  Unix.file_descr -> string -> int -> int -> int
+)
+ident(
+  ext_ref Unix.write
+)
+"xb.ml" 74 1928 1940 "xb.ml" 74 1928 1944
+type(
+  backend_fd
+)
+ident(
+  int_ref back "xb.ml" 73 1898 1911 "xb.ml" 73 1898 1915
+)
+"xb.ml" 74 1928 1940 "xb.ml" 74 1928 1947
+type(
+  Unix.file_descr
+)
+"xb.ml" 74 1928 1948 "xb.ml" 74 1928 1949
+type(
+  string
+)
+ident(
+  int_ref s "xb.ml" 73 1898 1920 "xb.ml" 73 1898 1921
+)
+"xb.ml" 74 1928 1950 "xb.ml" 74 1928 1951
+type(
+  int
+)
+"xb.ml" 74 1928 1952 "xb.ml" 74 1928 1955
+type(
+  int
+)
+ident(
+  int_ref len "xb.ml" 73 1898 1922 "xb.ml" 73 1898 1925
+)
+"xb.ml" 74 1928 1929 "xb.ml" 74 1928 1955
+call(
+  tail
+)
+type(
+  int
+)
+"xb.ml" 76 1957 1961 "xb.ml" 76 1957 1971
+type(
+  backend_mmap -> 'a -> string -> int -> int
+)
+ident(
+  def write_mmap "xb.ml" 82 2080 2080 "xb.ml" 1 0 -1
+)
+"xb.ml" 76 1957 1972 "xb.ml" 76 1957 1976
+type(
+  backend_mmap
+)
+ident(
+  def back "xb.ml" 76 1957 1977 "xb.ml" 80 2075 2078
+)
+"xb.ml" 76 1957 1977 "xb.ml" 76 1957 1980
+type(
+  'a
+)
+ident(
+  def con "xb.ml" 76 1957 1981 "xb.ml" 80 2075 2078
+)
+"xb.ml" 76 1957 1981 "xb.ml" 76 1957 1982
+type(
+  string
+)
+ident(
+  def s "xb.ml" 76 1957 1983 "xb.ml" 80 2075 2078
+)
+"xb.ml" 76 1957 1983 "xb.ml" 76 1957 1986
+type(
+  int
+)
+ident(
+  def len "xb.ml" 77 1989 1990 "xb.ml" 80 2075 2078
+)
+"xb.ml" 77 1989 1994 "xb.ml" 77 1989 1996
+type(
+  int
+)
+ident(
+  def ws "xb.ml" 78 2032 2033 "xb.ml" 80 2075 2078
+)
+"xb.ml" 77 1989 1999 "xb.ml" 77 1989 2012
+type(
+  Xenmmap.mmap_interface -> string -> int -> int
+)
+ident(
+  ext_ref Xs_ring.write
+)
+"xb.ml" 77 1989 2013 "xb.ml" 77 1989 2017
+type(
+  backend_mmap
+)
+ident(
+  int_ref back "xb.ml" 76 1957 1972 "xb.ml" 76 1957 1976
+)
+"xb.ml" 77 1989 2013 "xb.ml" 77 1989 2022
+type(
+  Xenmmap.mmap_interface
+)
+"xb.ml" 77 1989 2023 "xb.ml" 77 1989 2024
+type(
+  string
+)
+ident(
+  int_ref s "xb.ml" 76 1957 1981 "xb.ml" 76 1957 1982
+)
+"xb.ml" 77 1989 2025 "xb.ml" 77 1989 2028
+type(
+  int
+)
+ident(
+  int_ref len "xb.ml" 76 1957 1983 "xb.ml" 76 1957 1986
+)
+"xb.ml" 77 1989 1999 "xb.ml" 77 1989 2028
+type(
+  int
+)
+"xb.ml" 78 2032 2036 "xb.ml" 78 2032 2038
+type(
+  int
+)
+ident(
+  int_ref ws "xb.ml" 77 1989 1994 "xb.ml" 77 1989 1996
+)
+"xb.ml" 78 2032 2039 "xb.ml" 78 2032 2040
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"xb.ml" 78 2032 2041 "xb.ml" 78 2032 2042
+type(
+  int
+)
+"xb.ml" 78 2032 2036 "xb.ml" 78 2032 2042
+type(
+  bool
+)
+"xb.ml" 79 2048 2050 "xb.ml" 79 2048 2054
+type(
+  backend_mmap
+)
+ident(
+  int_ref back "xb.ml" 76 1957 1972 "xb.ml" 76 1957 1976
+)
+"xb.ml" 79 2048 2050 "xb.ml" 79 2048 2070
+type(
+  unit -> unit
+)
+"xb.ml" 79 2048 2071 "xb.ml" 79 2048 2073
+type(
+  unit
+)
+"xb.ml" 79 2048 2050 "xb.ml" 79 2048 2073
+call(
+  stack
+)
+type(
+  unit
+)
+"xb.ml" 78 2032 2033 "xb.ml" 79 2048 2073
+type(
+  unit
+)
+"xb.ml" 80 2075 2076 "xb.ml" 80 2075 2078
+type(
+  int
+)
+ident(
+  int_ref ws "xb.ml" 77 1989 1994 "xb.ml" 77 1989 1996
+)
+"xb.ml" 78 2032 2033 "xb.ml" 80 2075 2078
+type(
+  int
+)
+"xb.ml" 77 1989 1990 "xb.ml" 80 2075 2078
+type(
+  int
+)
+"xb.ml" 82 2080 2084 "xb.ml" 82 2080 2089
+type(
+  t -> string -> int -> int
+)
+ident(
+  def write "xb.ml" 87 2226 2226 "xb.ml" 1 0 -1
+)
+"xb.ml" 82 2080 2090 "xb.ml" 82 2080 2093
+type(
+  t
+)
+ident(
+  def con "xb.ml" 82 2080 2094 "xb.ml" 85 2172 2224
+)
+"xb.ml" 82 2080 2094 "xb.ml" 82 2080 2095
+type(
+  string
+)
+ident(
+  def s "xb.ml" 82 2080 2096 "xb.ml" 85 2172 2224
+)
+"xb.ml" 82 2080 2096 "xb.ml" 82 2080 2099
+type(
+  int
+)
+ident(
+  def len "xb.ml" 83 2102 2103 "xb.ml" 85 2172 2224
+)
+"xb.ml" 83 2102 2109 "xb.ml" 83 2102 2112
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 82 2080 2090 "xb.ml" 82 2080 2093
+)
+"xb.ml" 83 2102 2109 "xb.ml" 83 2102 2120
+type(
+  backend
+)
+"xb.ml" 84 2126 2132 "xb.ml" 84 2126 2138
+type(
+  backend_fd
+)
+ident(
+  def backfd "xb.ml" 84 2126 2146 "xb.ml" 84 2126 2171
+)
+"xb.ml" 84 2126 2129 "xb.ml" 84 2126 2138
+type(
+  backend
+)
+"xb.ml" 84 2126 2146 "xb.ml" 84 2126 2154
+type(
+  backend_fd -> t -> string -> int -> int
+)
+ident(
+  int_ref write_fd "xb.ml" 73 1898 1902 "xb.ml" 73 1898 1910
+)
+"xb.ml" 84 2126 2155 "xb.ml" 84 2126 2161
+type(
+  backend_fd
+)
+ident(
+  int_ref backfd "xb.ml" 84 2126 2132 "xb.ml" 84 2126 2138
+)
+"xb.ml" 84 2126 2162 "xb.ml" 84 2126 2165
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 82 2080 2090 "xb.ml" 82 2080 2093
+)
+"xb.ml" 84 2126 2166 "xb.ml" 84 2126 2167
+type(
+  string
+)
+ident(
+  int_ref s "xb.ml" 82 2080 2094 "xb.ml" 82 2080 2095
+)
+"xb.ml" 84 2126 2168 "xb.ml" 84 2126 2171
+type(
+  int
+)
+ident(
+  int_ref len "xb.ml" 82 2080 2096 "xb.ml" 82 2080 2099
+)
+"xb.ml" 84 2126 2146 "xb.ml" 84 2126 2171
+call(
+  tail
+)
+type(
+  int
+)
+"xb.ml" 85 2172 2183 "xb.ml" 85 2172 2191
+type(
+  backend_mmap
+)
+ident(
+  def backmmap "xb.ml" 85 2172 2195 "xb.ml" 85 2172 2224
+)
+"xb.ml" 85 2172 2175 "xb.ml" 85 2172 2191
+type(
+  backend
+)
+"xb.ml" 85 2172 2195 "xb.ml" 85 2172 2205
+type(
+  backend_mmap -> t -> string -> int -> int
+)
+ident(
+  int_ref write_mmap "xb.ml" 76 1957 1961 "xb.ml" 76 1957 1971
+)
+"xb.ml" 85 2172 2206 "xb.ml" 85 2172 2214
+type(
+  backend_mmap
+)
+ident(
+  int_ref backmmap "xb.ml" 85 2172 2183 "xb.ml" 85 2172 2191
+)
+"xb.ml" 85 2172 2215 "xb.ml" 85 2172 2218
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 82 2080 2090 "xb.ml" 82 2080 2093
+)
+"xb.ml" 85 2172 2219 "xb.ml" 85 2172 2220
+type(
+  string
+)
+ident(
+  int_ref s "xb.ml" 82 2080 2094 "xb.ml" 82 2080 2095
+)
+"xb.ml" 85 2172 2221 "xb.ml" 85 2172 2224
+type(
+  int
+)
+ident(
+  int_ref len "xb.ml" 82 2080 2096 "xb.ml" 82 2080 2099
+)
+"xb.ml" 85 2172 2195 "xb.ml" 85 2172 2224
+call(
+  tail
+)
+type(
+  int
+)
+"xb.ml" 83 2102 2103 "xb.ml" 85 2172 2224
+type(
+  int
+)
+"xb.ml" 87 2226 2230 "xb.ml" 87 2226 2236
+type(
+  t -> bool
+)
+ident(
+  def output "xb.ml" 105 2777 2777 "xb.ml" 1 0 -1
+)
+"xb.ml" 87 2226 2237 "xb.ml" 87 2226 2240
+type(
+  t
+)
+ident(
+  def con "xb.ml" 89 2312 2313 "xb.ml" 103 2754 2775
+)
+"xb.ml" 89 2312 2317 "xb.ml" 89 2312 2318
+type(
+  string
+)
+ident(
+  def s "xb.ml" 96 2551 2552 "xb.ml" 103 2754 2775
+)
+"xb.ml" 89 2312 2324 "xb.ml" 89 2312 2337
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"xb.ml" 89 2312 2338 "xb.ml" 89 2312 2341
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 87 2226 2237 "xb.ml" 87 2226 2240
+)
+"xb.ml" 89 2312 2338 "xb.ml" 89 2312 2353
+type(
+  string
+)
+"xb.ml" 89 2312 2324 "xb.ml" 89 2312 2353
+type(
+  int
+)
+"xb.ml" 89 2312 2354 "xb.ml" 89 2312 2355
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"xb.ml" 89 2312 2356 "xb.ml" 89 2312 2357
+type(
+  int
+)
+"xb.ml" 89 2312 2324 "xb.ml" 89 2312 2357
+type(
+  bool
+)
+"xb.ml" 90 2363 2366 "xb.ml" 90 2363 2369
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 87 2226 2237 "xb.ml" 87 2226 2240
+)
+"xb.ml" 90 2363 2366 "xb.ml" 90 2363 2381
+type(
+  string
+)
+"xb.ml" 91 2382 2392 "xb.ml" 91 2382 2404
+type(
+  Packet.t Queue.t -> int
+)
+ident(
+  ext_ref Queue.length
+)
+"xb.ml" 91 2382 2405 "xb.ml" 91 2382 2408
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 87 2226 2237 "xb.ml" 87 2226 2240
+)
+"xb.ml" 91 2382 2405 "xb.ml" 91 2382 2416
+type(
+  Packet.t Queue.t
+)
+"xb.ml" 91 2382 2392 "xb.ml" 91 2382 2416
+call(
+  stack
+)
+type(
+  int
+)
+"xb.ml" 91 2382 2417 "xb.ml" 91 2382 2418
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"xb.ml" 91 2382 2419 "xb.ml" 91 2382 2420
+type(
+  int
+)
+"xb.ml" 91 2382 2392 "xb.ml" 91 2382 2420
+type(
+  bool
+)
+"xb.ml" 92 2426 2429 "xb.ml" 92 2426 2445
+type(
+  Packet.t -> string
+)
+ident(
+  ext_ref Packet.to_string
+)
+"xb.ml" 92 2426 2447 "xb.ml" 92 2426 2456
+type(
+  Packet.t Queue.t -> Packet.t
+)
+ident(
+  ext_ref Queue.pop
+)
+"xb.ml" 92 2426 2457 "xb.ml" 92 2426 2460
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 87 2226 2237 "xb.ml" 87 2226 2240
+)
+"xb.ml" 92 2426 2457 "xb.ml" 92 2426 2468
+type(
+  Packet.t Queue.t
+)
+"xb.ml" 92 2426 2446 "xb.ml" 92 2426 2469
+call(
+  stack
+)
+type(
+  Packet.t
+)
+"xb.ml" 92 2426 2429 "xb.ml" 92 2426 2469
+call(
+  stack
+)
+type(
+  string
+)
+"xb.ml" 94 2477 2480 "xb.ml" 94 2477 2482
+type(
+  string
+)
+"xb.ml" 91 2382 2389 "xb.ml" 94 2477 2482
+type(
+  string
+)
+"xb.ml" 89 2312 2321 "xb.ml" 94 2477 2482
+type(
+  string
+)
+"xb.ml" 96 2551 2555 "xb.ml" 96 2551 2556
+type(
+  string
+)
+ident(
+  int_ref s "xb.ml" 89 2312 2317 "xb.ml" 89 2312 2318
+)
+"xb.ml" 96 2551 2557 "xb.ml" 96 2551 2559
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"xb.ml" 96 2551 2560 "xb.ml" 96 2551 2562
+type(
+  string
+)
+"xb.ml" 96 2551 2555 "xb.ml" 96 2551 2562
+type(
+  bool
+)
+"xb.ml" 97 2570 2576 "xb.ml" 97 2570 2579
+type(
+  int
+)
+ident(
+  def len "xb.ml" 98 2601 2603 "xb.ml" 100 2674 2699
+)
+"xb.ml" 97 2570 2582 "xb.ml" 97 2570 2595
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"xb.ml" 97 2570 2596 "xb.ml" 97 2570 2597
+type(
+  string
+)
+ident(
+  int_ref s "xb.ml" 89 2312 2317 "xb.ml" 89 2312 2318
+)
+"xb.ml" 97 2570 2582 "xb.ml" 97 2570 2597
+type(
+  int
+)
+"xb.ml" 98 2601 2607 "xb.ml" 98 2601 2609
+type(
+  int
+)
+ident(
+  def sz "xb.ml" 99 2631 2633 "xb.ml" 100 2674 2699
+)
+"xb.ml" 98 2601 2612 "xb.ml" 98 2601 2617
+type(
+  t -> string -> int -> int
+)
+ident(
+  int_ref write "xb.ml" 82 2080 2084 "xb.ml" 82 2080 2089
+)
+"xb.ml" 98 2601 2618 "xb.ml" 98 2601 2621
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 87 2226 2237 "xb.ml" 87 2226 2240
+)
+"xb.ml" 98 2601 2622 "xb.ml" 98 2601 2623
+type(
+  string
+)
+ident(
+  int_ref s "xb.ml" 89 2312 2317 "xb.ml" 89 2312 2318
+)
+"xb.ml" 98 2601 2624 "xb.ml" 98 2601 2627
+type(
+  int
+)
+ident(
+  int_ref len "xb.ml" 97 2570 2576 "xb.ml" 97 2570 2579
+)
+"xb.ml" 98 2601 2612 "xb.ml" 98 2601 2627
+call(
+  stack
+)
+type(
+  int
+)
+"xb.ml" 99 2631 2637 "xb.ml" 99 2631 2641
+type(
+  string
+)
+ident(
+  def left "xb.ml" 100 2674 2676 "xb.ml" 100 2674 2699
+)
+"xb.ml" 99 2631 2644 "xb.ml" 99 2631 2654
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"xb.ml" 99 2631 2655 "xb.ml" 99 2631 2656
+type(
+  string
+)
+ident(
+  int_ref s "xb.ml" 89 2312 2317 "xb.ml" 89 2312 2318
+)
+"xb.ml" 99 2631 2657 "xb.ml" 99 2631 2659
+type(
+  int
+)
+ident(
+  int_ref sz "xb.ml" 98 2601 2607 "xb.ml" 98 2601 2609
+)
+"xb.ml" 99 2631 2661 "xb.ml" 99 2631 2664
+type(
+  int
+)
+ident(
+  int_ref len "xb.ml" 97 2570 2576 "xb.ml" 97 2570 2579
+)
+"xb.ml" 99 2631 2665 "xb.ml" 99 2631 2666
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"xb.ml" 99 2631 2667 "xb.ml" 99 2631 2669
+type(
+  int
+)
+ident(
+  int_ref sz "xb.ml" 98 2601 2607 "xb.ml" 98 2601 2609
+)
+"xb.ml" 99 2631 2660 "xb.ml" 99 2631 2670
+type(
+  int
+)
+"xb.ml" 99 2631 2644 "xb.ml" 99 2631 2670
+call(
+  stack
+)
+type(
+  string
+)
+"xb.ml" 100 2674 2676 "xb.ml" 100 2674 2679
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 87 2226 2237 "xb.ml" 87 2226 2240
+)
+"xb.ml" 100 2674 2695 "xb.ml" 100 2674 2699
+type(
+  string
+)
+ident(
+  int_ref left "xb.ml" 99 2631 2637 "xb.ml" 99 2631 2641
+)
+"xb.ml" 100 2674 2676 "xb.ml" 100 2674 2699
+type(
+  unit
+)
+"xb.ml" 99 2631 2633 "xb.ml" 100 2674 2699
+type(
+  unit
+)
+"xb.ml" 98 2601 2603 "xb.ml" 100 2674 2699
+type(
+  unit
+)
+"xb.ml" 96 2551 2568 "xb.ml" 101 2700 2702
+type(
+  unit
+)
+"xb.ml" 96 2551 2552 "xb.ml" 101 2700 2702
+type(
+  unit
+)
+"xb.ml" 103 2754 2755 "xb.ml" 103 2754 2758
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 87 2226 2237 "xb.ml" 87 2226 2240
+)
+"xb.ml" 103 2754 2755 "xb.ml" 103 2754 2770
+type(
+  string
+)
+"xb.ml" 103 2754 2771 "xb.ml" 103 2754 2772
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"xb.ml" 103 2754 2773 "xb.ml" 103 2754 2775
+type(
+  string
+)
+"xb.ml" 103 2754 2755 "xb.ml" 103 2754 2775
+type(
+  bool
+)
+"xb.ml" 96 2551 2552 "xb.ml" 103 2754 2775
+type(
+  bool
+)
+"xb.ml" 89 2312 2313 "xb.ml" 103 2754 2775
+type(
+  bool
+)
+"xb.ml" 105 2777 2781 "xb.ml" 105 2777 2786
+type(
+  t -> bool
+)
+ident(
+  def input "xb.ml" 137 3684 3684 "xb.ml" 1 0 -1
+)
+"xb.ml" 105 2777 2787 "xb.ml" 105 2777 2790
+type(
+  t
+)
+ident(
+  def con "xb.ml" 106 2793 2794 "xb.ml" 135 3671 3682
+)
+"xb.ml" 106 2793 2798 "xb.ml" 106 2793 2807
+type(
+  bool ref
+)
+ident(
+  def newpacket "xb.ml" 107 2823 2824 "xb.ml" 135 3671 3682
+)
+"xb.ml" 106 2793 2810 "xb.ml" 106 2793 2813
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"xb.ml" 106 2793 2814 "xb.ml" 106 2793 2819
+type(
+  bool
+)
+"xb.ml" 106 2793 2810 "xb.ml" 106 2793 2819
+type(
+  bool ref
+)
+"xb.ml" 107 2823 2828 "xb.ml" 107 2823 2835
+type(
+  int
+)
+ident(
+  def to_read "xb.ml" 113 3004 3005 "xb.ml" 135 3671 3682
+)
+"xb.ml" 108 2838 2846 "xb.ml" 108 2838 2849
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 105 2777 2787 "xb.ml" 105 2777 2790
+)
+"xb.ml" 108 2838 2846 "xb.ml" 108 2838 2860
+type(
+  partial_buf
+)
+"xb.ml" 109 2866 2878 "xb.ml" 109 2866 2889
+type(
+  Partial.pkt
+)
+ident(
+  def partial_pkt "xb.ml" 109 2866 2893 "xb.ml" 109 2866 2924
+)
+"xb.ml" 109 2866 2870 "xb.ml" 109 2866 2889
+type(
+  partial_buf
+)
+"xb.ml" 109 2866 2893 "xb.ml" 109 2866 2912
+type(
+  Partial.pkt -> int
+)
+ident(
+  ext_ref Partial.to_complete
+)
+"xb.ml" 109 2866 2913 "xb.ml" 109 2866 2924
+type(
+  Partial.pkt
+)
+ident(
+  int_ref partial_pkt "xb.ml" 109 2866 2878 "xb.ml" 109 2866 2889
+)
+"xb.ml" 109 2866 2893 "xb.ml" 109 2866 2924
+call(
+  stack
+)
+type(
+  int
+)
+"xb.ml" 110 2925 2938 "xb.ml" 110 2925 2939
+type(
+  int
+)
+ident(
+  def i "xb.ml" 110 2925 2952 "xb.ml" 110 2925 2953
+)
+"xb.ml" 110 2925 2941 "xb.ml" 110 2925 2944
+type(
+  string
+)
+ident(
+  def buf "xb.ml" 110 2925 2952 "xb.ml" 110 2925 2953
+)
+"xb.ml" 110 2925 2929 "xb.ml" 110 2925 2945
+type(
+  partial_buf
+)
+"xb.ml" 110 2925 2952 "xb.ml" 110 2925 2953
+type(
+  int
+)
+ident(
+  int_ref i "xb.ml" 110 2925 2938 "xb.ml" 110 2925 2939
+)
+"xb.ml" 108 2838 2840 "xb.ml" 110 2925 2953
+type(
+  int
+)
+"xb.ml" 113 3004 3009 "xb.ml" 113 3004 3010
+type(
+  string
+)
+ident(
+  def s "xb.ml" 114 3043 3044 "xb.ml" 135 3671 3682
+)
+"xb.ml" 113 3004 3013 "xb.ml" 113 3004 3024
+type(
+  int -> char -> string
+)
+ident(
+  ext_ref String.make
+)
+"xb.ml" 113 3004 3025 "xb.ml" 113 3004 3032
+type(
+  int
+)
+ident(
+  int_ref to_read "xb.ml" 107 2823 2828 "xb.ml" 107 2823 2835
+)
+"xb.ml" 113 3004 3033 "xb.ml" 113 3004 3039
+type(
+  char
+)
+"xb.ml" 113 3004 3013 "xb.ml" 113 3004 3039
+call(
+  stack
+)
+type(
+  string
+)
+"xb.ml" 114 3043 3048 "xb.ml" 114 3043 3050
+type(
+  int
+)
+ident(
+  def sz "xb.ml" 116 3103 3104 "xb.ml" 135 3671 3682
+)
+"xb.ml" 114 3043 3056 "xb.ml" 114 3043 3063
+type(
+  int
+)
+ident(
+  int_ref to_read "xb.ml" 107 2823 2828 "xb.ml" 107 2823 2835
+)
+"xb.ml" 114 3043 3064 "xb.ml" 114 3043 3065
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"xb.ml" 114 3043 3066 "xb.ml" 114 3043 3067
+type(
+  int
+)
+"xb.ml" 114 3043 3056 "xb.ml" 114 3043 3067
+type(
+  bool
+)
+"xb.ml" 114 3043 3073 "xb.ml" 114 3043 3077
+type(
+  t -> string -> int -> int
+)
+ident(
+  int_ref read "xb.ml" 68 1755 1759 "xb.ml" 68 1755 1763
+)
+"xb.ml" 114 3043 3078 "xb.ml" 114 3043 3081
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 105 2777 2787 "xb.ml" 105 2777 2790
+)
+"xb.ml" 114 3043 3082 "xb.ml" 114 3043 3083
+type(
+  string
+)
+ident(
+  int_ref s "xb.ml" 113 3004 3009 "xb.ml" 113 3004 3010
+)
+"xb.ml" 114 3043 3084 "xb.ml" 114 3043 3091
+type(
+  int
+)
+ident(
+  int_ref to_read "xb.ml" 107 2823 2828 "xb.ml" 107 2823 2835
+)
+"xb.ml" 114 3043 3073 "xb.ml" 114 3043 3091
+call(
+  stack
+)
+type(
+  int
+)
+"xb.ml" 114 3043 3097 "xb.ml" 114 3043 3098
+type(
+  int
+)
+"xb.ml" 114 3043 3053 "xb.ml" 114 3043 3098
+type(
+  int
+)
+"xb.ml" 117 3106 3113 "xb.ml" 117 3106 3116
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 105 2777 2787 "xb.ml" 105 2777 2790
+)
+"xb.ml" 117 3106 3113 "xb.ml" 117 3106 3127
+type(
+  partial_buf
+)
+"xb.ml" 118 3133 3144 "xb.ml" 118 3133 3155
+type(
+  Partial.pkt
+)
+ident(
+  def partial_pkt "xb.ml" 120 3188 3190 "xb.ml" 127 3430 3433
+)
+"xb.ml" 118 3133 3136 "xb.ml" 118 3133 3155
+type(
+  partial_buf
+)
+"xb.ml" 120 3188 3193 "xb.ml" 120 3188 3195
+type(
+  int
+)
+ident(
+  int_ref sz "xb.ml" 114 3043 3048 "xb.ml" 114 3043 3050
+)
+"xb.ml" 120 3188 3196 "xb.ml" 120 3188 3197
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"xb.ml" 120 3188 3198 "xb.ml" 120 3188 3199
+type(
+  int
+)
+"xb.ml" 120 3188 3193 "xb.ml" 120 3188 3199
+type(
+  bool
+)
+"xb.ml" 121 3205 3208 "xb.ml" 121 3205 3222
+type(
+  Partial.pkt -> string -> int -> unit
+)
+ident(
+  ext_ref Partial.append
+)
+"xb.ml" 121 3205 3223 "xb.ml" 121 3205 3234
+type(
+  Partial.pkt
+)
+ident(
+  int_ref partial_pkt "xb.ml" 118 3133 3144 "xb.ml" 118 3133 3155
+)
+"xb.ml" 121 3205 3235 "xb.ml" 121 3205 3236
+type(
+  string
+)
+ident(
+  int_ref s "xb.ml" 113 3004 3009 "xb.ml" 113 3004 3010
+)
+"xb.ml" 121 3205 3237 "xb.ml" 121 3205 3239
+type(
+  int
+)
+ident(
+  int_ref sz "xb.ml" 114 3043 3048 "xb.ml" 114 3043 3050
+)
+"xb.ml" 121 3205 3208 "xb.ml" 121 3205 3239
+call(
+  stack
+)
+type(
+  unit
+)
+"xb.ml" 120 3188 3190 "xb.ml" 121 3205 3239
+type(
+  unit
+)
+"xb.ml" 122 3241 3246 "xb.ml" 122 3241 3265
+type(
+  Partial.pkt -> int
+)
+ident(
+  ext_ref Partial.to_complete
+)
+"xb.ml" 122 3241 3266 "xb.ml" 122 3241 3277
+type(
+  Partial.pkt
+)
+ident(
+  int_ref partial_pkt "xb.ml" 118 3133 3144 "xb.ml" 118 3133 3155
+)
+"xb.ml" 122 3241 3246 "xb.ml" 122 3241 3277
+call(
+  stack
+)
+type(
+  int
+)
+"xb.ml" 122 3241 3278 "xb.ml" 122 3241 3279
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"xb.ml" 122 3241 3280 "xb.ml" 122 3241 3281
+type(
+  int
+)
+"xb.ml" 122 3241 3246 "xb.ml" 122 3241 3281
+type(
+  bool
+)
+"xb.ml" 123 3289 3296 "xb.ml" 123 3289 3299
+type(
+  Packet.t
+)
+ident(
+  def pkt "xb.ml" 124 3338 3341 "xb.ml" 126 3409 3429
+)
+"xb.ml" 123 3289 3302 "xb.ml" 123 3289 3322
+type(
+  Partial.pkt -> Packet.t
+)
+ident(
+  ext_ref Packet.of_partialpkt
+)
+"xb.ml" 123 3289 3323 "xb.ml" 123 3289 3334
+type(
+  Partial.pkt
+)
+ident(
+  int_ref partial_pkt "xb.ml" 118 3133 3144 "xb.ml" 118 3133 3155
+)
+"xb.ml" 123 3289 3302 "xb.ml" 123 3289 3334
+call(
+  stack
+)
+type(
+  Packet.t
+)
+"xb.ml" 124 3338 3341 "xb.ml" 124 3338 3344
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 105 2777 2787 "xb.ml" 105 2777 2790
+)
+"xb.ml" 124 3338 3359 "xb.ml" 124 3338 3374
+type(
+  unit -> partial_buf
+)
+ident(
+  int_ref init_partial_in "xb.ml" 50 1344 1348 "xb.ml" 50 1344 1363
+)
+"xb.ml" 124 3338 3375 "xb.ml" 124 3338 3377
+type(
+  unit
+)
+"xb.ml" 124 3338 3359 "xb.ml" 124 3338 3377
+call(
+  stack
+)
+type(
+  partial_buf
+)
+"xb.ml" 124 3338 3341 "xb.ml" 124 3338 3377
+type(
+  unit
+)
+"xb.ml" 125 3379 3382 "xb.ml" 125 3379 3392
+type(
+  Packet.t -> Packet.t Queue.t -> unit
+)
+ident(
+  ext_ref Queue.push
+)
+"xb.ml" 125 3379 3393 "xb.ml" 125 3379 3396
+type(
+  Packet.t
+)
+ident(
+  int_ref pkt "xb.ml" 123 3289 3296 "xb.ml" 123 3289 3299
+)
+"xb.ml" 125 3379 3397 "xb.ml" 125 3379 3400
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 105 2777 2787 "xb.ml" 105 2777 2790
+)
+"xb.ml" 125 3379 3397 "xb.ml" 125 3379 3407
+type(
+  Packet.t Queue.t
+)
+"xb.ml" 125 3379 3382 "xb.ml" 125 3379 3407
+call(
+  stack
+)
+type(
+  unit
+)
+"xb.ml" 126 3409 3412 "xb.ml" 126 3409 3421
+type(
+  bool ref
+)
+ident(
+  int_ref newpacket "xb.ml" 106 2793 2798 "xb.ml" 106 2793 2807
+)
+"xb.ml" 126 3409 3422 "xb.ml" 126 3409 3424
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"xb.ml" 126 3409 3425 "xb.ml" 126 3409 3429
+type(
+  bool
+)
+"xb.ml" 126 3409 3412 "xb.ml" 126 3409 3429
+type(
+  unit
+)
+"xb.ml" 125 3379 3382 "xb.ml" 126 3409 3429
+type(
+  unit
+)
+"xb.ml" 124 3338 3341 "xb.ml" 126 3409 3429
+type(
+  unit
+)
+"xb.ml" 122 3241 3287 "xb.ml" 127 3430 3433
+type(
+  unit
+)
+"xb.ml" 122 3241 3243 "xb.ml" 127 3430 3433
+type(
+  unit
+)
+"xb.ml" 120 3188 3190 "xb.ml" 127 3430 3433
+type(
+  unit
+)
+"xb.ml" 128 3434 3444 "xb.ml" 128 3434 3445
+type(
+  int
+)
+ident(
+  def i "xb.ml" 130 3499 3501 "xb.ml" 133 3607 3666
+)
+"xb.ml" 128 3434 3447 "xb.ml" 128 3434 3450
+type(
+  string
+)
+ident(
+  def buf "xb.ml" 130 3499 3501 "xb.ml" 133 3607 3666
+)
+"xb.ml" 128 3434 3437 "xb.ml" 128 3434 3451
+type(
+  partial_buf
+)
+"xb.ml" 130 3499 3504 "xb.ml" 130 3499 3506
+type(
+  int
+)
+ident(
+  int_ref sz "xb.ml" 114 3043 3048 "xb.ml" 114 3043 3050
+)
+"xb.ml" 130 3499 3507 "xb.ml" 130 3499 3508
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"xb.ml" 130 3499 3509 "xb.ml" 130 3499 3510
+type(
+  int
+)
+"xb.ml" 130 3499 3504 "xb.ml" 130 3499 3510
+type(
+  bool
+)
+"xb.ml" 131 3516 3519 "xb.ml" 131 3516 3530
+type(
+  string -> int -> string -> int -> int -> unit
+)
+ident(
+  ext_ref String.blit
+)
+"xb.ml" 131 3516 3531 "xb.ml" 131 3516 3532
+type(
+  string
+)
+ident(
+  int_ref s "xb.ml" 113 3004 3009 "xb.ml" 113 3004 3010
+)
+"xb.ml" 131 3516 3533 "xb.ml" 131 3516 3534
+type(
+  int
+)
+"xb.ml" 131 3516 3535 "xb.ml" 131 3516 3538
+type(
+  string
+)
+ident(
+  int_ref buf "xb.ml" 128 3434 3447 "xb.ml" 128 3434 3450
+)
+"xb.ml" 131 3516 3540 "xb.ml" 131 3516 3559
+type(
+  unit -> int
+)
+ident(
+  ext_ref Partial.header_size
+)
+"xb.ml" 131 3516 3560 "xb.ml" 131 3516 3562
+type(
+  unit
+)
+"xb.ml" 131 3516 3540 "xb.ml" 131 3516 3562
+type(
+  int
+)
+"xb.ml" 131 3516 3563 "xb.ml" 131 3516 3564
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"xb.ml" 131 3516 3565 "xb.ml" 131 3516 3566
+type(
+  int
+)
+ident(
+  int_ref i "xb.ml" 128 3434 3444 "xb.ml" 128 3434 3445
+)
+"xb.ml" 131 3516 3539 "xb.ml" 131 3516 3567
+type(
+  int
+)
+"xb.ml" 131 3516 3568 "xb.ml" 131 3516 3570
+type(
+  int
+)
+ident(
+  int_ref sz "xb.ml" 114 3043 3048 "xb.ml" 114 3043 3050
+)
+"xb.ml" 131 3516 3519 "xb.ml" 131 3516 3570
+call(
+  stack
+)
+type(
+  unit
+)
+"xb.ml" 130 3499 3501 "xb.ml" 131 3516 3570
+type(
+  unit
+)
+"xb.ml" 132 3572 3574 "xb.ml" 132 3572 3577
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 105 2777 2787 "xb.ml" 105 2777 2790
+)
+"xb.ml" 132 3572 3595 "xb.ml" 132 3572 3597
+type(
+  int
+)
+ident(
+  int_ref sz "xb.ml" 114 3043 3048 "xb.ml" 114 3043 3050
+)
+"xb.ml" 132 3572 3598 "xb.ml" 132 3572 3599
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"xb.ml" 132 3572 3600 "xb.ml" 132 3572 3601
+type(
+  int
+)
+ident(
+  int_ref i "xb.ml" 128 3434 3444 "xb.ml" 128 3434 3445
+)
+"xb.ml" 132 3572 3595 "xb.ml" 132 3572 3601
+type(
+  bool
+)
+"xb.ml" 133 3607 3619 "xb.ml" 133 3607 3636
+type(
+  string -> Partial.pkt
+)
+ident(
+  ext_ref Partial.of_string
+)
+"xb.ml" 133 3607 3637 "xb.ml" 133 3607 3640
+type(
+  string
+)
+ident(
+  int_ref buf "xb.ml" 128 3434 3447 "xb.ml" 128 3434 3450
+)
+"xb.ml" 133 3607 3618 "xb.ml" 133 3607 3641
+call(
+  stack
+)
+type(
+  Partial.pkt
+)
+"xb.ml" 133 3607 3610 "xb.ml" 133 3607 3641
+type(
+  partial_buf
+)
+"xb.ml" 133 3607 3654 "xb.ml" 133 3607 3655
+type(
+  int
+)
+ident(
+  int_ref i "xb.ml" 128 3434 3444 "xb.ml" 128 3434 3445
+)
+"xb.ml" 133 3607 3656 "xb.ml" 133 3607 3657
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"xb.ml" 133 3607 3658 "xb.ml" 133 3607 3660
+type(
+  int
+)
+ident(
+  int_ref sz "xb.ml" 114 3043 3048 "xb.ml" 114 3043 3050
+)
+"xb.ml" 133 3607 3654 "xb.ml" 133 3607 3660
+type(
+  int
+)
+"xb.ml" 133 3607 3662 "xb.ml" 133 3607 3665
+type(
+  string
+)
+ident(
+  int_ref buf "xb.ml" 128 3434 3447 "xb.ml" 128 3434 3450
+)
+"xb.ml" 133 3607 3647 "xb.ml" 133 3607 3666
+type(
+  partial_buf
+)
+"xb.ml" 132 3572 3592 "xb.ml" 133 3607 3666
+type(
+  partial_buf
+)
+"xb.ml" 132 3572 3574 "xb.ml" 133 3607 3666
+type(
+  unit
+)
+"xb.ml" 130 3499 3501 "xb.ml" 133 3607 3666
+type(
+  unit
+)
+"xb.ml" 116 3103 3104 "xb.ml" 134 3667 3669
+type(
+  unit
+)
+"xb.ml" 135 3671 3672 "xb.ml" 135 3671 3673
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"xb.ml" 135 3671 3673 "xb.ml" 135 3671 3682
+type(
+  bool ref
+)
+ident(
+  int_ref newpacket "xb.ml" 106 2793 2798 "xb.ml" 106 2793 2807
+)
+"xb.ml" 135 3671 3672 "xb.ml" 135 3671 3682
+type(
+  bool
+)
+"xb.ml" 116 3103 3104 "xb.ml" 135 3671 3682
+type(
+  bool
+)
+"xb.ml" 114 3043 3044 "xb.ml" 135 3671 3682
+type(
+  bool
+)
+"xb.ml" 113 3004 3005 "xb.ml" 135 3671 3682
+type(
+  bool
+)
+"xb.ml" 107 2823 2824 "xb.ml" 135 3671 3682
+type(
+  bool
+)
+"xb.ml" 106 2793 2794 "xb.ml" 135 3671 3682
+type(
+  bool
+)
+"xb.ml" 137 3684 3688 "xb.ml" 137 3684 3694
+type(
+  backend -> t
+)
+ident(
+  def newcon "xb.ml" 145 3839 3839 "xb.ml" 1 0 -1
+)
+"xb.ml" 137 3684 3695 "xb.ml" 137 3684 3702
+type(
+  backend
+)
+ident(
+  def backend "xb.ml" 137 3684 3705 "xb.ml" 143 3835 3837
+)
+"xb.ml" 138 3707 3718 "xb.ml" 138 3707 3725
+type(
+  backend
+)
+ident(
+  int_ref backend "xb.ml" 137 3684 3695 "xb.ml" 137 3684 3702
+)
+"xb.ml" 139 3727 3737 "xb.ml" 139 3727 3749
+type(
+  unit -> Packet.t Queue.t
+)
+ident(
+  ext_ref Queue.create
+)
+"xb.ml" 139 3727 3750 "xb.ml" 139 3727 3752
+type(
+  unit
+)
+"xb.ml" 139 3727 3737 "xb.ml" 139 3727 3752
+call(
+  stack
+)
+type(
+  Packet.t Queue.t
+)
+"xb.ml" 140 3754 3765 "xb.ml" 140 3754 3777
+type(
+  unit -> Packet.t Queue.t
+)
+ident(
+  ext_ref Queue.create
+)
+"xb.ml" 140 3754 3778 "xb.ml" 140 3754 3780
+type(
+  unit
+)
+"xb.ml" 140 3754 3765 "xb.ml" 140 3754 3780
+call(
+  stack
+)
+type(
+  Packet.t Queue.t
+)
+"xb.ml" 141 3782 3796 "xb.ml" 141 3782 3811
+type(
+  unit -> partial_buf
+)
+ident(
+  int_ref init_partial_in "xb.ml" 50 1344 1348 "xb.ml" 50 1344 1363
+)
+"xb.ml" 141 3782 3812 "xb.ml" 141 3782 3814
+type(
+  unit
+)
+"xb.ml" 141 3782 3796 "xb.ml" 141 3782 3814
+call(
+  stack
+)
+type(
+  partial_buf
+)
+"xb.ml" 142 3816 3831 "xb.ml" 142 3816 3833
+type(
+  string
+)
+"xb.ml" 137 3684 3705 "xb.ml" 143 3835 3837
+type(
+  t
+)
+"xb.ml" 145 3839 3843 "xb.ml" 145 3839 3850
+type(
+  Unix.file_descr -> t
+)
+ident(
+  def open_fd "xb.ml" 147 3882 3882 "xb.ml" 1 0 -1
+)
+"xb.ml" 145 3839 3851 "xb.ml" 145 3839 3853
+type(
+  Unix.file_descr
+)
+ident(
+  def fd "xb.ml" 145 3839 3856 "xb.ml" 145 3839 3880
+)
+"xb.ml" 145 3839 3856 "xb.ml" 145 3839 3862
+type(
+  backend -> t
+)
+ident(
+  int_ref newcon "xb.ml" 137 3684 3688 "xb.ml" 137 3684 3694
+)
+"xb.ml" 145 3839 3874 "xb.ml" 145 3839 3876
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref fd "xb.ml" 145 3839 3851 "xb.ml" 145 3839 3853
+)
+"xb.ml" 145 3839 3867 "xb.ml" 145 3839 3879
+type(
+  backend_fd
+)
+"xb.ml" 145 3839 3863 "xb.ml" 145 3839 3880
+type(
+  backend
+)
+"xb.ml" 145 3839 3856 "xb.ml" 145 3839 3880
+call(
+  tail
+)
+type(
+  t
+)
+"xb.ml" 147 3882 3886 "xb.ml" 147 3882 3895
+type(
+  Xenmmap.mmap_interface -> (unit -> unit) -> t
+)
+ident(
+  def open_mmap "xb.ml" 153 4004 4004 "xb.ml" 1 0 -1
+)
+"xb.ml" 147 3882 3896 "xb.ml" 147 3882 3900
+type(
+  Xenmmap.mmap_interface
+)
+ident(
+  def mmap "xb.ml" 147 3882 3901 "xb.ml" 151 3978 4002
+)
+"xb.ml" 147 3882 3901 "xb.ml" 147 3882 3910
+type(
+  unit -> unit
+)
+ident(
+  def notifyfct "xb.ml" 148 3913 3914 "xb.ml" 151 3978 4002
+)
+"xb.ml" 148 3913 3914 "xb.ml" 148 3913 3920
+type(
+  backend -> t
+)
+ident(
+  int_ref newcon "xb.ml" 137 3684 3688 "xb.ml" 137 3684 3694
+)
+"xb.ml" 149 3932 3941 "xb.ml" 149 3932 3945
+type(
+  Xenmmap.mmap_interface
+)
+ident(
+  int_ref mmap "xb.ml" 147 3882 3896 "xb.ml" 147 3882 3900
+)
+"xb.ml" 150 3947 3967 "xb.ml" 150 3947 3976
+type(
+  unit -> unit
+)
+ident(
+  int_ref notifyfct "xb.ml" 147 3882 3901 "xb.ml" 147 3882 3910
+)
+"xb.ml" 151 3978 3993 "xb.ml" 151 3978 3998
+type(
+  bool
+)
+"xb.ml" 148 3913 3930 "xb.ml" 151 3978 4001
+type(
+  backend_mmap
+)
+"xb.ml" 148 3913 3921 "xb.ml" 151 3978 4002
+type(
+  backend
+)
+"xb.ml" 148 3913 3914 "xb.ml" 151 3978 4002
+call(
+  tail
+)
+type(
+  t
+)
+"xb.ml" 153 4004 4008 "xb.ml" 153 4004 4013
+type(
+  t -> unit
+)
+ident(
+  def close "xb.ml" 158 4135 4135 "xb.ml" 1 0 -1
+)
+"xb.ml" 153 4004 4014 "xb.ml" 153 4004 4017
+type(
+  t
+)
+ident(
+  def con "xb.ml" 154 4020 4021 "xb.ml" 156 4085 4133
+)
+"xb.ml" 154 4020 4027 "xb.ml" 154 4020 4030
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 153 4004 4014 "xb.ml" 153 4004 4017
+)
+"xb.ml" 154 4020 4027 "xb.ml" 154 4020 4038
+type(
+  backend
+)
+"xb.ml" 155 4044 4050 "xb.ml" 155 4044 4057
+type(
+  backend_fd
+)
+ident(
+  def backend "xb.ml" 155 4044 4063 "xb.ml" 155 4044 4084
+)
+"xb.ml" 155 4044 4047 "xb.ml" 155 4044 4057
+type(
+  backend
+)
+"xb.ml" 155 4044 4063 "xb.ml" 155 4044 4073
+type(
+  Unix.file_descr -> unit
+)
+ident(
+  ext_ref Unix.close
+)
+"xb.ml" 155 4044 4074 "xb.ml" 155 4044 4081
+type(
+  backend_fd
+)
+ident(
+  int_ref backend "xb.ml" 155 4044 4050 "xb.ml" 155 4044 4057
+)
+"xb.ml" 155 4044 4074 "xb.ml" 155 4044 4084
+type(
+  Unix.file_descr
+)
+"xb.ml" 155 4044 4063 "xb.ml" 155 4044 4084
+call(
+  tail
+)
+type(
+  unit
+)
+"xb.ml" 156 4085 4096 "xb.ml" 156 4085 4103
+type(
+  backend_mmap
+)
+ident(
+  def backend "xb.ml" 156 4085 4107 "xb.ml" 156 4085 4133
+)
+"xb.ml" 156 4085 4088 "xb.ml" 156 4085 4103
+type(
+  backend
+)
+"xb.ml" 156 4085 4107 "xb.ml" 156 4085 4120
+type(
+  Xenmmap.mmap_interface -> unit
+)
+ident(
+  ext_ref Xenmmap.unmap
+)
+"xb.ml" 156 4085 4121 "xb.ml" 156 4085 4128
+type(
+  backend_mmap
+)
+ident(
+  int_ref backend "xb.ml" 156 4085 4096 "xb.ml" 156 4085 4103
+)
+"xb.ml" 156 4085 4121 "xb.ml" 156 4085 4133
+type(
+  Xenmmap.mmap_interface
+)
+"xb.ml" 156 4085 4107 "xb.ml" 156 4085 4133
+type(
+  unit
+)
+"xb.ml" 154 4020 4021 "xb.ml" 156 4085 4133
+type(
+  unit
+)
+"xb.ml" 158 4135 4139 "xb.ml" 158 4135 4144
+type(
+  t -> bool
+)
+ident(
+  def is_fd "xb.ml" 163 4216 4216 "xb.ml" 1 0 -1
+)
+"xb.ml" 158 4135 4145 "xb.ml" 158 4135 4148
+type(
+  t
+)
+ident(
+  def con "xb.ml" 159 4151 4152 "xb.ml" 161 4193 4214
+)
+"xb.ml" 159 4151 4158 "xb.ml" 159 4151 4161
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 158 4135 4145 "xb.ml" 158 4135 4148
+)
+"xb.ml" 159 4151 4158 "xb.ml" 159 4151 4169
+type(
+  backend
+)
+"xb.ml" 160 4175 4181 "xb.ml" 160 4175 4182
+type(
+  backend_fd
+)
+"xb.ml" 160 4175 4178 "xb.ml" 160 4175 4182
+type(
+  backend
+)
+"xb.ml" 160 4175 4188 "xb.ml" 160 4175 4192
+type(
+  bool
+)
+"xb.ml" 161 4193 4204 "xb.ml" 161 4193 4205
+type(
+  backend_mmap
+)
+"xb.ml" 161 4193 4196 "xb.ml" 161 4193 4205
+type(
+  backend
+)
+"xb.ml" 161 4193 4209 "xb.ml" 161 4193 4214
+type(
+  bool
+)
+"xb.ml" 159 4151 4152 "xb.ml" 161 4193 4214
+type(
+  bool
+)
+"xb.ml" 163 4216 4220 "xb.ml" 163 4216 4227
+type(
+  t -> bool
+)
+ident(
+  def is_mmap "xb.ml" 165 4251 4251 "xb.ml" 1 0 -1
+)
+"xb.ml" 163 4216 4228 "xb.ml" 163 4216 4231
+type(
+  t
+)
+ident(
+  def con "xb.ml" 163 4216 4234 "xb.ml" 163 4216 4249
+)
+"xb.ml" 163 4216 4234 "xb.ml" 163 4216 4237
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"xb.ml" 163 4216 4239 "xb.ml" 163 4216 4244
+type(
+  t -> bool
+)
+ident(
+  int_ref is_fd "xb.ml" 158 4135 4139 "xb.ml" 158 4135 4144
+)
+"xb.ml" 163 4216 4245 "xb.ml" 163 4216 4248
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 163 4216 4228 "xb.ml" 163 4216 4231
+)
+"xb.ml" 163 4216 4238 "xb.ml" 163 4216 4249
+call(
+  stack
+)
+type(
+  bool
+)
+"xb.ml" 163 4216 4234 "xb.ml" 163 4216 4249
+type(
+  bool
+)
+"xb.ml" 165 4251 4255 "xb.ml" 165 4251 4265
+type(
+  t -> int
+)
+ident(
+  def output_len "xb.ml" 166 4297 4297 "xb.ml" 1 0 -1
+)
+"xb.ml" 165 4251 4266 "xb.ml" 165 4251 4269
+type(
+  t
+)
+ident(
+  def con "xb.ml" 165 4251 4272 "xb.ml" 165 4251 4296
+)
+"xb.ml" 165 4251 4272 "xb.ml" 165 4251 4284
+type(
+  Packet.t Queue.t -> int
+)
+ident(
+  ext_ref Queue.length
+)
+"xb.ml" 165 4251 4285 "xb.ml" 165 4251 4288
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 165 4251 4266 "xb.ml" 165 4251 4269
+)
+"xb.ml" 165 4251 4285 "xb.ml" 165 4251 4296
+type(
+  Packet.t Queue.t
+)
+"xb.ml" 165 4251 4272 "xb.ml" 165 4251 4296
+call(
+  tail
+)
+type(
+  int
+)
+"xb.ml" 166 4297 4301 "xb.ml" 166 4297 4315
+type(
+  t -> bool
+)
+ident(
+  def has_new_output "xb.ml" 167 4351 4351 "xb.ml" 1 0 -1
+)
+"xb.ml" 166 4297 4316 "xb.ml" 166 4297 4319
+type(
+  t
+)
+ident(
+  def con "xb.ml" 166 4297 4322 "xb.ml" 166 4297 4350
+)
+"xb.ml" 166 4297 4322 "xb.ml" 166 4297 4334
+type(
+  Packet.t Queue.t -> int
+)
+ident(
+  ext_ref Queue.length
+)
+"xb.ml" 166 4297 4335 "xb.ml" 166 4297 4338
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 166 4297 4316 "xb.ml" 166 4297 4319
+)
+"xb.ml" 166 4297 4335 "xb.ml" 166 4297 4346
+type(
+  Packet.t Queue.t
+)
+"xb.ml" 166 4297 4322 "xb.ml" 166 4297 4346
+call(
+  stack
+)
+type(
+  int
+)
+"xb.ml" 166 4297 4347 "xb.ml" 166 4297 4348
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"xb.ml" 166 4297 4349 "xb.ml" 166 4297 4350
+type(
+  int
+)
+"xb.ml" 166 4297 4322 "xb.ml" 166 4297 4350
+type(
+  bool
+)
+"xb.ml" 167 4351 4355 "xb.ml" 167 4351 4369
+type(
+  t -> bool
+)
+ident(
+  def has_old_output "xb.ml" 169 4411 4411 "xb.ml" 1 0 -1
+)
+"xb.ml" 167 4351 4370 "xb.ml" 167 4351 4373
+type(
+  t
+)
+ident(
+  def con "xb.ml" 167 4351 4376 "xb.ml" 167 4351 4409
+)
+"xb.ml" 167 4351 4376 "xb.ml" 167 4351 4389
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"xb.ml" 167 4351 4390 "xb.ml" 167 4351 4393
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 167 4351 4370 "xb.ml" 167 4351 4373
+)
+"xb.ml" 167 4351 4390 "xb.ml" 167 4351 4405
+type(
+  string
+)
+"xb.ml" 167 4351 4376 "xb.ml" 167 4351 4405
+type(
+  int
+)
+"xb.ml" 167 4351 4406 "xb.ml" 167 4351 4407
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"xb.ml" 167 4351 4408 "xb.ml" 167 4351 4409
+type(
+  int
+)
+"xb.ml" 167 4351 4376 "xb.ml" 167 4351 4409
+type(
+  bool
+)
+"xb.ml" 169 4411 4415 "xb.ml" 169 4411 4425
+type(
+  t -> bool
+)
+ident(
+  def has_output "xb.ml" 171 4474 4474 "xb.ml" 1 0 -1
+)
+"xb.ml" 169 4411 4426 "xb.ml" 169 4411 4429
+type(
+  t
+)
+ident(
+  def con "xb.ml" 169 4411 4432 "xb.ml" 169 4411 4472
+)
+"xb.ml" 169 4411 4432 "xb.ml" 169 4411 4446
+type(
+  t -> bool
+)
+ident(
+  int_ref has_new_output "xb.ml" 166 4297 4301 "xb.ml" 166 4297 4315
+)
+"xb.ml" 169 4411 4447 "xb.ml" 169 4411 4450
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 169 4411 4426 "xb.ml" 169 4411 4429
+)
+"xb.ml" 169 4411 4432 "xb.ml" 169 4411 4450
+call(
+  stack
+)
+type(
+  bool
+)
+"xb.ml" 169 4411 4451 "xb.ml" 169 4411 4453
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"xb.ml" 169 4411 4454 "xb.ml" 169 4411 4468
+type(
+  t -> bool
+)
+ident(
+  int_ref has_old_output "xb.ml" 167 4351 4355 "xb.ml" 167 4351 4369
+)
+"xb.ml" 169 4411 4469 "xb.ml" 169 4411 4472
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 169 4411 4426 "xb.ml" 169 4411 4429
+)
+"xb.ml" 169 4411 4454 "xb.ml" 169 4411 4472
+call(
+  tail
+)
+type(
+  bool
+)
+"xb.ml" 169 4411 4432 "xb.ml" 169 4411 4472
+type(
+  bool
+)
+"xb.ml" 171 4474 4478 "xb.ml" 171 4474 4489
+type(
+  t -> Packet.t
+)
+ident(
+  def peek_output "xb.ml" 173 4520 4520 "xb.ml" 1 0 -1
+)
+"xb.ml" 171 4474 4490 "xb.ml" 171 4474 4493
+type(
+  t
+)
+ident(
+  def con "xb.ml" 171 4474 4496 "xb.ml" 171 4474 4518
+)
+"xb.ml" 171 4474 4496 "xb.ml" 171 4474 4506
+type(
+  Packet.t Queue.t -> Packet.t
+)
+ident(
+  ext_ref Queue.peek
+)
+"xb.ml" 171 4474 4507 "xb.ml" 171 4474 4510
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 171 4474 4490 "xb.ml" 171 4474 4493
+)
+"xb.ml" 171 4474 4507 "xb.ml" 171 4474 4518
+type(
+  Packet.t Queue.t
+)
+"xb.ml" 171 4474 4496 "xb.ml" 171 4474 4518
+call(
+  tail
+)
+type(
+  Packet.t
+)
+"xb.ml" 173 4520 4524 "xb.ml" 173 4520 4533
+type(
+  t -> int
+)
+ident(
+  def input_len "xb.ml" 174 4564 4564 "xb.ml" 1 0 -1
+)
+"xb.ml" 173 4520 4534 "xb.ml" 173 4520 4537
+type(
+  t
+)
+ident(
+  def con "xb.ml" 173 4520 4540 "xb.ml" 173 4520 4563
+)
+"xb.ml" 173 4520 4540 "xb.ml" 173 4520 4552
+type(
+  Packet.t Queue.t -> int
+)
+ident(
+  ext_ref Queue.length
+)
+"xb.ml" 173 4520 4553 "xb.ml" 173 4520 4556
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 173 4520 4534 "xb.ml" 173 4520 4537
+)
+"xb.ml" 173 4520 4553 "xb.ml" 173 4520 4563
+type(
+  Packet.t Queue.t
+)
+"xb.ml" 173 4520 4540 "xb.ml" 173 4520 4563
+call(
+  tail
+)
+type(
+  int
+)
+"xb.ml" 174 4564 4568 "xb.ml" 174 4564 4581
+type(
+  t -> bool
+)
+ident(
+  def has_in_packet "xb.ml" 175 4616 4616 "xb.ml" 1 0 -1
+)
+"xb.ml" 174 4564 4582 "xb.ml" 174 4564 4585
+type(
+  t
+)
+ident(
+  def con "xb.ml" 174 4564 4588 "xb.ml" 174 4564 4615
+)
+"xb.ml" 174 4564 4588 "xb.ml" 174 4564 4600
+type(
+  Packet.t Queue.t -> int
+)
+ident(
+  ext_ref Queue.length
+)
+"xb.ml" 174 4564 4601 "xb.ml" 174 4564 4604
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 174 4564 4582 "xb.ml" 174 4564 4585
+)
+"xb.ml" 174 4564 4601 "xb.ml" 174 4564 4611
+type(
+  Packet.t Queue.t
+)
+"xb.ml" 174 4564 4588 "xb.ml" 174 4564 4611
+call(
+  stack
+)
+type(
+  int
+)
+"xb.ml" 174 4564 4612 "xb.ml" 174 4564 4613
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"xb.ml" 174 4564 4614 "xb.ml" 174 4564 4615
+type(
+  int
+)
+"xb.ml" 174 4564 4588 "xb.ml" 174 4564 4615
+type(
+  bool
+)
+"xb.ml" 175 4616 4620 "xb.ml" 175 4616 4633
+type(
+  t -> Packet.t
+)
+ident(
+  def get_in_packet "xb.ml" 176 4661 4661 "xb.ml" 1 0 -1
+)
+"xb.ml" 175 4616 4634 "xb.ml" 175 4616 4637
+type(
+  t
+)
+ident(
+  def con "xb.ml" 175 4616 4640 "xb.ml" 175 4616 4660
+)
+"xb.ml" 175 4616 4640 "xb.ml" 175 4616 4649
+type(
+  Packet.t Queue.t -> Packet.t
+)
+ident(
+  ext_ref Queue.pop
+)
+"xb.ml" 175 4616 4650 "xb.ml" 175 4616 4653
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 175 4616 4634 "xb.ml" 175 4616 4637
+)
+"xb.ml" 175 4616 4650 "xb.ml" 175 4616 4660
+type(
+  Packet.t Queue.t
+)
+"xb.ml" 175 4616 4640 "xb.ml" 175 4616 4660
+call(
+  tail
+)
+type(
+  Packet.t
+)
+"xb.ml" 176 4661 4665 "xb.ml" 176 4661 4679
+type(
+  t -> bool
+)
+ident(
+  def has_more_input "xb.ml" 181 4777 4777 "xb.ml" 1 0 -1
+)
+"xb.ml" 176 4661 4680 "xb.ml" 176 4661 4683
+type(
+  t
+)
+ident(
+  def con "xb.ml" 177 4686 4687 "xb.ml" 179 4735 4775
+)
+"xb.ml" 177 4686 4693 "xb.ml" 177 4686 4696
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 176 4661 4680 "xb.ml" 176 4661 4683
+)
+"xb.ml" 177 4686 4693 "xb.ml" 177 4686 4704
+type(
+  backend
+)
+"xb.ml" 178 4710 4716 "xb.ml" 178 4710 4717
+type(
+  backend_fd
+)
+"xb.ml" 178 4710 4713 "xb.ml" 178 4710 4717
+type(
+  backend
+)
+"xb.ml" 178 4710 4729 "xb.ml" 178 4710 4734
+type(
+  bool
+)
+"xb.ml" 179 4735 4746 "xb.ml" 179 4735 4753
+type(
+  backend_mmap
+)
+ident(
+  def backend "xb.ml" 179 4735 4757 "xb.ml" 179 4735 4775
+)
+"xb.ml" 179 4735 4738 "xb.ml" 179 4735 4753
+type(
+  backend
+)
+"xb.ml" 179 4735 4757 "xb.ml" 179 4735 4764
+type(
+  backend_mmap
+)
+ident(
+  int_ref backend "xb.ml" 179 4735 4746 "xb.ml" 179 4735 4753
+)
+"xb.ml" 179 4735 4757 "xb.ml" 179 4735 4775
+type(
+  bool
+)
+"xb.ml" 177 4686 4687 "xb.ml" 179 4735 4775
+type(
+  bool
+)
+"xb.ml" 181 4777 4781 "xb.ml" 181 4777 4794
+type(
+  t -> bool
+)
+ident(
+  def is_selectable "xb.ml" 186 4866 4866 "xb.ml" 1 0 -1
+)
+"xb.ml" 181 4777 4795 "xb.ml" 181 4777 4798
+type(
+  t
+)
+ident(
+  def con "xb.ml" 182 4801 4802 "xb.ml" 184 4843 4864
+)
+"xb.ml" 182 4801 4808 "xb.ml" 182 4801 4811
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 181 4777 4795 "xb.ml" 181 4777 4798
+)
+"xb.ml" 182 4801 4808 "xb.ml" 182 4801 4819
+type(
+  backend
+)
+"xb.ml" 183 4825 4831 "xb.ml" 183 4825 4832
+type(
+  backend_fd
+)
+"xb.ml" 183 4825 4828 "xb.ml" 183 4825 4832
+type(
+  backend
+)
+"xb.ml" 183 4825 4838 "xb.ml" 183 4825 4842
+type(
+  bool
+)
+"xb.ml" 184 4843 4854 "xb.ml" 184 4843 4855
+type(
+  backend_mmap
+)
+"xb.ml" 184 4843 4846 "xb.ml" 184 4843 4855
+type(
+  backend
+)
+"xb.ml" 184 4843 4859 "xb.ml" 184 4843 4864
+type(
+  bool
+)
+"xb.ml" 182 4801 4802 "xb.ml" 184 4843 4864
+type(
+  bool
+)
+"xb.ml" 186 4866 4870 "xb.ml" 186 4866 4876
+type(
+  t -> Unix.file_descr
+)
+ident(
+  def get_fd "xb.ml" 189 4935 4979 "xb.ml" 1 0 -1
+)
+"xb.ml" 186 4866 4877 "xb.ml" 186 4866 4880
+type(
+  t
+)
+ident(
+  def con "xb.ml" 187 4883 4884 "xb.ml" 189 4935 4979
+)
+"xb.ml" 187 4883 4890 "xb.ml" 187 4883 4893
+type(
+  t
+)
+ident(
+  int_ref con "xb.ml" 186 4866 4877 "xb.ml" 186 4866 4880
+)
+"xb.ml" 187 4883 4890 "xb.ml" 187 4883 4901
+type(
+  backend
+)
+"xb.ml" 188 4907 4913 "xb.ml" 188 4907 4920
+type(
+  backend_fd
+)
+ident(
+  def backend "xb.ml" 188 4907 4924 "xb.ml" 188 4907 4934
+)
+"xb.ml" 188 4907 4910 "xb.ml" 188 4907 4920
+type(
+  backend
+)
+"xb.ml" 188 4907 4924 "xb.ml" 188 4907 4931
+type(
+  backend_fd
+)
+ident(
+  int_ref backend "xb.ml" 188 4907 4913 "xb.ml" 188 4907 4920
+)
+"xb.ml" 188 4907 4924 "xb.ml" 188 4907 4934
+type(
+  Unix.file_descr
+)
+"xb.ml" 189 4935 4946 "xb.ml" 189 4935 4947
+type(
+  backend_mmap
+)
+"xb.ml" 189 4935 4938 "xb.ml" 189 4935 4947
+type(
+  backend
+)
+"xb.ml" 189 4935 4955 "xb.ml" 189 4935 4960
+type(
+  exn -> Unix.file_descr
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"xb.ml" 189 4935 4970 "xb.ml" 189 4935 4978
+type(
+  string
+)
+"xb.ml" 189 4935 4961 "xb.ml" 189 4935 4979
+type(
+  exn
+)
+"xb.ml" 189 4935 4955 "xb.ml" 189 4935 4979
+type(
+  Unix.file_descr
+)
+"xb.ml" 187 4883 4884 "xb.ml" 189 4935 4979
+type(
+  Unix.file_descr
+)

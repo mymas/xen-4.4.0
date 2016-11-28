@@ -82,7 +82,7 @@ VM_LIST_POS VM_list_next(VM_LIST_POS pos){
 	}
 }
 
-struct VM_LIST * VM_list_search_by_domid(int dom_id){
+struct VM_LIST * VM_list_search_by_domid(unsigned long dom_id){
 	struct VM_LIST *p;
 	for(p = VM_TOP; p!= VM_LIST_TAIL; p=p->next){
 		if(p->target_domain_id == dom_id){

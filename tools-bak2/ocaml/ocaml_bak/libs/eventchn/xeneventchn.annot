@@ -1,0 +1,42 @@
+"xeneventchn.ml" 31 1236 1240 "xeneventchn.ml" 31 1236 1246
+type(
+  'a -> 'a
+)
+ident(
+  def to_int "xeneventchn.ml" 32 1253 1253 "xeneventchn.ml" 1 0 -1
+)
+"xeneventchn.ml" 31 1236 1247 "xeneventchn.ml" 31 1236 1248
+type(
+  'a
+)
+ident(
+  def x "xeneventchn.ml" 31 1236 1251 "xeneventchn.ml" 31 1236 1252
+)
+"xeneventchn.ml" 31 1236 1251 "xeneventchn.ml" 31 1236 1252
+type(
+  'a
+)
+ident(
+  int_ref x "xeneventchn.ml" 31 1236 1247 "xeneventchn.ml" 31 1236 1248
+)
+"xeneventchn.ml" 32 1253 1257 "xeneventchn.ml" 32 1253 1263
+type(
+  'a -> 'a
+)
+ident(
+  def of_int "xeneventchn.ml" 32 1253 1269 "xeneventchn.ml" 1 0 -1
+)
+"xeneventchn.ml" 32 1253 1264 "xeneventchn.ml" 32 1253 1265
+type(
+  'a
+)
+ident(
+  def x "xeneventchn.ml" 32 1253 1268 "xeneventchn.ml" 32 1253 1269
+)
+"xeneventchn.ml" 32 1253 1268 "xeneventchn.ml" 32 1253 1269
+type(
+  'a
+)
+ident(
+  int_ref x "xeneventchn.ml" 32 1253 1264 "xeneventchn.ml" 32 1253 1265
+)

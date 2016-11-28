@@ -143,7 +143,10 @@ extern unsigned long
 do_conv_ept(XEN_GUEST_HANDLE_PARAM(void) uarg);
 
 extern int
-do_register_vm_id(int vm_id, unsigned long target_eptp);
+do_register_vm_id(unsigned long vm_id, unsigned long target_eptp);
+
+extern unsigned short
+do_get_host_id(void);
 
 extern long
 do_xenoprof_op(int op, XEN_GUEST_HANDLE_PARAM(void) arg);

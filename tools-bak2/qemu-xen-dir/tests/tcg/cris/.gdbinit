@@ -1,0 +1,1 @@
+/usr/local/xen-4.4.0/tools/qemu-xen/tests/tcg/cris/.gdbinit

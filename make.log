@@ -1,158 +1,193 @@
+Cannot find "xl.cfg" in podpath: cannot find suitable replacement path, cannot resolve link
+Cannot find "xmdomain.cfg" in podpath: cannot find suitable replacement path, cannot resolve link
+Cannot find "xmdomain.cfg" in podpath: cannot find suitable replacement path, cannot resolve link
+Cannot find "xl.conf" in podpath: cannot find suitable replacement path, cannot resolve link
+Cannot find "xl.cfg" in podpath: cannot find suitable replacement path, cannot resolve link
+Cannot find "xl.cfg" in podpath: cannot find suitable replacement path, cannot resolve link
+Cannot find "xl.cfg" in podpath: cannot find suitable replacement path, cannot resolve link
+Cannot find "xlcpupool.cfg" in podpath: cannot find suitable replacement path, cannot resolve link
 + make -C figs
 + test -d /usr/local/xen-4.4.0/tools/../tools/qemu-xen-traditional
 + mkdir -p qemu-xen-traditional-dir
-Parsing /usr/local/xen-4.4.0/tools/python/../../tools/libxl/libxl_types.idl
-Removed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xenmmap
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xenmmap/xenmmap.cmx
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xenmmap/dllxenmmap_stubs.so
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xenmmap/xenmmap.a
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xenmmap/libxenmmap_stubs.a
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xenmmap/xenmmap.cmxa
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xenmmap/xenmmap.cma
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xenmmap/xenmmap.cmi
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xenmmap/META
-Removed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xentoollog
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xentoollog/xentoollog.cmx
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xentoollog/dllxentoollog_stubs.so
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xentoollog/xentoollog.a
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xentoollog/libxentoollog_stubs.a
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xentoollog/xentoollog.cmxa
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xentoollog/xentoollog.cma
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xentoollog/xentoollog.cmi
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xentoollog/META
-Removed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xenctrl
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xenctrl/xenctrl.cmx
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xenctrl/dllxenctrl_stubs.so
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xenctrl/xenctrl.a
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xenctrl/libxenctrl_stubs.a
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xenctrl/xenctrl.cmxa
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xenctrl/xenctrl.cma
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xenctrl/xenctrl.cmi
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xenctrl/META
-Removed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xeneventchn
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xeneventchn/xeneventchn.cmx
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xeneventchn/dllxeneventchn_stubs.so
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xeneventchn/xeneventchn.a
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xeneventchn/libxeneventchn_stubs.a
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xeneventchn/xeneventchn.cmxa
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xeneventchn/xeneventchn.cma
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xeneventchn/xeneventchn.cmi
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xeneventchn/META
-Removed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xenbus
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xenbus/dllxenbus_stubs.so
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xenbus/xenbus.a
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xenbus/libxenbus_stubs.a
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xenbus/xenbus.cmx
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xenbus/xenbus.cmi
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xenbus/xenbus.cmo
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xenbus/xenbus.cmxa
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xenbus/xenbus.cma
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xenbus/META
-Removed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xenstore
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xenstore/xenstore.a
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xenstore/xenstore.cmx
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xenstore/xenstore.cmi
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xenstore/xenstore.cmo
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xenstore/xenstore.cmxa
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xenstore/xenstore.cma
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xenstore/META
-Removed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xenlight
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xenlight/xenlight.cmx
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xenlight/dllxenlight_stubs.so
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xenlight/xenlight.a
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xenlight/libxenlight_stubs.a
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xenlight/xenlight.cmxa
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xenlight/xenlight.cma
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xenlight/xenlight.cmi
-Installed /usr/local/xen-4.4.0/dist/install/usr/local/lib/ocaml/4.01.0/xenlight/META
-tpmback.c: In function ‘tpmif_change_state’:
-tpmback.c:350:4: warning: format ‘%d’ expects argument of type ‘int *’, but argument 3 has type ‘enum xenbus_state *’ [-Wformat=]
-    if(sscanf(value, "%d", &readst) != 1) {
-    ^
-tpmback.c:350:4: warning: format ‘%d’ expects argument of type ‘int *’, but argument 3 has type ‘enum xenbus_state *’ [-Wformat=]
-tpmback.c: In function ‘tpmif_change_state’:
-tpmback.c:350:4: warning: format ‘%d’ expects argument of type ‘int *’, but argument 3 has type ‘enum xenbus_state *’ [-Wformat=]
-    if(sscanf(value, "%d", &readst) != 1) {
-    ^
-tpmback.c:350:4: warning: format ‘%d’ expects argument of type ‘int *’, but argument 3 has type ‘enum xenbus_state *’ [-Wformat=]
-/usr/local/xen-4.4.0/stubdom/../tools/qemu-xen-traditional/migration-tcp.c: In function ‘socket_write’:
-/usr/local/xen-4.4.0/stubdom/../tools/qemu-xen-traditional/migration-tcp.c:40:5: warning: passing argument 2 of ‘send’ discards ‘const’ qualifier from pointer target type [enabled by default]
-     return send(s->fd, buf, size, 0);
-     ^
-In file included from /usr/local/xen-4.4.0/stubdom/../tools/qemu-xen-traditional/qemu_socket.h:28:0,
-                 from /usr/local/xen-4.4.0/stubdom/../tools/qemu-xen-traditional/qemu-common.h:212,
-                 from /usr/local/xen-4.4.0/stubdom/../tools/qemu-xen-traditional/migration-tcp.c:14:
-/usr/local/xen-4.4.0/extras/mini-os/include/posix/sys/socket.h:21:5: note: expected ‘void *’ but argument is of type ‘const void *’
- int send(int s, void *dataptr, int size, unsigned int flags);
-     ^
-/usr/local/xen-4.4.0/stubdom/../tools/qemu-xen-traditional/hw/bt-l2cap.c: In function ‘l2cap_channel_close’:
-/usr/local/xen-4.4.0/stubdom/../tools/qemu-xen-traditional/net.c: In function ‘net_socket_receive_dgram’:
-/usr/local/xen-4.4.0/stubdom/../tools/qemu-xen-traditional/net.c:1166:20: warning: passing argument 2 of ‘sendto’ discards ‘const’ qualifier from pointer target type [enabled by default]
-            (struct sockaddr *)&s->dgram_dst, sizeof(s->dgram_dst));
-                    ^
-In file included from /usr/local/xen-4.4.0/stubdom/../tools/qemu-xen-traditional/qemu_socket.h:28:0,
-                 from /usr/local/xen-4.4.0/stubdom/../tools/qemu-xen-traditional/qemu-common.h:212,
-                 from /usr/local/xen-4.4.0/stubdom/../tools/qemu-xen-traditional/net.c:24:
-/usr/local/xen-4.4.0/extras/mini-os/include/posix/sys/socket.h:22:5: note: expected ‘void *’ but argument is of type ‘const uint8_t *’
- int sendto(int s, void *dataptr, int size, unsigned int flags,
-     ^
-/usr/local/xen-4.4.0/stubdom/../tools/qemu-xen-traditional/hw/bt-l2cap.c:468:5: warning: passing argument 1 of ‘__builtin_expect’ makes integer from pointer without a cast [enabled by default]
-     if (likely(ch)) {
-     ^
-/usr/local/xen-4.4.0/stubdom/../tools/qemu-xen-traditional/hw/bt-l2cap.c:468:5: note: expected ‘long int’ but argument is of type ‘struct l2cap_chan_s *’
-/usr/local/xen-4.4.0/stubdom/../tools/qemu-xen-traditional/qemu-char.c: In function ‘qemu_chr_open_pty’:
-/usr/local/xen-4.4.0/stubdom/../tools/qemu-xen-traditional/qemu-char.c:1130:5: warning: implicit declaration of function ‘posix_openpt’ [-Wimplicit-function-declaration]
-     fd = posix_openpt(O_RDWR|O_NOCTTY);
-     ^
-/usr/local/xen-4.4.0/stubdom/../tools/qemu-xen-traditional/qemu-char.c: In function ‘udp_chr_write’:
-/usr/local/xen-4.4.0/stubdom/../tools/qemu-xen-traditional/qemu-char.c:1713:63: warning: passing argument 2 of ‘sendto’ discards ‘const’ qualifier from pointer target type [enabled by default]
-                   (struct sockaddr *)&s->daddr, sizeof(struct sockaddr_in));
-                                                               ^
-In file included from /usr/local/xen-4.4.0/stubdom/../tools/qemu-xen-traditional/qemu_socket.h:28:0,
-                 from /usr/local/xen-4.4.0/stubdom/../tools/qemu-xen-traditional/qemu-common.h:212,
-                 from /usr/local/xen-4.4.0/stubdom/../tools/qemu-xen-traditional/qemu-char.c:24:
-/usr/local/xen-4.4.0/extras/mini-os/include/posix/sys/socket.h:22:5: note: expected ‘void *’ but argument is of type ‘const uint8_t *’
- int sendto(int s, void *dataptr, int size, unsigned int flags,
-     ^
-In file included from /usr/local/xen-4.4.0/stubdom/../tools/qemu-xen-traditional/hw/lm832x.c:22:0:
-/usr/local/xen-4.4.0/stubdom/../tools/qemu-xen-traditional/hw/lm832x.c: In function ‘lm_kbd_load’:
-/usr/local/xen-4.4.0/stubdom/../tools/qemu-xen-traditional/hw/hw.h:109:9: warning: iteration 256u invokes undefined behavior [-Waggressive-loop-optimizations]
-     *pv = qemu_get_be16(f);
-         ^
-/usr/local/xen-4.4.0/stubdom/../tools/qemu-xen-traditional/hw/lm832x.c:478:5: note: containing loop
-     for (i = 0; i < sizeof(s->pwm.file); i ++)
-     ^
-/usr/local/xen-4.4.0/stubdom/../tools/qemu-xen-traditional/vnc.c: In function ‘vnc_display_open’:
-/usr/local/xen-4.4.0/stubdom/../tools/qemu-xen-traditional/vnc.c:2720:13: warning: implicit declaration of function ‘networking_set_addr’ [-Wimplicit-function-declaration]
-             networking_set_addr(&ipaddr, &netmask, &gw);
+/usr/local/xen-4.4.0/tools/qemu-xen-traditional/vnc.c: In function ‘vnc_start_tls’:
+/usr/local/xen-4.4.0/tools/qemu-xen-traditional/vnc.c:2164:2: warning: ‘gnutls_kx_set_priority’ is deprecated (declared at /usr/include/gnutls/compat.h:342) [-Wdeprecated-declarations]
+  if (gnutls_kx_set_priority(vs->tls_session, NEED_X509_AUTH(vs) ? kx_x509 : kx_anon) < 0) {
+  ^
+/usr/local/xen-4.4.0/tools/qemu-xen-traditional/vnc.c:2171:2: warning: ‘gnutls_certificate_type_set_priority’ is deprecated (declared at /usr/include/gnutls/compat.h:347) [-Wdeprecated-declarations]
+  if (gnutls_certificate_type_set_priority(vs->tls_session, cert_type_priority) < 0) {
+  ^
+/usr/local/xen-4.4.0/tools/qemu-xen-traditional/vnc.c:2178:2: warning: ‘gnutls_protocol_set_priority’ is deprecated (declared at /usr/include/gnutls/compat.h:344) [-Wdeprecated-declarations]
+  if (gnutls_protocol_set_priority(vs->tls_session, protocol_priority) < 0) {
+  ^
+In file included from /usr/local/xen-4.4.0/tools/qemu-xen-traditional/audio/audio.h:27:0,
+                 from /usr/local/xen-4.4.0/tools/qemu-xen-traditional/vl.c:41:
+../config-host.h:2:0: warning: "CONFIG_QEMU_SHAREDIR" redefined [enabled by default]
+ #define CONFIG_QEMU_SHAREDIR "/usr/local/share/xen/qemu"
+ ^
+In file included from /usr/local/xen-4.4.0/tools/qemu-xen-traditional/sys-queue.h:39:0,
+                 from /usr/local/xen-4.4.0/tools/qemu-xen-traditional/qemu-char.h:4,
+                 from /usr/local/xen-4.4.0/tools/qemu-xen-traditional/qemu-aio.h:18,
+                 from /usr/local/xen-4.4.0/tools/qemu-xen-traditional/block.h:4,
+                 from /usr/local/xen-4.4.0/tools/qemu-xen-traditional/hw/usb.h:25,
+                 from /usr/local/xen-4.4.0/tools/qemu-xen-traditional/vl.c:26:
+/usr/local/xen-4.4.0/tools/qemu-xen-traditional/config-host.h:2:0: note: this is the location of the previous definition
+ #define CONFIG_QEMU_SHAREDIR "/usr/local/share/qemu"
+ ^
+In file included from /usr/local/xen-4.4.0/tools/qemu-xen-traditional/audio/audio.h:27:0,
+                 from /usr/local/xen-4.4.0/tools/qemu-xen-traditional/vl.c:41:
+../config-host.h:19:0: warning: "DEFAULT_NETWORK_SCRIPT" redefined [enabled by default]
+ #define DEFAULT_NETWORK_SCRIPT      "/etc/xen/scripts/qemu-ifup"
+ ^
+In file included from /usr/local/xen-4.4.0/tools/qemu-xen-traditional/vl.c:33:0:
+/usr/local/xen-4.4.0/tools/qemu-xen-traditional/net.h:110:0: note: this is the location of the previous definition
+ #define DEFAULT_NETWORK_SCRIPT "/etc/qemu-ifup"
+ ^
+In file included from /usr/local/xen-4.4.0/tools/qemu-xen-traditional/audio/audio.h:27:0,
+                 from /usr/local/xen-4.4.0/tools/qemu-xen-traditional/vl.c:41:
+../config-host.h:20:0: warning: "DEFAULT_NETWORK_DOWN_SCRIPT" redefined [enabled by default]
+ #define DEFAULT_NETWORK_DOWN_SCRIPT "/etc/xen/scripts/qemu-ifdown"
+ ^
+In file included from /usr/local/xen-4.4.0/tools/qemu-xen-traditional/vl.c:33:0:
+/usr/local/xen-4.4.0/tools/qemu-xen-traditional/net.h:111:0: note: this is the location of the previous definition
+ #define DEFAULT_NETWORK_DOWN_SCRIPT "/etc/qemu-ifdown"
+ ^
+In file included from ../config-host.h:21:0,
+                 from /usr/local/xen-4.4.0/tools/qemu-xen-traditional/audio/audio.h:27,
+                 from /usr/local/xen-4.4.0/tools/qemu-xen-traditional/vl.c:41:
+/usr/local/xen-4.4.0/tools/qemu-xen-traditional/xen-config-host.h:13:13: error: conflicting types for ‘domain_name’
+ extern char domain_name[64];
              ^
-In file included from /usr/local/xen-4.4.0/stubdom/../tools/qemu-xen-traditional/hw/lm832x.c:22:0:
-/usr/local/xen-4.4.0/stubdom/../tools/qemu-xen-traditional/hw/lm832x.c: In function ‘lm_kbd_save’:
-/usr/local/xen-4.4.0/stubdom/../tools/qemu-xen-traditional/hw/hw.h:89:22: warning: iteration 256u invokes undefined behavior [-Waggressive-loop-optimizations]
-     qemu_put_be16(f, *pv);
-                      ^
-/usr/local/xen-4.4.0/stubdom/../tools/qemu-xen-traditional/hw/lm832x.c:442:5: note: containing loop
-     for (i = 0; i < sizeof(s->pwm.file); i ++)
-     ^
-ld: warning: section `.bss' type changed to PROGBITS
-ld: warning: section `.bss' type changed to PROGBITS
-/usr/local/xen-4.4.0/stubdom/../tools/qemu-xen-traditional/block-vvfat.c: In function ‘read_directory’:
-/usr/local/xen-4.4.0/stubdom/../tools/qemu-xen-traditional/block-vvfat.c:514:33: warning: iteration 8u invokes undefined behavior [-Waggressive-loop-optimizations]
-      +(unsigned char)entry->name[i];
+In file included from /usr/local/xen-4.4.0/tools/qemu-xen-traditional/hw/hw.h:5:0,
+                 from /usr/local/xen-4.4.0/tools/qemu-xen-traditional/vl.c:24:
+/usr/local/xen-4.4.0/tools/qemu-xen-traditional/qemu-common.h:103:6: note: previous definition of ‘domain_name’ was here
+ char domain_name[]="";
+      ^
+In file included from /usr/local/xen-4.4.0/tools/qemu-xen-traditional/audio/audio.h:27:0,
+                 from /usr/local/xen-4.4.0/tools/qemu-xen-traditional/monitor.c:35:
+../config-host.h:2:0: warning: "CONFIG_QEMU_SHAREDIR" redefined [enabled by default]
+ #define CONFIG_QEMU_SHAREDIR "/usr/local/share/xen/qemu"
+ ^
+In file included from /usr/local/xen-4.4.0/tools/qemu-xen-traditional/sys-queue.h:39:0,
+                 from /usr/local/xen-4.4.0/tools/qemu-xen-traditional/qemu-char.h:4,
+                 from /usr/local/xen-4.4.0/tools/qemu-xen-traditional/qemu-aio.h:18,
+                 from /usr/local/xen-4.4.0/tools/qemu-xen-traditional/block.h:4,
+                 from /usr/local/xen-4.4.0/tools/qemu-xen-traditional/hw/usb.h:25,
+                 from /usr/local/xen-4.4.0/tools/qemu-xen-traditional/monitor.c:25:
+/usr/local/xen-4.4.0/tools/qemu-xen-traditional/config-host.h:2:0: note: this is the location of the previous definition
+ #define CONFIG_QEMU_SHAREDIR "/usr/local/share/qemu"
+ ^
+In file included from /usr/local/xen-4.4.0/tools/qemu-xen-traditional/audio/audio.h:27:0,
+                 from /usr/local/xen-4.4.0/tools/qemu-xen-traditional/monitor.c:35:
+../config-host.h:19:0: warning: "DEFAULT_NETWORK_SCRIPT" redefined [enabled by default]
+ #define DEFAULT_NETWORK_SCRIPT      "/etc/xen/scripts/qemu-ifup"
+ ^
+In file included from /usr/local/xen-4.4.0/tools/qemu-xen-traditional/monitor.c:30:0:
+/usr/local/xen-4.4.0/tools/qemu-xen-traditional/net.h:110:0: note: this is the location of the previous definition
+ #define DEFAULT_NETWORK_SCRIPT "/etc/qemu-ifup"
+ ^
+In file included from /usr/local/xen-4.4.0/tools/qemu-xen-traditional/audio/audio.h:27:0,
+                 from /usr/local/xen-4.4.0/tools/qemu-xen-traditional/monitor.c:35:
+../config-host.h:20:0: warning: "DEFAULT_NETWORK_DOWN_SCRIPT" redefined [enabled by default]
+ #define DEFAULT_NETWORK_DOWN_SCRIPT "/etc/xen/scripts/qemu-ifdown"
+ ^
+In file included from /usr/local/xen-4.4.0/tools/qemu-xen-traditional/monitor.c:30:0:
+/usr/local/xen-4.4.0/tools/qemu-xen-traditional/net.h:111:0: note: this is the location of the previous definition
+ #define DEFAULT_NETWORK_DOWN_SCRIPT "/etc/qemu-ifdown"
+ ^
+In file included from ../config-host.h:21:0,
+                 from /usr/local/xen-4.4.0/tools/qemu-xen-traditional/audio/audio.h:27,
+                 from /usr/local/xen-4.4.0/tools/qemu-xen-traditional/monitor.c:35:
+/usr/local/xen-4.4.0/tools/qemu-xen-traditional/xen-config-host.h:13:13: error: conflicting types for ‘domain_name’
+ extern char domain_name[64];
+             ^
+In file included from /usr/local/xen-4.4.0/tools/qemu-xen-traditional/hw/hw.h:5:0,
+                 from /usr/local/xen-4.4.0/tools/qemu-xen-traditional/monitor.c:24:
+/usr/local/xen-4.4.0/tools/qemu-xen-traditional/qemu-common.h:103:6: note: previous definition of ‘domain_name’ was here
+ char domain_name[]="";
+      ^
+In file included from /usr/local/xen-4.4.0/tools/qemu-xen-traditional/sys-queue.h:39:0,
+                 from /usr/local/xen-4.4.0/tools/qemu-xen-traditional/audio/audio.h:28,
+                 from /usr/local/xen-4.4.0/tools/qemu-xen-traditional/vl.c:41:
+/usr/local/xen-4.4.0/tools/qemu-xen-traditional/config-host.h:2:0: warning: "CONFIG_QEMU_SHAREDIR" redefined [enabled by default]
+ #define CONFIG_QEMU_SHAREDIR "/usr/local/share/qemu"
+ ^
+In file included from /usr/local/xen-4.4.0/tools/qemu-xen-traditional/audio/audio.h:27:0,
+                 from /usr/local/xen-4.4.0/tools/qemu-xen-traditional/vl.c:41:
+../config-host.h:2:0: note: this is the location of the previous definition
+ #define CONFIG_QEMU_SHAREDIR "/usr/local/share/xen/qemu"
+ ^
+In file included from /usr/local/xen-4.4.0/tools/qemu-xen-traditional/sys-queue.h:39:0,
+                 from /usr/local/xen-4.4.0/tools/qemu-xen-traditional/audio/audio.h:28,
+                 from /usr/local/xen-4.4.0/tools/qemu-xen-traditional/monitor.c:35:
+/usr/local/xen-4.4.0/tools/qemu-xen-traditional/config-host.h:2:0: warning: "CONFIG_QEMU_SHAREDIR" redefined [enabled by default]
+ #define CONFIG_QEMU_SHAREDIR "/usr/local/share/qemu"
+ ^
+In file included from /usr/local/xen-4.4.0/tools/qemu-xen-traditional/audio/audio.h:27:0,
+                 from /usr/local/xen-4.4.0/tools/qemu-xen-traditional/monitor.c:35:
+../config-host.h:2:0: note: this is the location of the previous definition
+ #define CONFIG_QEMU_SHAREDIR "/usr/local/share/xen/qemu"
+ ^
+/usr/local/xen-4.4.0/tools/qemu-xen-traditional/vl.c: In function ‘main_loop_wait’:
+/usr/local/xen-4.4.0/tools/qemu-xen-traditional/vl.c:3795:9: warning: implicit declaration of function ‘slirp_select_fill’ [-Wimplicit-function-declaration]
+         slirp_select_fill(&nfds, &rfds, &wfds, &xfds);
+         ^
+/usr/local/xen-4.4.0/tools/qemu-xen-traditional/vl.c:3829:9: warning: implicit declaration of function ‘slirp_select_poll’ [-Wimplicit-function-declaration]
+         slirp_select_poll(&rfds, &wfds, &xfds);
+         ^
+In file included from /usr/local/xen-4.4.0/tools/qemu-xen-traditional/loader.c:286:0:
+/usr/local/xen-4.4.0/tools/qemu-xen-traditional/elf_ops.h: In function ‘load_elf32’:
+/usr/local/xen-4.4.0/tools/qemu-xen-traditional/elf_ops.h:197:9: error: ‘ELF_MACHINE’ undeclared (first use in this function)
+     if (ELF_MACHINE != ehdr.e_machine)
+         ^
+/usr/local/xen-4.4.0/tools/qemu-xen-traditional/elf_ops.h:197:9: note: each undeclared identifier is reported only once for each function it appears in
+make[4]: *** [monitor.o] Error 1
+make[4]: *** Waiting for unfinished jobs....
+In file included from /usr/local/xen-4.4.0/tools/qemu-xen-traditional/loader.c:306:0:
+/usr/local/xen-4.4.0/tools/qemu-xen-traditional/elf_ops.h: In function ‘load_elf64’:
+/usr/local/xen-4.4.0/tools/qemu-xen-traditional/elf_ops.h:197:9: error: ‘ELF_MACHINE’ undeclared (first use in this function)
+     if (ELF_MACHINE != ehdr.e_machine)
+         ^
+/usr/local/xen-4.4.0/tools/qemu-xen-traditional/vl.c: In function ‘main’:
+/usr/local/xen-4.4.0/tools/qemu-xen-traditional/vl.c:5164:3: error: ‘tftp_prefix’ undeclared (first use in this function)
+   tftp_prefix = optarg;
+   ^
+/usr/local/xen-4.4.0/tools/qemu-xen-traditional/vl.c:5164:3: note: each undeclared identifier is reported only once for each function it appears in
+In file included from /usr/local/xen-4.4.0/tools/qemu-xen-traditional/hw/pci.c:32:0:
+/usr/local/xen-4.4.0/tools/qemu-xen-traditional/qemu-xen.h:78:33: warning: ‘struct xs_handle’ declared inside parameter list [enabled by default]
+                                 const char *devtype);
                                  ^
-/usr/local/xen-4.4.0/stubdom/../tools/qemu-xen-traditional/block-vvfat.c:512:5: note: containing loop
-     for(i=0;i<11;i++)
-     ^
-/usr/local/xen-4.4.0/stubdom/../tools/qemu-xen-traditional/block-vvfat.c: In function ‘check_directory_consistency’:
-/usr/local/xen-4.4.0/stubdom/../tools/qemu-xen-traditional/block-vvfat.c:514:33: warning: iteration 8u invokes undefined behavior [-Waggressive-loop-optimizations]
-      +(unsigned char)entry->name[i];
-                                 ^
-/usr/local/xen-4.4.0/stubdom/../tools/qemu-xen-traditional/block-vvfat.c:512:5: note: containing loop
-     for(i=0;i<11;i++)
-     ^
-ld: warning: app.lds contains output sections; did you forget -T?
-ld: warning: section `.bss' type changed to PROGBITS
-ld: warning: section `.bss' type changed to PROGBITS
-ld: warning: app.lds contains output sections; did you forget -T?
-ld: warning: section `.bss' type changed to PROGBITS
-ld: warning: section `.bss' type changed to PROGBITS
+/usr/local/xen-4.4.0/tools/qemu-xen-traditional/qemu-xen.h:78:33: warning: its scope is only this definition or declaration, which is probably not what you want [enabled by default]
+/usr/local/xen-4.4.0/tools/qemu-xen-traditional/qemu-xen.h:80:36: warning: ‘struct xs_handle’ declared inside parameter list [enabled by default]
+                                    const char *devtype, unsigned int *num);
+                                    ^
+/usr/local/xen-4.4.0/tools/qemu-xen-traditional/qemu-xen.h:83:8: warning: ‘struct xs_handle’ declared inside parameter list [enabled by default]
+        const char *inst_danger);
+        ^
+/usr/local/xen-4.4.0/tools/qemu-xen-traditional/qemu-xen.h:87:38: warning: ‘struct xs_handle’ declared inside parameter list [enabled by default]
+                                      const char *var);
+                                      ^
+/usr/local/xen-4.4.0/tools/qemu-xen-traditional/qemu-xen.h:91:42: warning: ‘struct xs_handle’ declared inside parameter list [enabled by default]
+                                          const char *token);
+                                          ^
+/usr/local/xen-4.4.0/tools/qemu-xen-traditional/qemu-xen.h:95:46: warning: ‘struct xs_handle’ declared inside parameter list [enabled by default]
+                                              const char *token);
+                                              ^
+/usr/local/xen-4.4.0/tools/qemu-xen-traditional/vl.c:5678:18: warning: ignoring return value of ‘write’, declared with attribute warn_unused_result [-Wunused-result]
+             write(fds[1], &status, 1);
+                  ^
+/usr/local/xen-4.4.0/tools/qemu-xen-traditional/vl.c:6122:7: warning: ignoring return value of ‘chdir’, declared with attribute warn_unused_result [-Wunused-result]
+  chdir("/");
+       ^
+/usr/local/xen-4.4.0/tools/qemu-xen-traditional/vl.c:6143:14: warning: ignoring return value of ‘chdir’, declared with attribute warn_unused_result [-Wunused-result]
+         chdir("/");
+              ^
+make[4]: *** [loader.o] Error 1
+/usr/local/xen-4.4.0/tools/qemu-xen-traditional/vl.c: In function ‘host_alarm_handler’:
+/usr/local/xen-4.4.0/tools/qemu-xen-traditional/vl.c:1388:14: warning: ignoring return value of ‘write’, declared with attribute warn_unused_result [-Wunused-result]
+         write(alarm_timer_wfd, &byte, sizeof(byte));
+              ^
+make[4]: *** [vl.o] Error 1
+make[3]: *** [subdir-i386-dm] Error 2
+make[2]: *** [subdir-install-qemu-xen-traditional-dir] Error 2
+make[1]: *** [subdirs-install] Error 2
+make: *** [install-tools] Error 2

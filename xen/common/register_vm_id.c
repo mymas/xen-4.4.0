@@ -19,22 +19,23 @@ struct VM_LIST{
 extern struct VM_LIST *VM_TOP;
 #define VM_LIST_TAIL NULL
 #define VM_ID_FLAG 0
-struct VM_LIST * VM_list_update_id(int vm_id, unsigned long target_eptp);
+struct VM_LIST * VM_list_update_id(unsigned long vm_tag, unsigned long target_eptp);
 // IDが０の構造体を返す
-struct VM_LIST * VM_list_update_id(int vm_id,unsigned long target_eptp){
+struct VM_LIST * VM_list_update_id(unsigned long vm_tag, unsigned long target_eptp){
 	struct VM_LIST *p;
 	for(p = VM_TOP; p!= VM_LIST_TAIL; p=p->next){
 		if(p->target_ept == target_eptp){
-			p->target_domain_id = vm_id;
+			p->target_domain_id = vm_tag;
 			return p;
 		}
 	}
 	return 0;
 }
 
-int do_register_vm_id(int vm_id, unsigned long target_eptp){
+int do_register_vm_id(unsigned long vm_tag, unsigned long target_eptp){
 	struct VM_LIST *rc;
-	rc = VM_list_update_id(vm_id,target_eptp);
+	rc = VM_list_update_id(vm_tag, target_eptp);
+	printk("vm_tag %lx\n",vm_tag);
 
 	if (rc)
 		return -EINVAL;

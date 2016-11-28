@@ -1845,11 +1845,11 @@ int do_conv_ept(xc_interface *xch, uint64_t paddr, unsigned long l1gfn)
 #endif
 
 struct get_cr3_arg {
-	int dom_id;
+	unsigned long dom_tag;
 	unsigned long cr3;  /* OUT */
 };
 
-int xc_get_cr3(xc_interface *xch, uint64_t *cr3, int dom_id)
+int xc_get_cr3(xc_interface *xch, uint64_t *cr3, unsigned long dom_tag)
 {
     DECLARE_HYPERCALL;
     DECLARE_HYPERCALL_BUFFER(struct get_cr3_arg, arg);
@@ -1861,7 +1861,7 @@ int xc_get_cr3(xc_interface *xch, uint64_t *cr3, int dom_id)
         return -1;
     }
 
-    arg->dom_id = dom_id;
+    arg->dom_tag = dom_tag;
     hypercall.op     = __HYPERVISOR_do_get_cr3;
     hypercall.arg[0] = HYPERCALL_BUFFER_AS_ARG(arg);
 
@@ -1875,12 +1875,12 @@ int xc_get_cr3(xc_interface *xch, uint64_t *cr3, int dom_id)
 }
 
 struct conv_ept_arg {
-	int dom_id;
+	unsigned long dom_tag;
 	unsigned long l2gfn;  /* IN */
 	unsigned long l1gfn;  /* OUT */
 };
 
-int xc_conv_ept(xc_interface *xch, unsigned long l2gfn, unsigned long *l1gfn, int dom_id)
+int xc_conv_ept(xc_interface *xch, unsigned long l2gfn, unsigned long *l1gfn, unsigned long dom_tag)
 {
     DECLARE_HYPERCALL;
     DECLARE_HYPERCALL_BUFFER(struct conv_ept_arg, arg);
@@ -1893,7 +1893,7 @@ int xc_conv_ept(xc_interface *xch, unsigned long l2gfn, unsigned long *l1gfn, in
     }
 
     arg->l2gfn = l2gfn;
-    arg->dom_id = dom_id;
+    arg->dom_tag = dom_tag;
 
     hypercall.op     = __HYPERVISOR_do_conv_ept;
     hypercall.arg[0] = HYPERCALL_BUFFER_AS_ARG(arg);
@@ -1905,6 +1905,18 @@ int xc_conv_ept(xc_interface *xch, unsigned long l2gfn, unsigned long *l1gfn, in
     xc_hypercall_buffer_free(xch, arg);
 
     return rc;
+}
+
+unsigned short xc_get_host_id(xc_interface *xch)
+{
+    DECLARE_HYPERCALL;
+    unsigned short ret = -EINVAL;
+
+    hypercall.op     = __HYPERVISOR_do_get_host_id;
+
+    ret = do_xen_hypercall(xch, &hypercall);
+
+    return ret;
 }
 
 /*

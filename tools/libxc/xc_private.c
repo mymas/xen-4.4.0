@@ -863,11 +863,11 @@ int write_exact(int fd, const void *data, size_t size)
 
 int xc_ffs8(uint8_t x)
 {
-	int i;
-	for ( i = 0; i < 8; i++ )
-		if ( x & (1u << i) )
-			return i+1;
-	return 0;
+    int i;
+    for ( i = 0; i < 8; i++ )
+        if ( x & (1u << i) )
+            return i+1;
+    return 0;
 }
 
 int xc_ffs16(uint16_t x)

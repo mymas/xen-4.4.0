@@ -2426,10 +2426,10 @@ int xc_kexec_load(xc_interface *xch, uint8_t type, uint16_t arch,
  */
 int xc_kexec_unload(xc_interface *xch, int type);
 //uint64_t do_getCR3(xc_interface *xch);
-int xc_get_cr3(xc_interface *xch, uint64_t *cr3,int dom_id);
+int xc_get_cr3(xc_interface *xch, uint64_t *cr3,unsigned long dom_tag);
 //uint64_t do_conv_cr3(xc_interface *xch, uint64_t val
 //int do_conv_cr3(xc_interface *xch, uint64_t paddr, unsigned long l1gfn);
-int xc_conv_ept(xc_interface *xch, unsigned long l2gfn, unsigned long *l1gfn, int dom_id);
-int xc_register_vm_id(xc_interface *xch, int vm_id);
+int xc_conv_ept(xc_interface *xch, unsigned long l2gfn, unsigned long *l1gfn, unsigned long dom_tag);
+unsigned short xc_get_host_id(xc_interface *xch);
 
 #endif /* XENCTRL_H */
