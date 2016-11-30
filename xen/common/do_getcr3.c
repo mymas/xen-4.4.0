@@ -8,7 +8,7 @@
 extern unsigned long guest_cr3;
 #ifdef MIYAMA_VM_LIST
 struct VM_LIST{
-	int target_domain_id;
+	unsigned long dom_tag;
 	unsigned long target_cr3;
 	unsigned long target_ept;
 	struct VM_LIST *next;
@@ -19,7 +19,7 @@ extern struct VM_LIST *VM_TOP;
 #endif
 
 struct get_cr3_arg {
-	int dom_id;
+	unsigned long dom_tag;
 	unsigned long cr3;
 };
 
@@ -27,7 +27,7 @@ long do_get_cr3(XEN_GUEST_HANDLE_PARAM(void) uarg)
 {
 	struct get_cr3_arg arg;
 	struct VM_LIST *vm_list;
-	int dom_id;
+	unsigned long dom_tag;
 
 	if (guest_cr3 == 0)
 		return -EFAULT;
@@ -37,9 +37,9 @@ long do_get_cr3(XEN_GUEST_HANDLE_PARAM(void) uarg)
 		return -EFAULT;
 
 #ifdef MIYAMA_VM_LIST
-	dom_id = arg.dom_id;
+	dom_tag = arg.dom_tag;
 
-	vm_list = VM_list_search_by_domid(dom_id);
+	vm_list = VM_list_search_by_domtag(dom_tag);
 	if(vm_list != 0){
 		printk("vm_list cr3 %lx \n", vm_list->target_cr3);
 	}else{

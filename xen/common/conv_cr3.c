@@ -14,14 +14,14 @@ extern uint64_t target_eptp;
 extern int nept_translate(struct domain *d, uint64_t eptp, paddr_t l2ga, unsigned long *l1gfn);
 
 struct conv_ept_arg {
-	int dom_id;
+	unsigned long dom_tag;
 	unsigned long l2gfn;  /* IN */
 	unsigned long l1gfn;  /* OUT */
 };
 
 #ifdef MIYAMA_VM_LIST
 struct VM_LIST{
-	int target_domain_id;
+	unsigned long dom_tag;
 	unsigned long target_cr3;
 	unsigned long target_ept;
 	struct VM_LIST *next;
@@ -34,7 +34,7 @@ unsigned long do_conv_ept(XEN_GUEST_HANDLE_PARAM(void) uarg)
 {
 #ifdef MIYAMA_VM_LIST
 	struct VM_LIST *vm_list;
-	int dom_id;
+	unsigned long dom_tag;
 #endif
 	struct conv_ept_arg arg;
 	unsigned long l2gfn, l1gfn;
@@ -54,13 +54,13 @@ unsigned long do_conv_ept(XEN_GUEST_HANDLE_PARAM(void) uarg)
 	l2gfn = arg.l2gfn;
 
 #ifdef MIYAMA_VM_LIST
-	dom_id = arg.dom_id;
+	dom_tag = arg.dom_tag;
 	//ここでIDを使って、target_eptpを検索をする
-	vm_list = VM_list_search_by_domid(dom_id);
+	vm_list = VM_list_search_by_domtag(dom_tag);
 	//printk("dom_id: %d, target_domid %d \n", dom_id, target_domid);
 	
 	if(vm_list != NULL){
-		printk("dom_id:%d, target_ept%lx\n", vm_list->target_domain_id, vm_list->target_ept);
+		printk("dom_id:%lx, target_ept%lx\n", vm_list->dom_tag, vm_list->target_ept);
 	}else{
 		printk("conv_cr3 hypercall error....\n");
 	}

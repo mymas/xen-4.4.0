@@ -42,7 +42,7 @@ uint64_t target_eptp;
 
 #ifdef MIYAMA_VM_LIST
 struct VM_LIST{
-	int target_domain_id;
+	unsigned long dom_tag;
 	unsigned long target_cr3;
 	unsigned long target_ept;
 	struct VM_LIST *next;
@@ -82,13 +82,12 @@ VM_LIST_POS VM_list_next(VM_LIST_POS pos){
 	}
 }
 
-struct VM_LIST * VM_list_search_by_domid(unsigned long dom_id){
+struct VM_LIST * VM_list_search_by_domtag(unsigned long dom_tag){
 	struct VM_LIST *p;
 	for(p = VM_TOP; p!= VM_LIST_TAIL; p=p->next){
-		if(p->target_domain_id == dom_id){
+		if(p->dom_tag == dom_tag){
 			return p;
 		}
-		//printf("dom_id %d cr3 %lx ept %lx\n",p->target_domain_id,p->target_cr3,p->target_ept);
 	}
 	return 0;
 }
@@ -120,7 +119,7 @@ void VM_list_add(unsigned long cr3, unsigned long ept){
 	if(VM_TOP == VM_LIST_TAIL){
 		//VM_TOP = (struct VM_LIST *)malloc(sizeof(struct VM_LIST));
 		VM_TOP = (struct VM_LIST *)xmalloc(struct VM_LIST);
-		VM_TOP->target_domain_id = 0;
+		VM_TOP->dom_tag = 0;
 		VM_TOP->target_cr3 = cr3;
 		VM_TOP->target_ept = ept;
 		VM_TOP->next = VM_LIST_TAIL;
@@ -131,7 +130,7 @@ void VM_list_add(unsigned long cr3, unsigned long ept){
 		}
 		//p->next = (struct VM_LIST *)malloc(sizeof(struct VM_LIST));
 		p->next = (struct VM_LIST *)xmalloc(struct VM_LIST);
-		p->next->target_domain_id = 0;
+		p->next->dom_tag = 0;
 		p->next->target_cr3 = cr3;
 		p->next->target_ept = ept;
 		p->next->next = VM_LIST_TAIL;
@@ -141,7 +140,7 @@ void VM_list_add(unsigned long cr3, unsigned long ept){
 void VM_list_count(void){
 	struct VM_LIST *p;
 	for(p = VM_TOP; p!= VM_LIST_TAIL; p=p->next){
-		printk("dom_id %d cr3 %lx ept %lx\n",p->target_domain_id,p->target_cr3,p->target_ept);
+		printk("dom_id %lx cr3 %lx ept %lx\n",p->dom_tag,p->target_cr3,p->target_ept);
 	}
 
 }
