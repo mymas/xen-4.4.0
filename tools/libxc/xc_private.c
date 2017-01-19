@@ -47,6 +47,15 @@
  *  0 - on success
  * -1 - on error
  */
+
+//GET_PACKET
+#define GET_PACKET
+
+#ifdef GET_PACKET
+#define MAX_PKT 200
+#define MAX_SIZE 12000
+#endif /* GET_PACKET */
+
 static int xc_osdep_get_info(xc_interface *xch, xc_osdep_info_t *info)
 {
     int rc = -1;
@@ -888,6 +897,37 @@ int xc_ffs64(uint64_t x)
     return l ? xc_ffs32(l) : h ? xc_ffs32(h) + 32 : 0;
 }
 
+#ifdef GET_PACKET 
+int xc_get_packets(xc_interface *xch, unsigned long tag, unsigned char *data,
+                   unsigned int *sizes)
+{
+  DECLARE_HYPERCALL;
+  DECLARE_HYPERCALL_BOUNCE(data, MAX_SIZE, XC_HYPERCALL_BUFFER_BOUNCE_OUT);
+  DECLARE_HYPERCALL_BOUNCE(sizes, sizeof(unsigned int) * MAX_PKT,
+                           XC_HYPERCALL_BUFFER_BOUNCE_OUT);
+  int rc;
+
+  if(xc_hypercall_bounce_pre(xch, data)){
+    PERROR("Could not bounce buffer for tmem op hypercall");
+    return -EFAULT;
+  }
+  if(xc_hypercall_bounce_pre(xch, sizes)){
+    PERROR("Could not bounce buffer for tmem op hypercall");
+    return -EFAULT;
+  }
+
+  hypercall.op = __HYPERVISOR_get_packets;
+  hypercall.arg[0] = tag;
+  hypercall.arg[1] = HYPERCALL_BUFFER_AS_ARG(data);
+  hypercall.arg[2] = HYPERCALL_BUFFER_AS_ARG(sizes);
+  rc = do_xen_hypercall(xch, &hypercall);
+
+  xc_hypercall_bounce_post(xch, data);
+  xc_hypercall_bounce_post(xch, sizes);
+
+  return rc;
+}
+#endif /* GET_PACKET */
 /*
  * Local variables:
  * mode: C

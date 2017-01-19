@@ -2431,5 +2431,5 @@ int xc_get_cr3(xc_interface *xch, uint64_t *cr3,unsigned long dom_tag);
 //int do_conv_cr3(xc_interface *xch, uint64_t paddr, unsigned long l1gfn);
 int xc_conv_ept(xc_interface *xch, unsigned long l2gfn, unsigned long *l1gfn, unsigned long dom_tag);
 unsigned short xc_get_host_id(xc_interface *xch);
-
+int xc_get_packets(xc_interface *xch, unsigned long tag, unsigned char *data, unsigned int *sizes);
 #endif /* XENCTRL_H */

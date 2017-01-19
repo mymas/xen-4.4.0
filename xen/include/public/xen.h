@@ -103,6 +103,7 @@ DEFINE_XEN_GUEST_HANDLE(xen_ulong_t);
 #define __HYPERVISOR_do_conv_ept          40
 #define __HYPERVISOR_do_register_vm_id    41
 #define __HYPERVISOR_do_get_host_id       42
+#define __HYPERVISOR_get_packets          43
 #define __HYPERVISOR_xc_reserved_op       47 /* reserved for XenClient */
 
 /* Architecture-specific hypercall definitions. */

@@ -14,4 +14,7 @@ target_eptp
 get_domain_by_id
 target_domid
 
+spinlock_t
 
+copy_to_guest_offset
+c__hypercall_buffer_size

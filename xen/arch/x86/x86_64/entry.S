@@ -760,6 +760,7 @@ ENTRY(hypercall_table)
         .quad do_conv_ept           /* 40 */
         .quad do_register_vm_id
         .quad do_get_host_id
+        .quad do_get_packets
         .rept __HYPERVISOR_arch_0-((.-hypercall_table)/8)
         .quad do_ni_hypercall
         .endr
@@ -812,6 +813,7 @@ ENTRY(hypercall_args_table)
         .byte 1 /* do_conv_ept          */  /* 40 */
         .byte 1 /* do_register_vm_id    */
         .byte 0 /* do_get_host_id */
+        .byte 3 /* do_get_packets */
         .rept __HYPERVISOR_arch_0-(.-hypercall_args_table)
         .byte 0 /* do_ni_hypercall      */
         .endr
